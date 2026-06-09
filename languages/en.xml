@@ -1,0 +1,1173 @@
+<resources>
+    <string name="app_name">Button Phone Launcher</string>
+    <string name="app_version">Version 1.0</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_title">Launcher Setup</string>
+    <string name="setup_description">The launcher requires the following permissions:</string>
+    <string name="grant_permissions">Grant permissions</string>
+
+    <!-- ADB Permissions Activity -->
+    <string name="adb_permissions_title">ADB Permissions Setup</string>
+    <string name="check_again">Check again</string>
+    <string name="open_shizuku">Open Shizuku</string>
+    <string name="skip_for_now">Skip (not recommended)</string>
+    <string name="permission_required_message">System permissions are required for some features</string>
+
+    <!-- Main Activity -->
+    <string name="menu_button">Menu</string>
+    <string name="ok_options_button">OK/Options</string>
+    <string name="contacts_button">Contacts</string>
+
+    <!-- Bottom bar -->
+    <string name="menu">Menu</string>
+    <string name="dialer">Dialer</string>
+    <string name="contacts">Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="browser">Browser</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="music">Music</string>
+    <string name="calculator">Calculator</string>
+
+    <!-- Desktop pages -->
+    <string name="options">Options</string>
+    <string name="open">Open</string>
+    <string name="remove_all">Clear all</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="wallpaper_settings">Wallpaper</string>
+    <string name="theme_settings">Theme</string>
+    <string name="appearance_settings">Appearance</string>
+    <string name="behavior_settings">Behavior</string>
+    <string name="about">About</string>
+
+    <!-- Quick Settings -->
+    <string name="rotation_lock">Rotation lock</string>
+
+    <!-- Dialog -->
+    <string name="select_app">Select app</string>
+    <string name="ok_dialog">OK</string>
+
+    <!-- Feature phone strings -->
+    <string name="soft_key_left">Left soft key</string>
+    <string name="soft_key_right">Right soft key</string>
+    <string name="dpad_up">Up</string>
+    <string name="dpad_down">Down</string>
+    <string name="dpad_left">Left</string>
+    <string name="dpad_right">Right</string>
+    <string name="dpad_center">OK/Select</string>
+
+    <!-- Error Report Activity -->
+    <string name="error_report_title">Launcher error</string>
+    <string name="report_error_button">Report error</string>
+    <string name="restart_launcher_button">Restart launcher</string>
+
+    <!-- Media Widget Filter -->
+    <string name="media_filter_title">Filter for "Now playing" widget</string>
+    <string name="media_filter_save">Save</string>
+    <string name="media_filter_cancel">Cancel</string>
+    <string name="media_filter_select_all">All</string>
+    <string name="media_filter_saved">Filter saved</string>
+    <string name="media_filter_all_allowed">All apps allowed</string>
+
+    <string name="content_description_counters">Counters</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Notifications</string>
+    <string name="clear_all_notifications">Clear all</string>
+    <string name="clear_all_dialog_title">Clear all notifications</string>
+    <string name="clear_all_dialog_message">Clear (dismiss) all notifications?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reply_to_notification">Reply to notification</string>
+    <string name="enter_reply_hint">Enter reply...</string>
+    <string name="press_ok_to_send">Press OK to send</string>
+    <string name="send">Send</string>
+    <string name="notification_parameters">Parameters</string>
+    <string name="notification_ok_options">OK/Options</string>
+
+    <string name="accessibility_service_description">Service for global interception of button 0 during screen recording, interception of other buttons for orientation control, volume key, volume panel, gestures and on-screen cursor, as well as other functionality provided by the app.</string>
+
+    <string name="restart_warning">To apply the setting, manually restart the launcher</string>
+    <string name="experimental_link">Experimental shell functions</string>
+    <string name="search_hint">Enter name...</string>
+    <string name="loading_apps">Loading app list...</string>
+
+    <string name="add_shortcut">Add shortcut</string>
+    <string name="choose_shortcut">Choose shortcut</string>
+
+    <string name="shizuku_diagnostic_title">Shizuku diagnostic</string>
+    <string name="shizuku_installed_yes">Shizuku installed: ✅ yes</string>
+    <string name="shizuku_installed_no">Shizuku installed: ❌ no</string>
+    <string name="shizuku_running_yes">Shizuku running: ✅ yes</string>
+    <string name="shizuku_running_no">Shizuku running: ❌ no</string>
+    <string name="shizuku_permission_yes">Launcher permission: ✅ granted</string>
+    <string name="shizuku_permission_no">Launcher permission: ❌ not granted</string>
+    <string name="shizuku_install_prompt">Install Shizuku from the app store and activate it.</string>
+    <string name="shizuku_start_prompt">Start Shizuku and activate it (ADB or root).</string>
+    <string name="shizuku_grant_prompt">Grant permission to the launcher in Shizuku app.</string>
+
+    <string name="lock_screen_unlock_combo">Unlock key combination: OK + %s</string>
+    <string name="lock_screen_system_active">active</string>
+    <string name="lock_screen_system_inactive">inactive</string>
+    <string name="lock_screen_system_hint">Press OK to go to the standard lock screen settings and disable it to avoid duplication.</string>
+    <string name="key_gesture_service_description">Service for assigning gestures to hardware buttons</string>
+    <string name="cursor_menu">On‑screen cursor</string>
+    <string name="accessibility_cursor_desc">On‑screen cursor for navigation</string>
+    <string name="cursor_animation_show">Cursor appearance animation</string>
+    <string name="cursor_hover_elements">Interface elements react to cursor</string>
+    <string name="cursor_scroll_digits">Scroll with numeric keys (2/8/4/6)</string>
+    <string name="cursor_scroll_acceleration">Scroll acceleration</string>
+    <string name="cursor_sound_click">Click sound</string>
+    <string name="cursor_hide_keyboard">Hide when keyboard opens</string>
+
+    <!-- About Launcher Activity -->
+    <string name="about_launcher_title">About the shell</string>
+    <string name="about_launcher_version">Version: 1.0</string>
+    <string name="about_launcher_beta">Release: Beta version</string>
+    <string name="about_launcher_description">CLG Button Phone Launcher\n\nLauncher for Android feature phones\nDeveloped specifically for devices with hardware keys</string>
+
+    <string name="link_team">Team: CraftingLiveGames</string>
+    <string name="link_publisher">Publisher: CLG Publisher</string>
+    <string name="link_developer">Developer: Nikita Shustol</string>
+    <string name="link_consultant">Consultant: Nikita Shakаrun</string>
+    <string name="link_github">Source code available on GitHub</string>
+    <string name="link_donate">Support the developer on DonationAlerts</string>
+
+    <string name="experimental_features_link">Experimental shell features</string>
+    <string name="backup_restore_link">Backup and restore</string>
+    <string name="policy_link">Privacy policy and user agreement</string>
+
+    <!-- ANR Logs Activity -->
+    <string name="anr_logs_title">ANR error logs</string>
+    <string name="clear_all_logs">Clear all logs</string>
+    <string name="no_anr_logs">No ANR logs found</string>
+
+    <!-- Game stats templates -->
+    <string name="downloads_count_template">Downloads: %s</string>
+    <string name="rating_template">Rating: %s</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_restore_title">Backup and restore</string>
+    <string name="backup_local">Local backup (ZIP)</string>
+    <string name="restore_local">Restore from local ZIP</string>
+    <string name="backup_google_drive">Backup to Google Drive</string>
+    <string name="restore_google_drive">Restore from Google Drive</string>
+    <string name="backup_yandex_disk">Backup to Yandex.Disk</string>
+    <string name="restore_yandex_disk">Restore from Yandex.Disk</string>
+    <string name="backup_info_text">The backup will include:\n\n• All launcher settings (SharedPreferences)\n• Menu data (folders, apps, shortcuts, their order)\n• Custom icons and banners\n• On‑screen cursor, gesture settings, etc.\n\nRestoring will overwrite current data and require the app to restart.</string>
+
+    <!-- Cursor Activity -->
+    <string name="cursor_toggle">Enable / Disable</string>
+    <string name="cursor_select_apps">Select apps</string>
+    <string name="cursor_app_selector_title">Select apps</string>
+    <string name="cursor_app_selector_hint">The cursor will automatically appear in selected apps and hide when you exit or minimise them.</string>
+    <string name="cursor_select_all">Select all</string>
+
+    <string name="cursor_settings_title">Cursor settings</string>
+    <string name="cursor_speed_template">Speed: %d px</string>
+    <string name="cursor_size_template">Size: %d dp</string>
+    <string name="cursor_timeout_template">Timeout: %d s</string>
+    <string name="cursor_icon_label">Icon: %s</string>
+    <string name="cursor_select_icon">Select icon</string>
+    <string name="cursor_toggle_key_hint">Assigned button toggles/hides cursor on long press in any app.</string>
+    <string name="cursor_toggle_key_label">Manual on/off button: %s</string>
+    <string name="cursor_assign_button">Assign button</string>
+
+    <!-- Experimental Features Activity -->
+    <string name="experimental_features_title">Experimental shell features</string>
+    <string name="experimental_features_description">These features may work incorrectly on some devices, but you can try them – they extend functionality. Some need further development or a complete redesign. Also, some of these features are intended to collect additional information from the user to provide a more complete report to the developer when reporting bugs.</string>
+
+    <string name="anr_handler_label">Custom ANR handler</string>
+    <string name="anr_handler_description">Adds an additional "App not responding" error handler that captures the error text causing the hang.</string>
+
+    <string name="wallpaper_check_label">Wallpaper check</string>
+    <string name="wallpaper_check_description">Adds a wallpaper check item that helps determine why the shell cannot display your wallpaper on the desktop.</string>
+
+    <string name="joypad_swap_label">Swap DPAD buttons when screen orientation changes</string>
+    <string name="joypad_swap_description">Experimental function to swap up/down/left/right physical buttons when screen rotates to preserve navigation logic.</string>
+
+    <string name="global_icon_pack_label">Global icon pack</string>
+    <string name="global_icon_pack_description">Attempt to automatically pick icons from icon packs for the app menu, but the current implementation often detects icons incorrectly and doesn\'t work in the "All apps" folder.</string>
+
+    <string name="edit_all_apps_label">Editing in "All apps"</string>
+    <string name="edit_all_apps_description">Adds the ability to edit app names and icons in the "All apps" folder, but works unstably.</string>
+
+    <string name="cursor_hover_elements_label">Interface elements react to on‑screen cursor</string>
+    <string name="cursor_hover_elements_description">Adds a cursor setting that highlights elements under the cursor (e.g. links in browser), but does not work on most devices.</string>
+
+    <string name="lock_screen_experimental_label">New lock screen (experimental)</string>
+    <string name="lock_screen_experimental_description">Draft, unfinished custom lock screen, unstable, not all features implemented. May be completed in the future.</string>
+
+    <string name="google_drive_backup_label">Backups via Google Drive (experimental)</string>
+    <string name="google_drive_backup_description">Draft implementation of cloud backup, requires further work on the Google client side, may not work for you.</string>
+
+    <string name="yandex_disk_backup_label">Backups via Yandex.Disk (experimental)</string>
+    <string name="yandex_disk_backup_description">Experimental backup implementation via Yandex.Disk. Requires registering the app with Yandex OAuth and specifying a Client ID in the code.</string>
+
+    <!-- Key Gesture Activity -->
+    <string name="key_gesture_title">Gesture assignment</string>
+
+    <!-- Lock Screen Settings Activity -->
+    <string name="lock_screen_settings_title">New lock screen</string>
+    <string name="lock_screen_wallpaper">Change lock screen background</string>
+    <string name="lock_screen_enable">Activate new lock screen</string>
+    <string name="lock_screen_assign_second_key">Assign second unlock button</string>
+    <string name="lock_screen_unlock_sound">Unlock sound</string>
+    <string name="lock_screen_lock_sound">Lock sound (when screen turns off)</string>
+    <string name="lock_screen_left_key">Left soft key</string>
+    <string name="lock_screen_left_action">Select left soft key action</string>
+    <string name="lock_screen_left_rename">Rename left soft key</string>
+    <string name="lock_screen_right_key">Right soft key</string>
+    <string name="lock_screen_right_action">Select right soft key action</string>
+    <string name="lock_screen_right_rename">Rename right soft key</string>
+    <string name="lock_screen_bypass_left">Execute left soft key action even if extra protection is enabled</string>
+    <string name="lock_screen_bypass_right">Execute right soft key action even if extra protection is enabled</string>
+    <string name="lock_screen_protection">Activate extra protection</string>
+    <string name="lock_screen_use_pin">Use PIN code</string>
+    <string name="lock_screen_use_pattern">Use pattern</string>
+    <string name="lock_screen_set_pin">Set PIN code</string>
+    <string name="lock_screen_set_pattern">Set pattern</string>
+    <string name="lock_screen_power_fix">Lock screen with power button (experimental)</string>
+    <string name="lock_screen_system_status">Android standard lock screen status: %s</string>
+
+    <!-- Media Control Activity -->
+    <string name="media_control_title">Media control</string>
+    <string name="volume_template">Volume: %d/%d</string>
+    <string name="volume_up">Volume up</string>
+    <string name="volume_down">Volume down</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="previous_track">Previous track</string>
+    <string name="next_track">Next track</string>
+    <string name="mute">Mute</string>
+    <string name="stop">Stop</string>
+    <string name="shortcut_1">1</string>
+    <string name="shortcut_2">2</string>
+
+    <!-- Notification Settings Activity -->
+    <string name="notification_settings_title">Notification settings</string>
+    <string name="notification_settings_placeholder">Notification settings for launcher will appear here</string>
+
+    <!-- Screen Record Activity -->
+    <string name="screen_record_title">Screen recording</string>
+    <string name="recording_status_inactive">Recording not active</string>
+    <string name="recording_timer_placeholder">00:00:00</string>
+    <string name="start_recording">Start recording</string>
+    <string name="recording">Recording</string>
+
+    <!-- Settings Activity -->
+    <string name="launcher_settings_title">Launcher settings</string>
+    <string name="settings_placeholder">Settings will appear here</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_permissions_required">The launcher requires:</string>
+    <string name="setup_button_skip">Skip</string>
+    <string name="setup_hint_text">Tip: Press a physical button on the phone to assign</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="circle_tracker">Tracker</string>
+    <string name="cursor_description">Cursor</string>
+
+    <!-- ADB Instructions Dialog -->
+    <string name="copy_commands">Copy commands</string>
+    <string name="execute_via_shizuku">Execute via Shizuku</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_error_message">AI is not responding. The developer\'s API keys may be unavailable or temporarily not working. You can get your own free DeepSeek key from NVIDIA or the official API and use it. Paid keys are also available.</string>
+    <string name="go_nvidia_site">Go to NVIDIA site</string>
+    <string name="go_deepseek_site">Go to DeepSeek site</string>
+    <string name="enter_nvidia_key">Enter NVIDIA key</string>
+    <string name="enter_deepseek_key">Enter DeepSeek key</string>
+    <string name="app_selector_content_description">List of apps to choose from</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_not_assigned">Assign AI assistant button: not assigned</string>
+    <string name="assistant_key_enable">Activate digital assistant call on long press of AI assistant button</string>
+    <string name="assistant_key_choose_assistant">Choose digital assistant</string>
+
+    <!-- Automation Config Dialog -->
+    <string name="automation_on_start">Execute when widgets screen opens</string>
+    <string name="automation_interval_label">Interval (ms):</string>
+    <string name="automation_interval_hint">0 — disable</string>
+    <string name="automation_interval_description">0 = execute only on start (if checkbox is checked)\n&gt;0 = execute every N ms while activity is open</string>
+
+    <!-- Banner Animations Dialog -->
+    <string name="banner_transition_animation">Title change animation</string>
+    <string name="background_animation">Background animation</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness">Brightness</string>
+
+    <!-- Edit Player Dialog -->
+    <string name="change_icon">Change icon</string>
+    <string name="nickname_hint">Nickname</string>
+    <string name="generate_nick">Generate nickname</string>
+
+    <!-- Game Center Stats Dialog -->
+    <string name="show_downloads_rating">Show download count and rating</string>
+    <string name="show_play_time">Show hours played</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_enabled">Activate game mode (does not turn off automatically; to disable, return to this window and uncheck this box)</string>
+    <string name="game_mode_disable_notifications">Disable notifications</string>
+    <string name="game_mode_lower_brightness">Lower screen brightness</string>
+    <string name="game_mode_enable_dnd">Activate Do Not Disturb mode</string>
+    <string name="game_mode_disable_battery_saver">Auto-disable battery saver mode</string>
+    <string name="game_mode_clear_background_apps">Clear background apps</string>
+    <string name="game_mode_disable_perf_limit">Disable Android performance limiter (CPU overclocking, at your own risk)</string>
+    <string name="search_hint2">Search...</string>
+
+    <!-- New Volume Panel Dialog -->
+    <string name="volume_up_not_assigned">Assign volume up key: not assigned</string>
+    <string name="volume_down_not_assigned">Assign volume down key: not assigned</string>
+    <string name="volume_panel_enable">Enable/Disable new volume panel</string>
+    <string name="number_picker_description">Number picker</string>
+
+    <!-- Orientation Control Dialog -->
+    <string name="orientation_key_not_assigned">Assign orientation change button: not assigned</string>
+    <string name="orientation_enable">Enable orientation control</string>
+    <string name="orientation_rotate_joypad">Rotate joystick (swap Up/Right and Down/Left)</string>
+
+    <!-- Player Stats Dialog -->
+    <string name="player_stats_title">Player overall statistics</string>
+    <string name="player_default_nickname">Player</string>
+    <string name="share">Share</string>
+    <string name="quick_settings_list_description">List of quick settings</string>
+
+    <!-- Common buttons -->
+    <string name="cancel2">Cancel</string>
+
+    <!-- Revive Options Dialog -->
+    <string name="revive_update_size">Update widget size (updateAppWidgetSize)</string>
+    <string name="revive_update_options">Update options (updateAppWidgetOptions)</string>
+    <string name="revive_start_listening">Restart listening (startListening)</string>
+    <string name="revive_broadcast">Send broadcast update</string>
+    <string name="revive_visibility">Call dispatchWindowVisibilityChanged</string>
+    <string name="revive_invalidate">Call invalidate()</string>
+    <string name="revive_recommended">Recommended: 1 + 3 + 5</string>
+    <string name="search_hint3">Enter name...</string>
+
+    <!-- Volume Dialog -->
+    <string name="more">More</string>
+    <string name="sound_mode_normal">Normal mode</string>
+    <string name="sound_mode_vibrate">Vibrate</string>
+    <string name="sound_mode_silent">Silent</string>
+    <string name="recording_icon_description">Recording icon</string>
+
+    <!-- Center Fragment -->
+    <string name="calendar_events_title">Calendar events</string>
+    <string name="artist_placeholder">Artist</string>
+    <string name="title_placeholder">Track title</string>
+    <string name="sim1_placeholder">SIM1</string>
+    <string name="sim2_placeholder">SIM2</string>
+
+    <!-- Gesture Edit Fragment -->
+    <string name="gesture_key_label">Button:</string>
+    <string name="gesture_action_label">Event:</string>
+    <string name="gesture_draw_label">Draw gesture:</string>
+    <string name="gesture_draw_button">Draw gesture</string>
+    <string name="gesture_name_label">Name:</string>
+    <string name="gesture_description_label">Description:</string>
+    <string name="notifications_title2">Notifications</string>
+    <string name="reply_to_notification2">Reply to notification</string>
+    <string name="enter_reply_hint2">Enter reply...</string>
+    <string name="press_ok_to_send2">Press OK to send</string>
+    <string name="send2">Send</string>
+    <string name="gesture_service">Gesture service</string>
+    <string name="anr_log_name">ANR log</string>
+    <string name="share_log">Share log</string>
+    <string name="placeholder_app_name">Name</string>
+    <string name="notification_actions_hint">Press OK to choose action</string>
+    <string name="gesture_count_loading">Gestures: loading...</string>
+    <string name="unlock">Unlock</string>
+    <string name="button_description">Button</string>
+
+    <!-- App Selector Activity -->
+    <string name="cursor_select_button">Select</string>
+    <string name="cursor_selection_title">Selection</string>
+    <string name="cursor_clear_all">Clear all</string>
+    <string name="cursor_list_saved">List saved</string>
+
+    <!-- Gesture Actions -->
+    <string name="gesture_action_down">Press</string>
+    <string name="gesture_action_up">Release</string>
+    <string name="gesture_action_two">Both together</string>
+    <string name="gestures_count">Gestures: %d</string>
+
+    <!-- Cursor Settings Activity -->
+    <string name="cursor_press_button">Press button...</string>
+    <string name="cursor_speed_label">Speed: %d px</string>
+    <string name="cursor_size_label">Size: %d dp</string>
+    <string name="cursor_timeout_label">Timeout: %d s</string>
+    <string name="cursor_icon_prefix">Icon: %s</string>
+    <string name="cursor_icon_custom">Icon: Custom</string>
+    <string name="cursor_toggle_key_not_assigned">Manual on/off button: not assigned</string>
+    <string name="cursor_toggle_key_prefix">Button: %s</string>
+    <string name="cursor_pick_icon_title">Select cursor icon</string>
+    <string name="cursor_from_gallery">From gallery</string>
+    <string name="cursor_key_saved">Button saved</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_key_error_title">API keys are faulty</string>
+    <string name="nvidia_key_dialog_title">NVIDIA key</string>
+    <string name="deepseek_key_dialog_title">DeepSeek key</string>
+    <string name="key_saved_toast">Key saved</string>
+
+    <!-- App Options Dialog -->
+    <string name="app_option_change_name">Change name</string>
+    <string name="app_option_change_icon">Change icon</string>
+    <string name="app_option_change_focused_icon">Change focused icon</string>
+    <string name="app_option_update_description">Update description</string>
+    <string name="app_option_edit_description">Edit description</string>
+    <string name="app_option_change_banner">Change banner</string>
+    <string name="app_option_game_platform">Game type/platform</string>
+    <string name="app_option_app_settings">App settings</string>
+    <string name="app_option_remove_from_folder">Remove from folder</string>
+    <string name="app_option_uninstall">Uninstall app</string>
+    <string name="app_option_move">Move</string>
+    <string name="app_option_cancel">Cancel</string>
+
+    <string name="app_option_new_name_title">New name</string>
+    <string name="app_option_enter_description_title">Enter game description</string>
+    <string name="app_option_enter_platform_title">Game type/platform</string>
+    <string name="app_option_default_platform">mobile game</string>
+
+    <string name="app_option_searching_description">Searching for description...</string>
+    <string name="app_option_description_updated">Description updated</string>
+    <string name="app_option_no_internet">No internet connection. Connect to a network and try again.</string>
+    <string name="app_option_description_not_found">Description not found. You can add it manually.</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_dialog_title">Assign AI assistant button: not assigned</string>
+    <string name="assistant_key_dialog_assigned">Assign AI assistant button: %s</string>
+    <string name="assistant_key_press_key_toast">Press the desired key...</string>
+    <string name="assistant_key_assigned_toast">Assigned key: %s</string>
+    <string name="assistant_key_code_prefix">Code: %d</string>
+    <string name="assistant_key_accessibility_title">Enable accessibility service</string>
+    <string name="assistant_key_accessibility_message">To use the \'AI Assistant Key\' function, you must enable the accessibility service.\n\n1. Press \'Settings\'\n2. Find \'Accessibility services\'\n3. Enable \'Global Key Interceptor\'</string>
+    <string name="assistant_key_accessibility_settings">Settings</string>
+    <string name="assistant_key_accessibility_cancel">Cancel</string>
+
+    <!-- Key names for assistant dialog -->
+    <string name="key_volume_up">Volume +</string>
+    <string name="key_volume_down">Volume -</string>
+    <string name="key_dpad_center">Center (OK)</string>
+    <string name="key_dpad_up">Up</string>
+    <string name="key_dpad_down">Down</string>
+    <string name="key_dpad_left">Left</string>
+    <string name="key_dpad_right">Right</string>
+    <string name="key_menu">Menu</string>
+    <string name="key_back">Back</string>
+    <string name="key_call">Call</string>
+    <string name="key_endcall">End call</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_pound">#</string>
+    <string name="key_star">*</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness_dialog_title">Permission to change system settings</string>
+    <string name="brightness_change_settings_message">To change brightness, you must allow the app to modify system settings. Go to settings?</string>
+    <string name="brightness_go_to_settings">Go to settings</string>
+    <string name="brightness_cancel">Cancel</string>
+
+    <!-- Folder Options Dialog -->
+    <string name="folder_option_delete">Delete folder</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_dialog_title">Game mode settings</string>
+    <string name="game_mode_save">Save</string>
+    <string name="game_mode_cancel">Cancel</string>
+    <string name="game_mode_clear_background_warning">Android automatically unloads background apps when RAM is low; additional unloading is not required</string>
+    <string name="game_mode_activated">Game mode activated</string>
+    <string name="game_mode_deactivated">Game mode deactivated</string>
+
+    <!-- IconPackGridDialog -->
+    <string name="icon_pack_dialog_title">Select icon from %s</string>
+    <string name="icon_pack_no_icons_found">No icons found in pack %s\nTry another selection method</string>
+    <string name="loading_icons_title">Loading icons</string>
+    <string name="progress_step1">Step 1/6: Searching via R-class reflection...</string>
+    <string name="progress_step2">Step 2/6: Direct access to R class...</string>
+    <string name="progress_step3">Step 3/6: Searching via AssetManager...</string>
+    <string name="progress_step4">Step 4/6: Searching via appfilter.xml...</string>
+    <string name="progress_step5">Step 5/6: Searching via getIdentifier...</string>
+    <string name="progress_step6">Step 6/6: Final search...</string>
+
+    <!-- IconPickDialog -->
+    <string name="icon_pick_title">Select icon source</string>
+    <string name="icon_pack">Icon pack</string>
+    <string name="standard_icons">Standard</string>
+
+    <!-- MultiUninstallDialog -->
+    <string name="multi_uninstall_title">Multi‑uninstall apps</string>
+    <string name="uninstall_selected">Uninstall selected</string>
+    <string name="uninstall_requests_sent">Uninstall requests sent</string>
+
+    <!-- NewVolumePanelSettingsDialog -->
+    <string name="press_key_to_assign">Press the desired key...</string>
+    <string name="key_assigned_toast">Assigned key: %s</string>
+    <string name="key_code_format_with_name">Code: %d (%s)</string>
+    <string name="assign_volume_up_key">Assign volume up key: %s</string>
+    <string name="assign_volume_down_key">Assign volume down key: %s</string>
+    <string name="accessibility_dialog_title">Enable accessibility service</string>
+    <string name="accessibility_dialog_message">To use the new volume panel, you must enable the accessibility service.\n\n1. Press \'Settings\'\n2. Find \'Accessibility services\'\n3. Enable \'Global Key Interceptor\'</string>
+
+    <!-- OrientationControlSettingsDialog -->
+    <string name="orientation_key_assigned">Assign orientation change button: %s</string>
+    <string name="orientation_write_settings_message">To control screen orientation, you need permission to modify system settings. Go to settings?</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <!-- PlayerStatsDialog -->
+    <string name="generate_nick_failed">Failed to generate nickname</string>
+    <string name="generating">Generating...</string>
+    <string name="share_stats_chooser_title">Share statistics</string>
+    <string name="error_occurred_template">Error: %s</string>
+
+    <!-- QuickSettingsEditDialog -->
+    <string name="qs_edit_title">Edit shortcuts</string>
+    <string name="qs_add_tile">Add tile</string>
+    <string name="qs_no_tiles_available">No tiles available</string>
+    <string name="qs_select_tile">Select tile</string>
+
+    <!-- QuickSettingsOrderDialog -->
+    <string name="qs_tab_control">Control</string>
+    <string name="qs_tab_basic">Basic</string>
+    <string name="qs_tab_apps">Apps</string>
+
+    <!-- SelectAppsDialog -->
+    <string name="select_apps">Select apps</string>
+    <string name="add">Add</string>
+
+    <!-- SelectFolderDialog -->
+    <string name="select_folder">Select folder</string>
+
+    <!-- SelectPositionDialog -->
+    <string name="select_new_position">Select new position</string>
+    <string name="app_option_remove_shortcut">Remove shortcut</string>
+
+    <!-- TileActivationDialog -->
+    <string name="tile_activation_title">Activate tile</string>
+    <string name="tile_activation_instructions">Instructions for activating the tile via ADB:\n\n1. Make sure the device is connected to the computer and USB debugging is enabled.\n2. Run the following commands on the computer:\n\n   adb shell cmd statusbar add-tile %s\n   adb shell cmd statusbar click-tile %s\n   adb shell cmd statusbar remove-tile %s\n\n3. After successful execution, the tile will be activated.\n\nIf you have Shizuku installed and activated, you can press the button below to run these commands directly on the device.</string>
+    <string name="commands_copied">Commands copied</string>
+    <string name="done">Done</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="shizuku_permission_required_title">Shizuku permission required</string>
+    <string name="shizuku_permission_required_message">To execute commands via Shizuku, you need to grant permission. Open Shizuku and allow access to this app.</string>
+
+    <!-- WidgetActionsDialog -->
+    <string name="widget_actions_title">Widget actions</string>
+    <string name="widget_actions_no_actions_message">No actions available</string>
+    <string name="widget_actions_loading_message">Loading widget elements...</string>
+    <string name="widget_actions_load_failed_message">Failed to load elements</string>
+    <string name="action_name_icon_button">🖼️ Button (icon)</string>
+    <string name="action_name_button">🔘 Button</string>
+    <string name="action_name_text_button">📝 Text button</string>
+    <string name="action_name_container">🗂️ Container (press)</string>
+    <string name="action_name_default_template">⚙️ %s (button)</string>
+
+    <!-- AboutLauncherActivity -->
+    <string name="confirm_link_title">Follow link</string>
+    <string name="confirm_link_message">Do you really want to go to this page?\n\nYour browser or social network client will be opened at the link:\n%s</string>
+    <string name="go_to_link">Go to link</string>
+
+    <!-- AdbPermissionsActivity -->
+    <string name="adb_permissions_instructions">For full launcher functionality, system permissions are required:\n\n📱 Method 1: Via ADB (recommended)\n1. Connect your phone to a computer with ADB\n2. Enable \'Developer options\' in settings\n3. Enable \'USB debugging\'\n4. Run the commands:\n\nadb shell pm grant %s android.permission.PACKAGE_USAGE_STATS\nadb shell pm grant %s android.permission.SYSTEM_ALERT_WINDOW\n\n📲 Method 2: Via Shizuku\n1. Install Shizuku from the store\n2. Launch and activate it\n3. Return to this app\n\nThese permissions are needed for:\n• Display over other apps\n• App usage statistics\n• Correct launcher operation\n\n\n📲 For the media widget (REQUIRED):\n1. Open Settings → Apps → Special access\n2. Select \'Notification access\'\n3. Find \'Button Phone Launcher\' and enable the switch\n\nThis is needed for:\n• Detecting currently playing music/video\n• Displaying in the \'Now playing\' widget</string>
+    <string name="permissions_still_missing">⚠ Permissions still not granted!</string>
+
+    <!-- AddShortcutActivity -->
+    <string name="shortcut_added">Shortcut added</string>
+    <string name="shortcut_create_failed">Failed to create shortcut</string>
+    <string name="shortcut_select_location_title">Select location for shortcut</string>
+    <string name="shortcut_error_general">An error occurred, please try adding the shortcut again</string>
+    <string name="root_menu_item">📁 Menu root</string>
+    <string name="game_center_item">🎮 Game Center</string>
+    <string name="create_new_folder_item">➕ Create new folder</string>
+    <string name="new_folder_name_title">New folder name</string>
+    <string name="folder_create_failed">Failed to create folder</string>
+    <string name="folder_name_empty">Name cannot be empty</string>
+
+    <!-- AppMenuActivity -->
+    <string name="games_found_template">Found %d games</string>
+    <string name="not_enough_items">Not enough items to change order</string>
+    <string name="order_determined_by_sort">In this folder, order is determined by sorting</string>
+    <string name="order_changed">Order changed</string>
+    <string name="no_items">No items</string>
+    <string name="initial_focus_set_template">Initial focus set to position %d</string>
+
+    <string name="view_mode">View mode</string>
+    <string name="number_of_rows">Number of rows</string>
+    <string name="number_of_columns">Number of columns</string>
+    <string name="new_folder">New folder</string>
+    <string name="select_apps_for_folder">Select apps for folder</string>
+    <string name="clear_folder">Clear folder</string>
+    <string name="sorting">Sorting</string>
+    <string name="select_apps_for_menu">Select apps for menu</string>
+    <string name="icon_mask">Icon mask</string>
+    <string name="icon_animation">Icon animation</string>
+    <string name="icon_scale">Icon scale</string>
+    <string name="multi_uninstall">Multi‑uninstall apps</string>
+    <string name="key_gesture_assignment">Assign gestures to buttons</string>
+
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="large_icons">Large icons</string>
+    <string name="sort_alphabet">Alphabetical</string>
+    <string name="sort_install_date">By install date</string>
+    <string name="sort_usage_freq">By usage frequency</string>
+    <string name="no_icon_packs_found">No icon packs found</string>
+    <string name="applying_icon_pack">Applying icon pack</string>
+    <string name="starting">Starting...</string>
+    <string name="icon_changed">Icon changed</string>
+    <string name="focused_icon_changed">Focused icon changed</string>
+    <string name="item_not_found">Item not found</string>
+    <string name="downloads_loading">Downloads: loading...</string>
+    <string name="rating_loading">Rating: loading...</string>
+    <string name="source_web">Web resources</string>
+    <string name="source_deepseek_pro">DeepSeek Pro</string>
+    <string name="source_deepseek_flash">DeepSeek Flash</string>
+    <string name="source_changed_template">Source changed to %s</string>
+    <string name="hours_played_loading">Hours played: loading...</string>
+    <string name="hours_played_template">Hours played: %s</string>
+    <string name="no_description">No description.</string>
+    <string name="ai_error_prefix">Failed to get data from AI</string>
+
+    <string name="loading">Loading...</string>
+    <string name="reorder">Reorder</string>
+    <string name="focus_on_startup">Focus item on startup</string>
+    <string name="game_center_params">Game Center parameters</string>
+    <string name="game_mode_settings">Game mode settings</string>
+    <string name="show_player_stats">Show player statistics</string>
+    <string name="stats_display">Statistics display</string>
+    <string name="info_sources">Information sources</string>
+    <string name="banner_animations">Banner animations</string>
+    <string name="update_stats">Update statistics</string>
+    <string name="stats_updating">Statistics updating...</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_parallax">Parallax</string>
+    <string name="anim_pulse">Pulse brightness</string>
+    <string name="mask_circle">Circle</string>
+    <string name="mask_square">Square</string>
+    <string name="mask_rounded">Rounded rectangle</string>
+    <string name="anim_none">No animation</string>
+    <string name="anim_shake">Shake</string>
+    <string name="anim_rotate">Rotate</string>
+    <string name="anim_blink">Blink</string>
+    <string name="no_shortcut_apps">No apps that support creating shortcuts</string>
+    <string name="choose_app_for_shortcut">Select app for shortcut</string>
+    <string name="new_folder_name">Folder name</string>
+    <string name="clear_folder_confirm">Delete all items from folder "%s"?</string>
+    <string name="clear">Clear</string>
+    <string name="choose_default_icon_pack">Select default icon pack</string>
+    <string name="total_apps">Total apps</string>
+    <string name="matched_icons">Icons found in pack</string>
+    <string name="details">Details</string>
+    <string name="apply_complete">Apply complete</string>
+    <string name="copy">Copy</string>
+    <string name="report_copied">Report copied</string>
+    <string name="choose_icon_pack">Select icon pack</string>
+    <string name="banner_changed">Banner changed</string>
+    <string name="banner_save_failed">Failed to save banner</string>
+    <string name="banner_load_failed">Failed to load image</string>
+    <string name="icon_save_failed">Failed to save icon</string>
+    <string name="permission_required">Permission required</string>
+    <string name="usage_permission_message">To show time spent in games, the launcher needs access to usage statistics.\n\nEnable permission for this app in the list that opens.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="shortcut_launch_failed">Failed to launch shortcut</string>
+    <string name="enter_number">Enter a number</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_cloud_disabled_warning">⚠️ Cloud backup features are disabled. To enable them, go to the \'Experimental shell features\' section (About → Experimental features).</string>
+    <string name="external_storage_unavailable">External storage not available</string>
+    <string name="backup_creating">Creating backup...</string>
+    <string name="backup_created">Backup created</string>
+    <string name="error_template">Error: %s</string>
+    <string name="restore_title">Restore</string>
+    <string name="restore_confirm_message">Restoring will overwrite all current settings and data. The app will be restarted. Continue?</string>
+    <string name="restoring">Restoring...</string>
+    <string name="restore_complete_restarting">Restore complete. Restarting...</string>
+    <string name="restore_error_template">Restore error: %s</string>
+
+    <!-- CenterFragment -->
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="unknown_track">Unknown track</string>
+    <string name="media_app_default">Media app</string>
+    <string name="now_playing_in">Now playing in %s</string>
+    <string name="now_playing">Now playing</string>
+    <string name="no_active_media">No active media</string>
+    <string name="start_music_video">Start music or video</string>
+    <string name="no_events_today">No events today</string>
+    <string name="press_and_hold_to_add_apps">Press and hold to add apps</string>
+    <string name="no_permission">No permission</string>
+    <string name="sim_absent">absent</string>
+    <string name="no_access">No access</string>
+    <string name="change_name">Change name</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="not_enough_items_move">Not enough items to move</string>
+    <string name="app_moved">App moved</string>
+    <string name="no_icon_packs_installed">No icon packs installed</string>
+    <string name="assign_app_first">First assign an app to the counter</string>
+    <string name="counter_icon_changed_template">Counter %d icon changed</string>
+    <string name="icon_save_error">Error saving icon</string>
+    <string name="name_changed">Name changed</string>
+    <string name="app_removed_from_favorites">App removed from favorites</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="add_favorite_instruction">To add an app to favorites, open Quick Settings and select \'Add to favorites\'</string>
+    <string name="icon_load_failed">Failed to load icon</string>
+    <string name="icon_load_error">Error loading icon</string>
+    <string name="counter_icon_load_error">Error loading counter icon</string>
+    <string name="move">Move</string>
+
+    <!-- DateTimeUpdater -->
+    <string name="default_time_format">HH:mm</string>
+    <string name="default_date_format">dd.MM.yyyy</string>
+    <string name="no_network">No network</string>
+    <string name="sim_template">SIM%d</string>
+
+    <!-- ErrorReportActivity -->
+    <string name="no_stack_trace">No stack trace information</string>
+    <string name="error_report_format">An error occurred in the launcher\n\nError code: %s\n\nError text: %s\n\nStack trace:\n%s</string>
+    <string name="support_email">craftinglivegames@gmail.com</string>
+    <string name="error_report_subject">Error in CLG Button Phone Launcher</string>
+    <string name="device_info_format">Android version: %s\nSDK: %d\nManufacturer: %s\nModel: %s\nDevice: %s</string>
+    <string name="email_body_format">Good day!\n\nError\'s text and code: %s\n\nStack trace:\n%s\n\nDevice information:\n%s\n\nPlease fix this error.</string>
+    <string name="send_error_report">Send error report</string>
+    <string name="restart_failed">Restart failed</string>
+    <string name="critical_error_message">A critical error has occurred. The app will be restarted.</string>
+    <string name="default_error_code">ERR-000</string>
+
+    <!-- Volume stream names -->
+    <string name="volume_stream_music">Music, video, games</string>
+    <string name="volume_stream_voice_call">Voice call</string>
+    <string name="volume_stream_notification">Calls and notifications</string>
+    <string name="volume_stream_alarm">Alarm</string>
+
+    <!-- GestureEditFragment -->
+    <string name="edit_gesture">Edit gesture</string>
+    <string name="new_gesture">New gesture</string>
+    <string name="redraw_gesture">Redraw gesture</string>
+    <string name="draw_gesture">Draw gesture</string>
+    <string name="draw_first_gesture">Draw first gesture</string>
+    <string name="draw_second_gesture">Draw second gesture</string>
+    <string name="redraw_first_gesture">Redraw first gesture</string>
+    <string name="draw_first_gesture_first">First draw the first gesture</string>
+    <string name="draw_second_gesture_first">Draw the second gesture</string>
+    <string name="draw_gesture_first">First draw the gesture</string>
+    <string name="no_overlay_permission">No permission to display over other windows</string>
+    <string name="app_not_found">App not found</string>
+    <string name="enter_gesture_name">Enter gesture name</string>
+    <string name="gesture_updated">Gesture updated</string>
+    <string name="gesture_added">Gesture added</string>
+
+    <!-- GestureListFragment -->
+    <string name="gestures_title">App gestures</string>
+    <string name="edit_delete">Edit/Delete</string>
+    <string name="delete_gesture_title">Delete gesture?</string>
+    <string name="delete_gesture_message">Delete "%s"?</string>
+    <string name="gesture_deleted">Gesture deleted</string>
+
+    <!-- LeftFragment -->
+    <string name="default_action_title">Action %d</string>
+    <string name="default_notification_text">Notification</string>
+    <string name="default_notification_title">Notification</string>
+    <string name="select_action">Select action</string>
+    <string name="select_action_for_notification">Select action for notification</string>
+    <string name="notification_options">Notification options</string>
+    <string name="remove_notification">Remove notification</string>
+    <string name="notification_app_settings">App notification settings</string>
+    <string name="notification_removed">Notification removed</string>
+    <string name="cannot_open_app">Failed to open app</string>
+    <string name="error_opening_app">Error opening app</string>
+    <string name="reply_sent_template">Reply sent: %s</string>
+    <string name="enter_reply_text">Enter reply text</string>
+    <string name="all_notifications_cleared">All notifications cleared</string>
+    <string name="just_now">just now</string>
+    <string name="minutes_ago">%d min ago</string>
+    <string name="hours_ago">%d hours ago</string>
+    <string name="days_ago">%d days ago</string>
+
+    <!-- MainActivity -->
+    <string name="app_error_title">App error</string>
+    <string name="app_error_message_template">An error occurred:\n\n%s\n\nError code: ERR-%03d</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+    <string name="wallpaper_permission_title">Wallpaper access permission</string>
+    <string name="wallpaper_load_error">Load error</string>
+    <string name="wallpaper_error_toast">Wallpaper not loaded: %s\nUsing launcher\'s default wallpaper.</string>
+    <string name="miui_permissions_title">Additional MIUI permissions</string>
+    <string name="miui_permissions_message">For the volume panel and orientation control to work correctly on Xiaomi devices, you additionally need to enable:\n\n• "Display pop-up windows in the background"\n• "Show on lock screen"\n\nThese settings are in the "Other permissions" section.</string>
+    <string name="developer_settings_title">Developer setting required</string>
+    <string name="developer_settings_message">On Android 12 and later, to display the volume panel and orientation control over system windows (e.g., Settings), you need to enable the option:\n\n"Allow display over other apps for all apps"\n(or "Allow display over other apps" → "Show system overlays")\n\nDeveloper settings will now open. Find this option and enable it.</string>
+    <string name="call_permission_granted">Phone call permission granted</string>
+    <string name="call_permission_denied">Cannot make a call: permission not granted</string>
+    <string name="default_launcher_warning">Set this launcher as default in settings</string>
+    <string name="clear_all_with_count">Clear all (%d)</string>
+    <string name="use_hardware_keys">Use hardware keys to select notification</string>
+    <string name="ok_options_notifications">OK/Options notification</string>
+    <string name="cannot_open_notification_settings">Failed to open notification settings</string>
+    <string name="quick_settings_options">Quick settings options</string>
+    <string name="ok_quick_settings">OK quick settings</string>
+    <string name="edit_shortcuts">Edit shortcuts</string>
+    <string name="select_item">Select item</string>
+    <string name="contacts_not_found">Contacts app not found</string>
+    <string name="speed_dial_not_assigned">Speed dial for digit %d not assigned</string>
+    <string name="accessibility_service_required_prefix">The following features require the accessibility service to be enabled:\n\n</string>
+    <string name="feature_volume_panel">• New volume panel\n</string>
+    <string name="feature_assistant_key">• AI Assistant key\n</string>
+    <string name="feature_lock_screen_home">• HOME button blocking on lock screen\n</string>
+    <string name="accessibility_service_required_suffix">Please enable \'Global Key Interceptor\' in accessibility settings.</string>
+    <string name="notification_permission_title">Notification permission</string>
+    <string name="notification_permission_message">To display media information, you need to grant notification access.\n\n1. Open Settings → Apps → Special access\n2. Select \'Notification access\'\n3. Find \'Button Phone Launcher\' and enable the switch\n\nWithout this, the media widget will not work.</string>
+
+    <!-- MediaControlActivity -->
+    <string name="mute_icon">🔇</string>
+    <string name="unmute_icon">🔈</string>
+    <string name="play_pause_icon">▶/⏸</string>
+    <string name="media_action_failed">Failed to perform action</string>
+
+    <!-- NotificationListener -->
+    <string name="notification_channel_name">Notification service</string>
+    <string name="notification_channel_description">Service for monitoring notifications and media</string>
+    <string name="notification_service_title">CLG Button Phone Launcher</string>
+    <string name="notification_service_text">Notification service active</string>
+    <string name="action">Action</string>
+
+    <!-- Media app names -->
+    <string name="media_unknown">Media</string>
+    <string name="media_youtube">YouTube</string>
+    <string name="media_spotify">Spotify</string>
+    <string name="media_yandex_music">Yandex.Music</string>
+    <string name="media_vk_music">VK Music</string>
+    <string name="media_youtube_music">YouTube Music</string>
+    <string name="media_music">Music</string>
+    <string name="media_mi_music">Mi Music</string>
+    <string name="media_netease">NetEase Music</string>
+    <string name="media_qq_music">QQ Music</string>
+    <string name="media_kugou">KuGou Music</string>
+    <string name="media_soundcloud">SoundCloud</string>
+    <string name="media_deezer">Deezer</string>
+    <string name="media_pandora">Pandora</string>
+    <string name="media_video_player">Video player</string>
+
+    <!-- OrientationControlService -->
+    <string name="orientation_control_disabled">Orientation control is disabled</string>
+    <string name="orientation_no_overlay_permission">No permission to display over other windows</string>
+    <string name="orientation_locked_landscape">Orientation locked to landscape mode</string>
+    <string name="orientation_locked_portrait">Orientation locked to portrait mode</string>
+    <string name="orientation_overlay_failed">Failed to create blocking window</string>
+    <string name="orientation_channel_name">Orientation control</string>
+    <string name="orientation_channel_description">Screen orientation control service</string>
+    <string name="orientation_notification_title">Orientation control active</string>
+    <string name="orientation_notification_text">Tap to configure</string>
+
+    <!-- PackageListFragment -->
+    <string name="package_list_title">Applications</string>
+    <string name="service">Service</string>
+    <string name="select">Select</string>
+    <string name="cannot_change_service_state">Failed to change service state</string>
+
+    <!-- QuickSettingsDialog -->
+    <string name="qs_add_to_favorites">Add to favorites</string>
+    <string name="qs_reorder_favorites">Reorder favorites</string>
+    <string name="qs_favorite_names">Favorite names</string>
+    <string name="qs_show_favorite_names">Show names of favorite apps</string>
+    <string name="qs_favorite_names_on">Names shown</string>
+    <string name="qs_favorite_names_off">Names hidden</string>
+    <string name="qs_speed_dial">Speed dial</string>
+    <string name="qs_assign_right_key">Assign to right key</string>
+    <string name="qs_rename_right_key">Rename right key</string>
+    <string name="qs_enter_name">Enter name</string>
+    <string name="qs_name_changed_to">Name changed to: %s</string>
+    <string name="qs_toggle_widgets">Hide/show widgets</string>
+    <string name="qs_sim_settings">SIM card display settings</string>
+    <string name="qs_favorite_rows">Number of visible rows in favorites</string>
+    <string name="qs_media_filter">Filter for "Now playing" widget</string>
+    <string name="qs_counters">Counters</string>
+    <string name="qs_counters_settings">Counter settings</string>
+    <string name="qs_configure_counters">Configure counters</string>
+    <string name="qs_choose_counter_icons">Choose icons</string>
+    <string name="qs_reset_all_counters">Reset all counters</string>
+    <string name="qs_select_counter_for_icon">Select counter to change icon</string>
+    <string name="qs_select_counter_to_configure">Select counter to configure</string>
+    <string name="qs_counter_with_app">Counter %d: %s</string>
+    <string name="qs_counter_not_assigned">Counter %d: not assigned</string>
+    <string name="qs_cannot_access_desktop">Error: could not access desktop</string>
+    <string name="qs_counter_assigned">App \'%s\' assigned to counter %d</string>
+    <string name="qs_counters_reset">All counters reset, widget hidden</string>
+    <string name="qs_cannot_open_anr_logs">Failed to open ANR logs</string>
+    <string name="qs_right_button_assigned">App \'%s\' assigned to right key</string>
+    <string name="qs_date_format">Date format</string>
+    <string name="qs_time_format">Time format</string>
+    <string name="qs_change_wallpaper">Change wallpaper</string>
+    <string name="qs_new_volume_panel">New volume panel</string>
+    <string name="qs_new_lock_screen">New lock screen</string>
+    <string name="qs_orientation_control">Screen orientation control</string>
+    <string name="qs_assistant_key">AI Assistant key</string>
+    <string name="qs_wallpaper_check">Check and configure wallpaper</string>
+    <string name="qs_about_launcher">About</string>
+    <string name="qs_anr_logs">View ANR logs</string>
+    <string name="qs_phone_settings">Phone settings</string>
+    <string name="qs_select_favorite_apps">Select apps for favorites</string>
+    <string name="qs_favorites_updated">Favorites updated</string>
+    <string name="qs_no_favorites">No favorite apps</string>
+    <string name="qs_favorites_reordered">Favorites order changed</string>
+    <string name="qs_undefined">Undefined</string>
+    <string name="qs_clear_all">Clear all</string>
+    <string name="qs_speed_dial_all_cleared">All speed dial assignments cleared</string>
+    <string name="qs_assign_change_number">Assign/Change number</string>
+    <string name="qs_clear">Clear</string>
+    <string name="qs_assign_number">Assign number</string>
+    <string name="qs_digit_template">Digit %d</string>
+    <string name="qs_context_not_activity">Error: context is not an Activity</string>
+    <string name="qs_speed_dial_cleared">Speed dial for digit %d cleared</string>
+    <string name="qs_widget_calendar">Calendar events</string>
+    <string name="qs_widget_now_playing">Now playing</string>
+    <string name="qs_widget_status">Call, SMS and SIM info</string>
+    <string name="qs_widget_counters">App counters</string>
+    <string name="qs_widget_settings">Widget settings</string>
+    <string name="qs_widgets_saved">Widget settings saved</string>
+    <string name="qs_widgets_reset">Settings reset to default</string>
+    <string name="qs_rows_1">1 row</string>
+    <string name="qs_rows_2">2 rows</string>
+    <string name="qs_rows_3">3 rows</string>
+    <string name="qs_rows_4">4 rows</string>
+    <string name="qs_rows_5">5 rows</string>
+    <string name="qs_rows_changed">Number of rows changed to %d</string>
+    <string name="qs_wallpaper_info">Wallpaper info:</string>
+    <string name="qs_android_version">Android version:</string>
+    <string name="qs_wallpaper_success">✅ Wallpaper loaded successfully</string>
+    <string name="qs_wallpaper_display_info">Wallpaper will be shown on the central desktop</string>
+    <string name="qs_wallpaper_fail">❌ Wallpaper not loaded</string>
+    <string name="qs_wallpaper_reason">Reason:</string>
+    <string name="qs_wallpaper_fallback">Using launcher\'s default wallpaper</string>
+    <string name="qs_wallpaper_checked">Wallpaper checked</string>
+    <string name="qs_wallpaper_settings">Permission settings</string>
+    <string name="qs_choose_wallpaper">Choose wallpaper</string>
+    <string name="qs_wallpaper_error">Error choosing wallpaper</string>
+    <string name="qs_cannot_open_settings">Failed to open settings</string>
+    <string name="qs_sim_both">Show both SIMs</string>
+    <string name="qs_sim_only1">SIM 1 only</string>
+    <string name="qs_sim_only2">SIM 2 only</string>
+    <string name="qs_sim_mode_changed">SIM display mode changed</string>
+    <string name="qs_date_changed">Date format changed</string>
+    <string name="qs_time_changed">Time format changed</string>
+
+    <!-- Date format examples -->
+    <string name="date_format_example1">Monday, 1 January 2024</string>
+    <string name="date_format_example2">1 January 2024</string>
+    <string name="date_format_example3">01.01.2024</string>
+    <string name="date_format_example4">01/01/2024</string>
+    <string name="date_format_example5">2024-01-01</string>
+    <string name="date_format_example6">Jan 1, 2024</string>
+    <string name="date_format_example7">1 Jan 2024</string>
+
+    <!-- Time format examples -->
+    <string name="time_format_example1">23:59 (24-hour)</string>
+    <string name="time_format_example2">11:59 PM (12-hour)</string>
+    <string name="time_format_example3">11:59 (12-hour without AM/PM)</string>
+    <string name="time_format_example4">23:59:59 (24-hour with seconds)</string>
+    <string name="time_format_example5">11:59:59 PM (12-hour with seconds)</string>
+    <string name="time_format_example6">11:59:59 (12-hour with seconds no AM/PM)</string>
+
+    <string name="reset_default">Default</string>
+    <string name="close">Close</string>
+    <string name="no_apps_available">No apps available</string>
+
+    <!-- RightFragment -->
+    <string name="permissions_required">Permissions required</string>
+    <string name="location_bluetooth_permissions_message">To display the Wi-Fi network name and connected Bluetooth devices, permissions are required: location access (for Wi-Fi) and Bluetooth connection. Please grant them.</string>
+    <string name="cannot_open_bluetooth_settings">Failed to open Bluetooth settings</string>
+    <string name="tile_activation_error_template">Activation error: %s</string>
+    <string name="error_changing_setting">Error changing setting</string>
+    <string name="wifi_enabled">Wi‑Fi turned on</string>
+    <string name="wifi_disabled">Wi‑Fi turned off</string>
+    <string name="bluetooth_enabled">Bluetooth turned on</string>
+    <string name="bluetooth_disabled">Bluetooth turned off</string>
+    <string name="mobile_data_enabled">Mobile data turned on</string>
+    <string name="mobile_data_disabled">Mobile data turned off</string>
+    <string name="cannot_open_wifi_settings">Failed to open Wi-Fi settings</string>
+    <string name="display_settings_opened">Display settings opened</string>
+    <string name="flashlight_unavailable">Flashlight unavailable</string>
+    <string name="hotspot_settings_opened">Hotspot settings opened</string>
+    <string name="general_settings_opened">General settings opened</string>
+    <string name="cannot_open_settings">Failed to open settings</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="wifi_location_off">location off</string>
+    <string name="wifi_no_connection">no connection</string>
+    <string name="wifi_no_permission">no access (permission)</string>
+    <string name="wifi_off">off</string>
+    <string name="bluetooth_no_devices">no devices</string>
+    <string name="bluetooth_devices_count">%d device(s)</string>
+    <string name="bluetooth_no_permission">no access (permission)</string>
+    <string name="bluetooth_off">off</string>
+    <string name="brightness_format">Brightness: %d%%</string>
+    <string name="no_alarms">none</string>
+
+    <string name="shizuku_not_installed">Shizuku is not installed</string>
+    <string name="shizuku_not_running">Shizuku is not running</string>
+    <string name="shizuku_no_permission">No Shizuku permission</string>
+    <string name="tile_activated">Tile activated</string>
+    <string name="error_shizuku_template">Shizuku error: %s</string>
+    <string name="quick_settings">Quick settings</string>
+    <string name="qs_section_control_record">Control and recording</string>
+    <string name="qs_media_control">Media control</string>
+    <string name="qs_screen_record">Screen recording</string>
+    <string name="alarm">Alarm</string>
+    <string name="qs_section_basic">Basic</string>
+    <string name="wifi">Wi‑Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="airplane_mode">Airplane mode</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="auto_rotate">Auto‑rotate</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="silent_mode">Silent mode</string>
+    <string name="location">Location</string>
+    <string name="battery_saver">Battery saver</string>
+    <string name="hotspot">Hotspot</string>
+    <string name="wifi_adb">Wi‑Fi (adb)</string>
+    <string name="bluetooth_adb">Bluetooth (adb)</string>
+    <string name="mobile_data_adb">Mobile data (adb)</string>
+    <string name="volume">Volume</string>
+    <string name="qs_section_app_settings">App settings</string>
+    <string name="ok">OK</string>
+
+    <!-- ScreenRecordActivity -->
+    <string name="recording_instructions">🎮 Screen recording control:\n\n• OK button: Start/Stop recording (on the highlighted button)\n• Left/Right buttons: Switch between buttons\n• Up/Down buttons: Scroll instructions\n\n🔧 Bottom control panel:\n• Left soft key (Menu): Open recordings folder\n• Right soft key (Back):\n    - Return to home screen or, during recording, minimise the recorder window\n\n\n🎥 Controls while recording:\n• OK button: Stop recording\n• Menu button (left soft): Pause/Resume\n• Button 0 (long press): Return to this menu\n\n💾 Videos are saved in folder:\nDCIM/ScreenRecorder CLGBPL</string>
+    <string name="recording_started">Recording started</string>
+    <string name="recording_paused">Recording paused</string>
+    <string name="resume">Resume</string>
+    <string name="recording_in_progress">Recording...</string>
+    <string name="recording_saved_template">✅ Recording saved: %s</string>
+    <string name="recording_file_invalid_template">⚠️ File not found or too small: %s</string>
+    <string name="recording_error_template">❌ Recording error: %s</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="folder">Folder</string>
+    <string name="cannot_create_recordings_folder">Failed to create recordings folder</string>
+    <string name="preparing_recording">Preparing recording...</string>
+    <string name="recording_start_error_template">Start error: %s</string>
+    <string name="screen_recording_permission_denied">Screen recording permission not granted</string>
+    <string name="overlay_permission_denied">Overlay permission not granted</string>
+    <string name="accessibility_service_enabled">Accessibility service enabled</string>
+    <string name="recording_stop_error_template">Stop error: %s</string>
+    <string name="pause">Pause</string>
+    <string name="open_folder">Open folder</string>
+    <string name="cannot_open_folder">Failed to open folder</string>
+    <string name="accessibility_dialog_message_for_recording">To globally intercept button 0, you need to enable the accessibility service.\n\n1. Press \'Settings\'\n2. Find \'Accessibility services\'\n3. Enable \'Global Key Interceptor\'</string>
+    <string name="settings">Settings</string>
+    <string name="later">Later</string>
+
+    <!-- SetupActivity -->
+    <string name="next">Next</string>
+    <string name="setup_step_title">Welcome!</string>
+    <string name="setup_step_description">Welcome to the launcher for feature phones!\n\nThis launcher is specially designed for devices with hardware keys.</string>
+    <string name="setup_button_next">Start setup</string>
+    <string name="setup_permissions_title">Step 1: Permissions</string>
+    <string name="setup_permissions_description">The following permissions are required for the launcher to work correctly:</string>
+    <string name="setup_permissions_list">• Access to contacts and calls\n• Access to call history\n• Access to SMS messages\n• Access to calendar\n• Access to phone status\n• Access to media files (photos, videos, audio)\n• Permission to display over other windows</string>
+    <string name="setup_request_permissions">Request permissions</string>
+    <string name="setup_overlay_title">Step 2: Overlay permission</string>
+    <string name="setup_overlay_description">The launcher needs permission to display over other apps for the service and widgets to work.</string>
+    <string name="setup_request_overlay">Request permission</string>
+    <string name="skip">Skip</string>
+    <string name="setup_navigation_title">Step %d: Navigation</string>
+    <string name="setup_assign_up">Assign the UP navigation button\n\n%s</string>
+    <string name="setup_assign_down">Assign the DOWN navigation button\n\n%s</string>
+    <string name="setup_assign_left">Assign the LEFT navigation button\n\n%s</string>
+    <string name="setup_assign_right">Assign the RIGHT navigation button\n\n%s</string>
+    <string name="setup_ok_title">Step 7: Selection</string>
+    <string name="setup_assign_ok">Assign the OK/SELECT button (D‑Pad centre)\n\n%s</string>
+    <string name="setup_left_soft_title">Step 8: Left soft key</string>
+    <string name="setup_assign_left_soft">Assign the left soft key\n\n%s</string>
+    <string name="setup_right_soft_title">Step 9: Right soft key</string>
+    <string name="setup_assign_right_soft">Assign the right soft key\n\n%s</string>
+    <string name="assign">Assign</string>
+    <string name="current_key">Current key: %s</string>
+    <string name="key_code_format">Code: %d</string>
+    <string name="finish">Finish</string>
+    <string name="setup_complete_title">Setup complete!</string>
+    <string name="setup_complete_description">All permissions granted and keys assigned.\n\nThe launcher is ready to use!</string>
+    <string name="setup_hint_press_key">Press any physical button on the phone...</string>
+    <string name="setup_hint_back_key">(Usually the BACK button)</string>
+    <string name="setup_press_key_toast">Press any button to assign.</string>
+    <string name="setup_key_assigned">Assigned key: %s</string>
+    <string name="setup_permissions_granted">All permissions granted!</string>
+    <string name="setup_permissions_not_granted">Some permissions not granted. Features may work incompletely.</string>
+    <string name="setup_overlay_granted">Permission granted!</string>
+    <string name="setup_overlay_not_granted">Permission not granted. Some features may not work.</string>
+    <string name="setup_assignment_cancelled">Assignment cancelled</string>
+
+    <!-- WidgetsActivity -->
+    <string name="widgets_title">App widgets</string>
+    <string name="loading_widgets">Loading widgets...</string>
+    <string name="widget_data_lost">Error: widget data lost</string>
+    <string name="widget_add_cancelled">Widget addition cancelled</string>
+    <string name="widget_info_error">Failed to get widget information</string>
+    <string name="widget_configure_unavailable">Widget configuration not available, widget added without setup</string>
+    <string name="widget_id_mismatch">Error: widget ID mismatch</string>
+    <string name="widget_auto_update_disabled">Auto‑update disabled</string>
+    <string name="widget_interval_changed">Update interval changed</string>
+    <string name="widget_already_exists">Widget already added</string>
+    <string name="widget_added">Widget added</string>
+    <string name="widget_add">Add widget</string>
+    <string name="widget_auto_update_interval">Auto‑update frequency</string>
+    <string name="widget_automation">Widget automation</string>
+    <string name="widget_revive_options">Widget revival options</string>
+    <string name="widget_options_saved">Options saved</string>
+    <string name="widget_automation_add">Add action</string>
+    <string name="widget_no_widgets">No widgets added</string>
+    <string name="widget_unknown">Widget %d</string>
+    <string name="widget_automation_select_widget">Select widget</string>
+    <string name="widget_not_visible">Widget not visible, try again later</string>
+    <string name="widget_no_clickable_elements">Widget has no clickable elements</string>
+    <string name="widget_automation_select_action">Select action</string>
+    <string name="widget_automation_configure_template">Configure automation: %s</string>
+    <string name="widget_automation_added">Automation added</string>
+    <string name="widget_no_automations">No automations configured</string>
+    <string name="widget_automation_item_template">Widget %d: %s%s%s</string>
+    <string name="widget_automation_on_start"> [on start]</string>
+    <string name="widget_automation_interval"> [every %d ms]</string>
+    <string name="widget_automation_manage">Manage automations</string>
+    <string name="widget_automation_edit_template">Edit: %s</string>
+    <string name="widget_automation_updated">Changed</string>
+    <string name="widget_automation_deleted">Deleted</string>
+    <string name="widget_not_enough_for_reorder">Not enough widgets to change order</string>
+    <string name="widget_reorder">Reorder widgets</string>
+    <string name="widget_reorder_success">Widget order changed</string>
+    <string name="widget_auto_update_interval_dialog">Update interval (ms)\n0 - disable\nCurrent: %d</string>
+    <string name="widget_interval_negative">Interval cannot be negative</string>
+    <string name="widget_invalid_number">Invalid number</string>
+    <string name="widget_delete">Delete widget</string>
+    <string name="widget_settings">Widget settings</string>
+    <string name="widget_height">Widget height</string>
+    <string name="widget_options">Widget options</string>
+    <string name="widget_settings_unavailable">Widget settings unavailable</string>
+    <string name="widget_select_height">Select widget height</string>
+    <string name="widget_height_auto">Auto</string>
+    <string name="widget_no_action">No widget for action</string>
+    <string name="widget_action_performed">Action performed</string>
+    <string name="widget_error_info_missing">Error: widget information missing\n(press OK to delete)</string>
+    <string name="widget_error_load_failed">Error: failed to load widget\n(press OK to delete)</string>
+    <string name="widget_action_icon_button">🖼️ Button (icon)</string>
+    <string name="widget_action_button">🔘 Button</string>
+    <string name="widget_action_text_button">📝 Text button</string>
+    <string name="widget_action_container">🗂️ Container (press)</string>
+    <string name="widget_action_default_template">⚙️ %s (button)</string>
+
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="parameters">Parameters</string>
+    <string name="ok_options">OK/Options</string>
+    <string name="back">Back</string>
+</resources>
