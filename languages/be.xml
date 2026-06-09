@@ -1,0 +1,1173 @@
+<resources>
+    <string name="app_name">Button Phone Launcher</string>
+    <string name="app_version">Версія 1.0</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_title">Налада лаўнчэра</string>
+    <string name="setup_description">Для працы лаўнчэра патрабуюцца наступныя дазволы:</string>
+    <string name="grant_permissions">Прадаставіць дазволы</string>
+
+    <!-- ADB Permissions Activity -->
+    <string name="adb_permissions_title">Налада ADB дазволаў</string>
+    <string name="check_again">Праверыць зноў</string>
+    <string name="open_shizuku">Адкрыць Shizuku</string>
+    <string name="skip_for_now">Прапусціць (не рэкамендуецца)</string>
+    <string name="permission_required_message">Для працы некаторых функцый патрабуюцца сістэмныя дазволы</string>
+
+    <!-- Main Activity -->
+    <string name="menu_button">Меню</string>
+    <string name="ok_options_button">ОК/Опцыі</string>
+    <string name="contacts_button">Кантакты</string>
+
+    <!-- Bottom bar -->
+    <string name="menu">Меню</string>
+    <string name="dialer">Тэлефон</string>
+    <string name="contacts">Кантакты</string>
+    <string name="messages">Паведамленні</string>
+    <string name="browser">Браўзер</string>
+    <string name="camera">Камера</string>
+    <string name="gallery">Галерэя</string>
+    <string name="music">Музыка</string>
+    <string name="calculator">Калькулятар</string>
+
+    <!-- Desktop pages -->
+    <string name="options">Опцыі</string>
+    <string name="open">Адкрыць</string>
+    <string name="remove_all">Прыбраць усё</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Налады</string>
+    <string name="wallpaper_settings">Шпалеры</string>
+    <string name="theme_settings">Тэма</string>
+    <string name="appearance_settings">Знешні выгляд</string>
+    <string name="behavior_settings">Паводзіны</string>
+    <string name="about">Аб праграме</string>
+
+    <!-- Quick Settings -->
+    <string name="rotation_lock">Блакіроўка павароту</string>
+
+    <!-- Dialog -->
+    <string name="select_app">Абярыце праграму</string>
+    <string name="ok_dialog">OK</string>
+
+    <!-- Feature phone strings -->
+    <string name="soft_key_left">Левая софт-клавіша</string>
+    <string name="soft_key_right">Правая софт-клавіша</string>
+    <string name="dpad_up">Уверх</string>
+    <string name="dpad_down">Уніз</string>
+    <string name="dpad_left">Улева</string>
+    <string name="dpad_right">Управа</string>
+    <string name="dpad_center">ОК/Выбар</string>
+
+    <!-- Error Report Activity -->
+    <string name="error_report_title">Памылка ў лаўнчэры</string>
+    <string name="report_error_button">Паведаміць пра памылку</string>
+    <string name="restart_launcher_button">Перазапуск лаўнчэра</string>
+
+    <!-- Media Widget Filter -->
+    <string name="media_filter_title">Фільтр для віджэта "Цяпер іграе"</string>
+    <string name="media_filter_save">Захаваць</string>
+    <string name="media_filter_cancel">Адмена</string>
+    <string name="media_filter_select_all">Усе</string>
+    <string name="media_filter_saved">Фільтр захаваны</string>
+    <string name="media_filter_all_allowed">Усе праграмы дазволены</string>
+
+    <string name="content_description_counters">Лічыльнікі</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Паведамленні</string>
+    <string name="clear_all_notifications">Прыбраць усё</string>
+    <string name="clear_all_dialog_title">Прыбраць усе паведамленні</string>
+    <string name="clear_all_dialog_message">Прыбраць (прачытаць) усе паведамленні?</string>
+    <string name="yes">Так</string>
+    <string name="no">Не</string>
+    <string name="reply_to_notification">Адказаць на паведамленне</string>
+    <string name="enter_reply_hint">Увядзіце адказ...</string>
+    <string name="press_ok_to_send">Націсніце ОК для адпраўкі</string>
+    <string name="send">Адаслаць</string>
+    <string name="notification_parameters">Параметры</string>
+    <string name="notification_ok_options">ОК/Опцыі</string>
+
+    <string name="accessibility_service_description">Служба для глабальнага перахопу кнопкі 0 падчас запісу экрана, перахопу іншых кнопак для кіравання арыентацыяй, клавішай гучнасці, панэллю гучнасці, жэстаў і экраннага курсора, а таксама іншага функцыяналу, прадугледжанага праграмай.</string>
+
+    <string name="restart_warning">Для прымянення налады ўручную перазапусціце лаўнчэр</string>
+    <string name="experimental_link">Эксперыментальныя функцыі абалонкі</string>
+    <string name="search_hint">Увядзіце назву...</string>
+    <string name="loading_apps">Загрузка спісу праграм...</string>
+
+    <string name="add_shortcut">Дадаць ярлык</string>
+    <string name="choose_shortcut">Абярыце ярлык</string>
+
+    <string name="shizuku_diagnostic_title">Дыягностыка Shizuku</string>
+    <string name="shizuku_installed_yes">Shizuku усталяваны: ✅ так</string>
+    <string name="shizuku_installed_no">Shizuku усталяваны: ❌ не</string>
+    <string name="shizuku_running_yes">Shizuku актыўны: ✅ так</string>
+    <string name="shizuku_running_no">Shizuku актыўны: ❌ не</string>
+    <string name="shizuku_permission_yes">Дазвол для лаўнчэра: ✅ ёсць</string>
+    <string name="shizuku_permission_no">Дазвол для лаўнчэра: ❌ няма</string>
+    <string name="shizuku_install_prompt">Усталюйце Shizuku з крамы праграм і актывуйце яго.</string>
+    <string name="shizuku_start_prompt">Запусціце Shizuku і выканайце актывацыю (ADB або root).</string>
+    <string name="shizuku_grant_prompt">Прадастаўце дазвол лаўнчэру ў праграме Shizuku.</string>
+
+    <string name="lock_screen_unlock_combo">Камбінацыя клавіш для разблакіроўкі: OK + %s</string>
+    <string name="lock_screen_system_active">актыўны</string>
+    <string name="lock_screen_system_inactive">не актыўны</string>
+    <string name="lock_screen_system_hint">Націсніце ОК, каб перайсці ў параметры стандартнага экрана блакіроўкі і адключыце яго, каб пазбегнуць дублявання.</string>
+    <string name="key_gesture_service_description">Служба для прызначэння жэстаў на апаратныя кнопкі</string>
+    <string name="cursor_menu">Экранны курсор</string>
+    <string name="accessibility_cursor_desc">Экранны курсор для навігацыі</string>
+    <string name="cursor_animation_show">Анімацыя з\'яўлення курсора</string>
+    <string name="cursor_hover_elements">Элементы інтэрфейсу рэагуюць на курсор</string>
+    <string name="cursor_scroll_digits">Скрол лічбавымі клавішамі (2/8/4/6)</string>
+    <string name="cursor_scroll_acceleration">Паскарэнне скролу</string>
+    <string name="cursor_sound_click">Гук пры кліку</string>
+    <string name="cursor_hide_keyboard">Схаваць пры адкрыцці клавіятуры</string>
+
+    <!-- About Launcher Activity -->
+    <string name="about_launcher_title">Аб абалонцы</string>
+    <string name="about_launcher_version">Версія: 1.0</string>
+    <string name="about_launcher_beta">Выпуск: Бэта-версія</string>
+    <string name="about_launcher_description">CLG Button Phone Launcher\n\nЛаўнчэр для кнопкавых тэлефонаў на Android\nРаспрацаваны спецыяльна для прылад з апаратнымі кнопкамі</string>
+
+    <string name="link_team">Каманда: CraftingLiveGames</string>
+    <string name="link_publisher">Выдавец: CLG Publisher</string>
+    <string name="link_developer">Распрацоўшчык: Шустол Мікіта</string>
+    <string name="link_consultant">Кансультант: Шакарун Мікіта</string>
+    <string name="link_github">Зыходны код даступны на GitHub</string>
+    <string name="link_donate">Падтрымаць распрацоўшчыка на DonationAlerts</string>
+
+    <string name="experimental_features_link">Эксперыментальныя функцыі абалонкі</string>
+    <string name="backup_restore_link">Аднаўленне і рэзервовае капіраванне</string>
+    <string name="policy_link">Палітыка канфідэнцыяльнасці і карыстальніцкае пагадненне</string>
+
+    <!-- ANR Logs Activity -->
+    <string name="anr_logs_title">Логі ANR памылак</string>
+    <string name="clear_all_logs">Ачысціць усе логі</string>
+    <string name="no_anr_logs">Логі ANR не знойдзены</string>
+
+    <!-- Game stats templates -->
+    <string name="downloads_count_template">Колькасць спамповак: %s</string>
+    <string name="rating_template">Рэйтынг: %s</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_restore_title">Рэзервовае капіраванне і аднаўленне</string>
+    <string name="backup_local">Лакальная рэзервовая копія (ZIP)</string>
+    <string name="restore_local">Аднавіць з лакальнага ZIP</string>
+    <string name="backup_google_drive">Рэзервовая копія ў Google Drive</string>
+    <string name="restore_google_drive">Аднавіць з Google Drive</string>
+    <string name="backup_yandex_disk">Рэзервовая копія ў Яндекс.Дыск</string>
+    <string name="restore_yandex_disk">Аднавіць з Яндекс.Дыска</string>
+    <string name="backup_info_text">У рэзервовую копію будуць уключаны:\n\n• Усе налады лаўнчэра (SharedPreferences)\n• Даныя меню (тэчкі, праграмы, ярлыкі, іх парадак)\n• Кастомныя іконкі і банеры\n• Налады экраннага курсора, жэстаў і г.д.\n\nАднаўленне перазапіша бягучыя даныя і запатрабуе перазапуску праграмы.</string>
+
+    <!-- Cursor Activity -->
+    <string name="cursor_toggle">Уключыць / Выключыць</string>
+    <string name="cursor_select_apps">Выбраць праграмы</string>
+    <string name="cursor_app_selector_title">Выберыце праграмы</string>
+    <string name="cursor_app_selector_hint">Курсор будзе аўтаматычна з\'яўляцца ў выбраных праграмах і хавацца пры выхадзе або згортванні.</string>
+    <string name="cursor_select_all">Выбраць усе</string>
+
+    <string name="cursor_settings_title">Налады курсора</string>
+    <string name="cursor_speed_template">Хуткасць: %d px</string>
+    <string name="cursor_size_template">Памер: %d dp</string>
+    <string name="cursor_timeout_template">Таймаўт: %d с</string>
+    <string name="cursor_icon_label">Іконка: %s</string>
+    <string name="cursor_select_icon">Выбраць іконку</string>
+    <string name="cursor_toggle_key_hint">Прызначаная кнопка ўключае/хавае курсор пры доўгім утрыманні ў любой праграме.</string>
+    <string name="cursor_toggle_key_label">Кнопка для ручнага ўкл/выкл: %s</string>
+    <string name="cursor_assign_button">Прызначыць кнопку</string>
+
+    <!-- Experimental Features Activity -->
+    <string name="experimental_features_title">Эксперыментальныя функцыі абалонкі</string>
+    <string name="experimental_features_description">Дадзеныя функцыі могуць няправільна працаваць на некаторых прыладах, але можаце іх паспрабаваць, яны пашыраюць функцыянал. Некаторыя з іх патрабуюць дапрацоўкі або поўнага перагляду іх рэалізацыі. Таксама, частка з гэтых функцый патрэбна для збору дадатковай інфармацыі карыстальнікам для прадастаўлення больш поўнага справаздачы распрацоўшчыку пры звароце наконт выпраўлення памылак абалонкі.</string>
+
+    <string name="anr_handler_label">Кастомны ANR апрацоўшчык</string>
+    <string name="anr_handler_description">Уключае дадатковы апрацоўшчык памылак "Праграма не адказвае" з падцягваннем тэксту памылкі, якая выклікае завісанне.</string>
+
+    <string name="wallpaper_check_label">Праверка шпалераў</string>
+    <string name="wallpaper_check_description">Дадае пункт праверкі шпалераў, які дазволіць вызначыць, чаму абалонка не можа адлюстраваць Вашы шпалеры на працоўным стале.</string>
+
+    <string name="joypad_swap_label">Падмена кнопак DPAD пры кіраванні арыентацыяй экрана</string>
+    <string name="joypad_swap_description">Эксперыментальная функцыя падмены фізічных кнопак уверх/уніз/улева/ўправа пры павароце экрана для захавання логікі навігацыі.</string>
+
+    <string name="global_icon_pack_label">Глабальны пак іконак</string>
+    <string name="global_icon_pack_description">Спроба рэалізаваць аўтаматычны падбор іконак з пакаў іконак для меню праграм, аднак бягучая рэалізацыя няправільна вызначае іконкі часцей за ўсё, і не працуе ў тэчцы "Усе праграмы".</string>
+
+    <string name="edit_all_apps_label">Рэдагаванне ва "Усе праграмы"</string>
+    <string name="edit_all_apps_description">Дадае магчымасць рэдагаваць найменні праграм і іх іконкі ў тэчцы "Усе праграмы", але працуе нестабільна.</string>
+
+    <string name="cursor_hover_elements_label">Элементы інтэрфейсу рэагуюць на экранны курсор</string>
+    <string name="cursor_hover_elements_description">Дадае ў параметры экраннага курсора функцыю, якая дазваляе падсвечвацца элементам пад курсорам (напрыклад спасылкам у браўзеры), аднак на большасці прылад не працуе.</string>
+
+    <string name="lock_screen_experimental_label">Новы экран блакіроўкі (эксперыментальна)</string>
+    <string name="lock_screen_experimental_description">Чарнавы недароблены варыянт кастомнага экрана блакіроўкі, працуе не стабільна, дароблены не ўсе функцыі. Магчыма будзе дароблены ў будучыні.</string>
+
+    <string name="google_drive_backup_label">Рэзервовыя копіі праз Google Drive (эксперыментальна)</string>
+    <string name="google_drive_backup_description">Чарнавая рэалізацыя рэзервовага капіравання праз воблака, аднак патрабуе дадатковай прапрацоўкі з боку кліенцкай часткі google, можа ў вас не працаваць.</string>
+
+    <string name="yandex_disk_backup_label">Рэзервовыя копіі праз Яндекс.Дыск (эксперыментальна)</string>
+    <string name="yandex_disk_backup_description">Эксперыментальная рэалізацыя рэзервовага капіравання праз Яндекс.Дыск. Патрабуе рэгістрацыі праграмы на Yandex OAuth і ўказання Client ID у кодзе.</string>
+
+    <!-- Key Gesture Activity -->
+    <string name="key_gesture_title">Прызначэнне жэстаў</string>
+
+    <!-- Lock Screen Settings Activity -->
+    <string name="lock_screen_settings_title">Новы экран блакіроўкі</string>
+    <string name="lock_screen_wallpaper">Змяніць фон экрана блакіроўкі</string>
+    <string name="lock_screen_enable">Актываваць новы экран блакіроўкі</string>
+    <string name="lock_screen_assign_second_key">Прызначыць другую кнопку для разблакіроўкі</string>
+    <string name="lock_screen_unlock_sound">Гук разблакіроўкі</string>
+    <string name="lock_screen_lock_sound">Гук блакіроўкі (пры выключэнні экрана)</string>
+    <string name="lock_screen_left_key">Левая софт-клавіша</string>
+    <string name="lock_screen_left_action">Выбраць дзеянне для левай софт-клавішы</string>
+    <string name="lock_screen_left_rename">Змяніць назву левай софт-клавішы</string>
+    <string name="lock_screen_right_key">Правая софт-клавіша</string>
+    <string name="lock_screen_right_action">Выбраць дзеянне для правай софт-клавішы</string>
+    <string name="lock_screen_right_rename">Змяніць назву правай софт-клавішы</string>
+    <string name="lock_screen_bypass_left">Выконваць дзеянне левай софт-клавішы, калі ўключана дадатковая абарона</string>
+    <string name="lock_screen_bypass_right">Выконваць дзеянне правай софт-клавішы, калі ўключана дадатковая абарона</string>
+    <string name="lock_screen_protection">Актываваць дадатковую абарону</string>
+    <string name="lock_screen_use_pin">Выкарыстоўваць PIN-код</string>
+    <string name="lock_screen_use_pattern">Выкарыстоўваць графічны ключ</string>
+    <string name="lock_screen_set_pin">Прызначыць PIN-код</string>
+    <string name="lock_screen_set_pattern">Прызначыць графічны ключ</string>
+    <string name="lock_screen_power_fix">Блакіраваць экран кнопкай сілкавання (эксперыментальна)</string>
+    <string name="lock_screen_system_status">Статус стандартнага экрана блакіроўкі Android: %s</string>
+
+    <!-- Media Control Activity -->
+    <string name="media_control_title">Кіраванне медыя</string>
+    <string name="volume_template">Гучнасць: %d/%d</string>
+    <string name="volume_up">Павялічыць гучнасць</string>
+    <string name="volume_down">Паменшыць гучнасць</string>
+    <string name="play_pause">Узнаўленне/Паўза</string>
+    <string name="previous_track">Папярэдні трэк</string>
+    <string name="next_track">Наступны трэк</string>
+    <string name="mute">Без гуку</string>
+    <string name="stop">Спыніць</string>
+    <string name="shortcut_1">1</string>
+    <string name="shortcut_2">2</string>
+
+    <!-- Notification Settings Activity -->
+    <string name="notification_settings_title">Налады паведамленняў</string>
+    <string name="notification_settings_placeholder">Тут будуць налады паведамленняў для лаўнчэра</string>
+
+    <!-- Screen Record Activity -->
+    <string name="screen_record_title">Запіс экрана</string>
+    <string name="recording_status_inactive">Запіс не актыўны</string>
+    <string name="recording_timer_placeholder">00:00:00</string>
+    <string name="start_recording">Пачаць запіс</string>
+    <string name="recording">Запіс</string>
+
+    <!-- Settings Activity -->
+    <string name="launcher_settings_title">Налады лаўнчэра</string>
+    <string name="settings_placeholder">Тут будуць налады</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_permissions_required">Для працы лаўнчэра патрабуюцца:</string>
+    <string name="setup_button_skip">Прапусціць</string>
+    <string name="setup_hint_text">Парада: Націсніце фізічную кнопку на тэлефоне для прызначэння</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="circle_tracker">Трэкер</string>
+    <string name="cursor_description">Курсор</string>
+
+    <!-- ADB Instructions Dialog -->
+    <string name="copy_commands">Скапіяваць каманды</string>
+    <string name="execute_via_shizuku">Выканаць праз Shizuku</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_error_message">ШІ не адказвае. Магчыма, API-ключы распрацоўшчыка недаступныя або часова не працуюць. Вы можаце атрымаць уласны бясплатны ключ DeepSeek ад NVIDIA або афіцыйнага API і выкарыстоўваць яго. Таксама даступныя платныя ключы.</string>
+    <string name="go_nvidia_site">Перайсці на сайт NVIDIA</string>
+    <string name="go_deepseek_site">Перайсці на сайт DeepSeek</string>
+    <string name="enter_nvidia_key">Увесці ключ ад NVIDIA</string>
+    <string name="enter_deepseek_key">Увесці ключ ад DeepSeek</string>
+    <string name="app_selector_content_description">Спіс праграм для выбару</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_not_assigned">Прызначыць кнопку ШІ асістэнта: не прызначана</string>
+    <string name="assistant_key_enable">Актываваць выклік лічбавага памочніка пры доўгім утрыманні кнопкі ШІ асістэнта</string>
+    <string name="assistant_key_choose_assistant">Выбраць Лічбавага памочніка</string>
+
+    <!-- Automation Config Dialog -->
+    <string name="automation_on_start">Выконваць пры адкрыцці экрана віджэтаў</string>
+    <string name="automation_interval_label">Інтэрвал (мс):</string>
+    <string name="automation_interval_hint">0 — адключыць</string>
+    <string name="automation_interval_description">0 = выконваць толькі пры старце (калі чэкбокс адзначаны)\n&gt;0 = выконваць кожныя N мс пакуль актыўнасць адкрыта</string>
+
+    <!-- Banner Animations Dialog -->
+    <string name="banner_transition_animation">Анімацыя пры змене тайтла</string>
+    <string name="background_animation">Фонавая анімацыя</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness">Яркасць</string>
+
+    <!-- Edit Player Dialog -->
+    <string name="change_icon">Змяніць іконку</string>
+    <string name="nickname_hint">Нікнэйм</string>
+    <string name="generate_nick">Сгенераваць нік</string>
+
+    <!-- Game Center Stats Dialog -->
+    <string name="show_downloads_rating">Паказваць колькасць спамповак і рэйтынг</string>
+    <string name="show_play_time">Паказваць колькасць згуляных гадзін</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_enabled">Актываваць гульнявы рэжым (не адключаецца аўтаматычна, для адключэння вярніцеся ў гэта акно і зніміце гэты чэкбокс)</string>
+    <string name="game_mode_disable_notifications">Адключэнне паведамленняў</string>
+    <string name="game_mode_lower_brightness">Зніжэнне яркасці дысплея</string>
+    <string name="game_mode_enable_dnd">Актывацыя рэжыму Не турбаваць</string>
+    <string name="game_mode_disable_battery_saver">Аўтаадключэнне рэжыму энергазберажэння</string>
+    <string name="game_mode_clear_background_apps">Выгрузка фонавых праграм</string>
+    <string name="game_mode_disable_perf_limit">Адключэнне абмежавальніка прадукцыйнасці Android (разгон працэсара, на ваш страх і рызыку)</string>
+    <string name="search_hint2">Пошук...</string>
+
+    <!-- New Volume Panel Dialog -->
+    <string name="volume_up_not_assigned">Прызначыць клавішу павелічэння гучнасці: не прызначана</string>
+    <string name="volume_down_not_assigned">Прызначыць клавішу памяншэння гучнасці: не прызначана</string>
+    <string name="volume_panel_enable">Укл./Выкл. новую панэль гучнасці</string>
+    <string name="number_picker_description">Выбар ліку</string>
+
+    <!-- Orientation Control Dialog -->
+    <string name="orientation_key_not_assigned">Прызначыць кнопку змены арыентацыі: не прызначана</string>
+    <string name="orientation_enable">Уключыць кіраванне арыентацыяй</string>
+    <string name="orientation_rotate_joypad">Паварочваць джойсцік (мяняць месцамі Уверх/Управа і Уніз/Улева)</string>
+
+    <!-- Player Stats Dialog -->
+    <string name="player_stats_title">Агульная статыстыка гульца</string>
+    <string name="player_default_nickname">Гулец</string>
+    <string name="share">Падзяліцца</string>
+    <string name="quick_settings_list_description">Спіс хуткіх налад</string>
+
+    <!-- Common buttons -->
+    <string name="cancel2">Адмена</string>
+
+    <!-- Revive Options Dialog -->
+    <string name="revive_update_size">Абнавіць памер віджэта (updateAppWidgetSize)</string>
+    <string name="revive_update_options">Абнавіць опцыі (updateAppWidgetOptions)</string>
+    <string name="revive_start_listening">Перазапусціць праслухоўванне (startListening)</string>
+    <string name="revive_broadcast">Адаслаць шырокавяшчальнае абнаўленне</string>
+    <string name="revive_visibility">Выклікаць dispatchWindowVisibilityChanged</string>
+    <string name="revive_invalidate">Выклікаць invalidate()</string>
+    <string name="revive_recommended">Рэкамендуецца: 1 + 3 + 5</string>
+    <string name="search_hint3">Увядзіце назву...</string>
+
+    <!-- Volume Dialog -->
+    <string name="more">Яшчэ</string>
+    <string name="sound_mode_normal">Звычайны рэжым</string>
+    <string name="sound_mode_vibrate">Вібрацыя</string>
+    <string name="sound_mode_silent">Без гуку</string>
+    <string name="recording_icon_description">Іконка запісу</string>
+
+    <!-- Center Fragment -->
+    <string name="calendar_events_title">Падзеі календара</string>
+    <string name="artist_placeholder">Выканаўца</string>
+    <string name="title_placeholder">Назва трэка</string>
+    <string name="sim1_placeholder">SIM1</string>
+    <string name="sim2_placeholder">SIM2</string>
+
+    <!-- Gesture Edit Fragment -->
+    <string name="gesture_key_label">Кнопка:</string>
+    <string name="gesture_action_label">Падзея:</string>
+    <string name="gesture_draw_label">Намалюйце жэст:</string>
+    <string name="gesture_draw_button">Намаляваць жэст</string>
+    <string name="gesture_name_label">Назва:</string>
+    <string name="gesture_description_label">Апісанне:</string>
+    <string name="notifications_title2">Паведамленні</string>
+    <string name="reply_to_notification2">Адказаць на паведамленне</string>
+    <string name="enter_reply_hint2">Увядзіце адказ...</string>
+    <string name="press_ok_to_send2">Націсніце ОК для адпраўкі</string>
+    <string name="send2">Адаслаць</string>
+    <string name="gesture_service">Служба жэстаў</string>
+    <string name="anr_log_name">Лог ANR</string>
+    <string name="share_log">Падзяліцца логам</string>
+    <string name="placeholder_app_name">Назва</string>
+    <string name="notification_actions_hint">Націсніце ОК для выбару дзеяння</string>
+    <string name="gesture_count_loading">Жэстаў: загрузка...</string>
+    <string name="unlock">Разблак.</string>
+    <string name="button_description">Кнопка</string>
+
+    <!-- App Selector Activity -->
+    <string name="cursor_select_button">Вылучыць</string>
+    <string name="cursor_selection_title">Вылучэнне</string>
+    <string name="cursor_clear_all">Зняць усе</string>
+    <string name="cursor_list_saved">Спіс захаваны</string>
+
+    <!-- Gesture Actions -->
+    <string name="gesture_action_down">Націск</string>
+    <string name="gesture_action_up">Адпусканне</string>
+    <string name="gesture_action_two">Два адначасова</string>
+    <string name="gestures_count">Жэстаў: %d</string>
+
+    <!-- Cursor Settings Activity -->
+    <string name="cursor_press_button">Націсніце кнопку...</string>
+    <string name="cursor_speed_label">Хуткасць: %d px</string>
+    <string name="cursor_size_label">Памер: %d dp</string>
+    <string name="cursor_timeout_label">Таймаўт: %d с</string>
+    <string name="cursor_icon_prefix">Іконка: %s</string>
+    <string name="cursor_icon_custom">Іконка: Карыстальніцкая</string>
+    <string name="cursor_toggle_key_not_assigned">Кнопка для ручнага ўкл/выкл: не прызначана</string>
+    <string name="cursor_toggle_key_prefix">Кнопка: %s</string>
+    <string name="cursor_pick_icon_title">Выберыце іконку курсора</string>
+    <string name="cursor_from_gallery">З галерэі</string>
+    <string name="cursor_key_saved">Кнопка захавана</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_key_error_title">API ключы неспраўныя</string>
+    <string name="nvidia_key_dialog_title">Ключ NVIDIA</string>
+    <string name="deepseek_key_dialog_title">Ключ DeepSeek</string>
+    <string name="key_saved_toast">Ключ захаваны</string>
+
+    <!-- App Options Dialog -->
+    <string name="app_option_change_name">Змяніць назву</string>
+    <string name="app_option_change_icon">Змяніць іконку</string>
+    <string name="app_option_change_focused_icon">Змяніць іконку ў фокусе</string>
+    <string name="app_option_update_description">Абнавіць апісанне</string>
+    <string name="app_option_edit_description">Змяніць апісанне</string>
+    <string name="app_option_change_banner">Змяніць банер</string>
+    <string name="app_option_game_platform">Выд/Платформа гульні</string>
+    <string name="app_option_app_settings">Налады праграмы</string>
+    <string name="app_option_remove_from_folder">Прыбраць з тэчкі</string>
+    <string name="app_option_uninstall">Выдаліць праграму</string>
+    <string name="app_option_move">Перамясціць</string>
+    <string name="app_option_cancel">Адмена</string>
+
+    <string name="app_option_new_name_title">Новая назва</string>
+    <string name="app_option_enter_description_title">Увядзіце апісанне гульні</string>
+    <string name="app_option_enter_platform_title">Выд/Платформа гульні</string>
+    <string name="app_option_default_platform">мабільная гульня</string>
+
+    <string name="app_option_searching_description">Пошук апісання...</string>
+    <string name="app_option_description_updated">Апісанне абноўлена</string>
+    <string name="app_option_no_internet">Няма інтэрнэту. Падключыцеся да сеткі і паспрабуйце зноў.</string>
+    <string name="app_option_description_not_found">Апісанне не знойдзена. Вы можаце дадаць яго ўручную.</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_dialog_title">Прызначыць кнопку ШІ асістэнта: не прызначана</string>
+    <string name="assistant_key_dialog_assigned">Прызначыць кнопку ШІ асістэнта: %s</string>
+    <string name="assistant_key_press_key_toast">Націсніце патрэбную клавішу...</string>
+    <string name="assistant_key_assigned_toast">Прызначана клавіша: %s</string>
+    <string name="assistant_key_code_prefix">Код: %d</string>
+    <string name="assistant_key_accessibility_title">Уключыце службу даступнасці</string>
+    <string name="assistant_key_accessibility_message">Для працы функцыі \'Клавіша ШІ Асістэнта\' неабходна ўключыць службу даступнасці.\n\n1. Націсніце \'Налады\'\n2. Знайдзіце \'Службы даступнасці\'\n3. Уключыце \'Global Key Interceptor\'</string>
+    <string name="assistant_key_accessibility_settings">Налады</string>
+    <string name="assistant_key_accessibility_cancel">Адмена</string>
+
+    <!-- Key names for assistant dialog -->
+    <string name="key_volume_up">Гучнасць +</string>
+    <string name="key_volume_down">Гучнасць -</string>
+    <string name="key_dpad_center">Цэнтр (OK)</string>
+    <string name="key_dpad_up">Уверх</string>
+    <string name="key_dpad_down">Уніз</string>
+    <string name="key_dpad_left">Улева</string>
+    <string name="key_dpad_right">Управа</string>
+    <string name="key_menu">Меню</string>
+    <string name="key_back">Назад</string>
+    <string name="key_call">Выклік</string>
+    <string name="key_endcall">Скід</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_pound">#</string>
+    <string name="key_star">*</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness_dialog_title">Дазвол на змяненне налад</string>
+    <string name="brightness_change_settings_message">Для змены яркасці неабходна дазволіць праграме змяняць сістэмныя налады. Перайсці ў налады?</string>
+    <string name="brightness_go_to_settings">Перайсці</string>
+    <string name="brightness_cancel">Адмена</string>
+
+    <!-- Folder Options Dialog -->
+    <string name="folder_option_delete">Выдаліць тэчку</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_dialog_title">Налады гульнявога рэжыму</string>
+    <string name="game_mode_save">Захаваць</string>
+    <string name="game_mode_cancel">Адмена</string>
+    <string name="game_mode_clear_background_warning">Android аўтаматычна вырабляе выгрузку фонавых праграм пры недахопе аператыўнай памяці, дадатковая выгрузка не патрабуецца</string>
+    <string name="game_mode_activated">Гульнявы рэжым актываваны</string>
+    <string name="game_mode_deactivated">Гульнявы рэжым адключаны</string>
+
+    <!-- IconPackGridDialog -->
+    <string name="icon_pack_dialog_title">Выберыце іконку з %s</string>
+    <string name="icon_pack_no_icons_found">Не знойдзена іконак у пакеце %s\nПаспрабуйце іншы метад выбару</string>
+    <string name="loading_icons_title">Загрузка іконак</string>
+    <string name="progress_step1">Крок 1/6: Пошук праз рэфлексію R-класаў...</string>
+    <string name="progress_step2">Крок 2/6: Прамы доступ да класа R...</string>
+    <string name="progress_step3">Крок 3/6: Пошук праз AssetManager...</string>
+    <string name="progress_step4">Крок 4/6: Пошук праз appfilter.xml...</string>
+    <string name="progress_step5">Крок 5/6: Пошук праз getIdentifier...</string>
+    <string name="progress_step6">Крок 6/6: Фінальны пошук...</string>
+
+    <!-- IconPickDialog -->
+    <string name="icon_pick_title">Выберыце крыніцу іконкі</string>
+    <string name="icon_pack">Пак іконак</string>
+    <string name="standard_icons">Стандартныя</string>
+
+    <!-- MultiUninstallDialog -->
+    <string name="multi_uninstall_title">Мультывыдаленне праграм</string>
+    <string name="uninstall_selected">Выдаліць выбраныя</string>
+    <string name="uninstall_requests_sent">Запыты на выдаленне адпраўлены</string>
+
+    <!-- NewVolumePanelSettingsDialog -->
+    <string name="press_key_to_assign">Націсніце патрэбную клавішу...</string>
+    <string name="key_assigned_toast">Прызначана клавіша: %s</string>
+    <string name="key_code_format_with_name">Код: %d (%s)</string>
+    <string name="assign_volume_up_key">Прызначыць клавішу павелічэння гучнасці: %s</string>
+    <string name="assign_volume_down_key">Прызначыць клавішу памяншэння гучнасці: %s</string>
+    <string name="accessibility_dialog_title">Уключыце службу даступнасці</string>
+    <string name="accessibility_dialog_message">Для працы новай панэлі гучнасці неабходна ўключыць службу даступнасці.\n\n1. Націсніце \'Налады\'\n2. Знайдзіце \'Службы даступнасці\'\n3. Уключыце \'Global Key Interceptor\'</string>
+
+    <!-- OrientationControlSettingsDialog -->
+    <string name="orientation_key_assigned">Прызначыць кнопку змены арыентацыі: %s</string>
+    <string name="orientation_write_settings_message">Для кіравання арыентацыяй экрана неабходны дазвол на змяненне сістэмных налад. Перайсці ў налады?</string>
+    <string name="go_to_settings">Перайсці</string>
+
+    <!-- PlayerStatsDialog -->
+    <string name="generate_nick_failed">Не атрымалася сгенераваць нік</string>
+    <string name="generating">Генерацыя...</string>
+    <string name="share_stats_chooser_title">Падзяліцца статыстыкай</string>
+    <string name="error_occurred_template">Памылка: %s</string>
+
+    <!-- QuickSettingsEditDialog -->
+    <string name="qs_edit_title">Змяніць ярлыкі</string>
+    <string name="qs_add_tile">Дадаць плітку</string>
+    <string name="qs_no_tiles_available">Няма даступных плітак</string>
+    <string name="qs_select_tile">Выберыце плітку</string>
+
+    <!-- QuickSettingsOrderDialog -->
+    <string name="qs_tab_control">Кіраванне</string>
+    <string name="qs_tab_basic">Асноўныя</string>
+    <string name="qs_tab_apps">Праграмы</string>
+
+    <!-- SelectAppsDialog -->
+    <string name="select_apps">Выберыце праграмы</string>
+    <string name="add">Дадаць</string>
+
+    <!-- SelectFolderDialog -->
+    <string name="select_folder">Выберыце тэчку</string>
+
+    <!-- SelectPositionDialog -->
+    <string name="select_new_position">Выберыце новую пазіцыю</string>
+    <string name="app_option_remove_shortcut">Выдаліць ярлык</string>
+
+    <!-- TileActivationDialog -->
+    <string name="tile_activation_title">Актывацыя пліткі</string>
+    <string name="tile_activation_instructions">Інструкцыя па актывацыі пліткі праз ADB:\n\n1. Пераканайцеся, што прылада падключана да кампутара і ўключана адладка па USB.\n2. Выканайце на кампутары каманды:\n\n   adb shell cmd statusbar add-tile %s\n   adb shell cmd statusbar click-tile %s\n   adb shell cmd statusbar remove-tile %s\n\n3. Пасля паспяховага выканання плітка будзе актывавана.\n\nКалі ў вас усталяваны і актываваны Shizuku, вы можаце націснуць кнопку ніжэй, каб выканаць гэтыя каманды прама на прыладзе.</string>
+    <string name="commands_copied">Каманды скапіяваны</string>
+    <string name="done">Гатова</string>
+    <string name="cancelled">Адменена</string>
+    <string name="shizuku_permission_required_title">Патрабуецца дазвол Shizuku</string>
+    <string name="shizuku_permission_required_message">Для выканання каманд праз Shizuku неабходна прадаставіць дазвол. Адкрыйце Shizuku і дазвольце доступ гэтай праграме.</string>
+
+    <!-- WidgetActionsDialog -->
+    <string name="widget_actions_title">Дзеянні віджэта</string>
+    <string name="widget_actions_no_actions_message">Няма даступных дзеянняў</string>
+    <string name="widget_actions_loading_message">Загрузка элементаў віджэта...</string>
+    <string name="widget_actions_load_failed_message">Не атрымалася загрузіць элементы</string>
+    <string name="action_name_icon_button">🖼️ Кнопка (іконка)</string>
+    <string name="action_name_button">🔘 Кнопка</string>
+    <string name="action_name_text_button">📝 Тэкставая кнопка</string>
+    <string name="action_name_container">🗂️ Кантэйнер (націсніце)</string>
+    <string name="action_name_default_template">⚙️ %s (кнопка)</string>
+
+    <!-- AboutLauncherActivity -->
+    <string name="confirm_link_title">Пераход па спасылцы</string>
+    <string name="confirm_link_message">Вы сапраўды хочаце перайсці на гэту старонку?\n\nДля гэтага будзе адкрыты Ваш браўзер ці кліент сацсеткі па спасылцы:\n%s</string>
+    <string name="go_to_link">Перайсці</string>
+
+    <!-- AdbPermissionsActivity -->
+    <string name="adb_permissions_instructions">Для поўнай працы лаўнчэра патрабуюцца сістэмныя дазволы:\n\n📱 Спосаб 1: Праз ADB (рэкамендуецца)\n1. Падключыце тэлефон да кампутара з ADB\n2. Уключыце \'Рэжым распрацоўшчыка\' у наладах\n3. Уключыце \'Адладка па USB\'\n4. Выканайце каманды:\n\nadb shell pm grant %s android.permission.PACKAGE_USAGE_STATS\nadb shell pm grant %s android.permission.SYSTEM_ALERT_WINDOW\n\n📲 Спосаб 2: Праз Shizuku\n1. Усталюйце Shizuku з крамы\n2. Запусціце і актывуйце\n3. Вярніцеся ў гэту праграму\n\nГэтыя дазволы патрэбны для:\n• Адлюстраванне паверх іншых праграм\n• Статыстыка выкарыстання праграм\n• Карэктная праца лаўнчэра\n\n\n📲 Для медыя-віджэта (АБАВЯЗКОВА):\n1. Адкрыйце Налады → Праграмы → Спецыяльны доступ\n2. Выберыце \'Доступ да паведамленняў\'\n3. Знайдзіце \'Button Phone Launcher\' і ўключыце пераключальнік\n\nГэта патрэбна для:\n• Вызначэння музыкі/відэа, якая іграе\n• Адлюстравання ў віджэце \'Цяпер іграе\'</string>
+    <string name="permissions_still_missing">⚠ Дазволы ўсё яшчэ не прадастаўлены!</string>
+
+    <!-- AddShortcutActivity -->
+    <string name="shortcut_added">Ярлык дададзены</string>
+    <string name="shortcut_create_failed">Не атрымалася стварыць ярлык</string>
+    <string name="shortcut_select_location_title">Выберыце месца для ярлыка</string>
+    <string name="shortcut_error_general">Узнікла памылка, паспрабуйце дадаць ярлык паўторна</string>
+    <string name="root_menu_item">📁 Корань меню</string>
+    <string name="game_center_item">🎮 Гульнявы цэнтр</string>
+    <string name="create_new_folder_item">➕ Стварыць новую тэчку</string>
+    <string name="new_folder_name_title">Назва новай тэчкі</string>
+    <string name="folder_create_failed">Не атрымалася стварыць тэчку</string>
+    <string name="folder_name_empty">Назва не можа быць пустой</string>
+
+    <!-- AppMenuActivity -->
+    <string name="games_found_template">Знойдзена %d гульняў</string>
+    <string name="not_enough_items">Недастаткова элементаў для змены парадку</string>
+    <string name="order_determined_by_sort">У гэтай тэчцы парадак вызначаецца сартаваннем</string>
+    <string name="order_changed">Парадак зменены</string>
+    <string name="no_items">Няма элементаў</string>
+    <string name="initial_focus_set_template">Пачатковы фокус усталяваны на пазіцыю %d</string>
+
+    <string name="view_mode">Выд меню</string>
+    <string name="number_of_rows">Колькасць радкоў</string>
+    <string name="number_of_columns">Колькасць слупкоў</string>
+    <string name="new_folder">Новая тэчка</string>
+    <string name="select_apps_for_folder">Выбраць праграмы для тэчкі</string>
+    <string name="clear_folder">Ачысціць тэчку</string>
+    <string name="sorting">Сартаванне</string>
+    <string name="select_apps_for_menu">Выбраць праграмы для меню</string>
+    <string name="icon_mask">Маска іконак</string>
+    <string name="icon_animation">Анімацыя іконак</string>
+    <string name="icon_scale">Маштаб іконкі</string>
+    <string name="multi_uninstall">Мультывыдаленне праграм</string>
+    <string name="key_gesture_assignment">Прызначэнне жэстаў на кнопкі</string>
+
+    <string name="grid">Сетка</string>
+    <string name="list">Спіс</string>
+    <string name="large_icons">Буйныя значкі</string>
+    <string name="sort_alphabet">Па алфавіце</string>
+    <string name="sort_install_date">Па даце ўстаноўкі</string>
+    <string name="sort_usage_freq">Па частаце выкарыстання</string>
+    <string name="no_icon_packs_found">Не знойдзена ні аднаго пака іконак</string>
+    <string name="applying_icon_pack">Прымяненне пака іконак</string>
+    <string name="starting">Пачынаем...</string>
+    <string name="icon_changed">Іконка зменена</string>
+    <string name="focused_icon_changed">Іконка ў фокусе зменена</string>
+    <string name="item_not_found">Элемент не знойдзены</string>
+    <string name="downloads_loading">Колькасць спамповак: загрузка...</string>
+    <string name="rating_loading">Рэйтынг: загрузка...</string>
+    <string name="source_web">Вэб-рэсурсы</string>
+    <string name="source_deepseek_pro">DeepSeek Pro</string>
+    <string name="source_deepseek_flash">DeepSeek Flash</string>
+    <string name="source_changed_template">Крыніца зменена на %s</string>
+    <string name="hours_played_loading">Згуляна гадзін: загрузка...</string>
+    <string name="hours_played_template">Згуляна гадзін: %s</string>
+    <string name="no_description">Адсутнічае апісанне.</string>
+    <string name="ai_error_prefix">Не атрымалася атрымаць даныя ад ШІ</string>
+
+    <string name="loading">Загрузка...</string>
+    <string name="reorder">Змяніць парадак</string>
+    <string name="focus_on_startup">Фокус элемента пры запуску</string>
+    <string name="game_center_params">Параметры гульнявога цэнтра</string>
+    <string name="game_mode_settings">Налады гульнявога рэжыму</string>
+    <string name="show_player_stats">Паказаць статыстыку гульца</string>
+    <string name="stats_display">Адлюстраванне статыстыкі</string>
+    <string name="info_sources">Крыніцы інфармацыі</string>
+    <string name="banner_animations">Анімацыі банэраў</string>
+    <string name="update_stats">Абнавіць статыстыку</string>
+    <string name="stats_updating">Статыстыка абнаўляецца...</string>
+    <string name="anim_scale">Маштабаванне</string>
+    <string name="anim_parallax">Паралакс</string>
+    <string name="anim_pulse">Пульсацыя яркасці</string>
+    <string name="mask_circle">Круг</string>
+    <string name="mask_square">Квадрат</string>
+    <string name="mask_rounded">Скруглены прамавугольнік</string>
+    <string name="anim_none">Без анімацыі</string>
+    <string name="anim_shake">Траска</string>
+    <string name="anim_rotate">Вярчэнне</string>
+    <string name="anim_blink">Мігценне</string>
+    <string name="no_shortcut_apps">Няма праграм, якія падтрымліваюць стварэнне ярлыкоў</string>
+    <string name="choose_app_for_shortcut">Выберыце праграму для ярлыка</string>
+    <string name="new_folder_name">Назва тэчкі</string>
+    <string name="clear_folder_confirm">Выдаліць усе элементы з тэчкі "%s"?</string>
+    <string name="clear">Ачысціць</string>
+    <string name="choose_default_icon_pack">Выберыце пак іконак па змаўчанні</string>
+    <string name="total_apps">Усяго праграм</string>
+    <string name="matched_icons">Знойдзена іконак у паке</string>
+    <string name="details">Дэталі</string>
+    <string name="apply_complete">Прымяненне завершана</string>
+    <string name="copy">Скапіяваць</string>
+    <string name="report_copied">Справаздача скапіявана</string>
+    <string name="choose_icon_pack">Выберыце пак іконак</string>
+    <string name="banner_changed">Банер зменены</string>
+    <string name="banner_save_failed">Не атрымалася захаваць банер</string>
+    <string name="banner_load_failed">Не атрымалася загрузіць малюнак</string>
+    <string name="icon_save_failed">Не атрымалася захаваць іконку</string>
+    <string name="permission_required">Патрабуецца дазвол</string>
+    <string name="usage_permission_message">Для адлюстравання часу, праведзенага ў гульнях, лаўнчэру патрэбен доступ да статыстыкі выкарыстання.\n\nУключыце дазвол для гэтай праграмы ў спісе, які адкрыецца.</string>
+    <string name="open_settings">Адкрыць налады</string>
+    <string name="shortcut_launch_failed">Не атрымалася запусціць ярлык</string>
+    <string name="enter_number">Увядзіце лік</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_cloud_disabled_warning">⚠️ Функцыі воблачнага рэзервовага капіравання адключаны. Каб іх уключыць, перайдзіце ў раздзел «Эксперыментальныя функцыі абалонкі» (Аб абалонцы → Эксперыментальныя функцыі).</string>
+    <string name="external_storage_unavailable">Знешняе сховішча недаступна</string>
+    <string name="backup_creating">Стварэнне рэзервовай копіі...</string>
+    <string name="backup_created">Рэзервовая копія створана</string>
+    <string name="error_template">Памылка: %s</string>
+    <string name="restore_title">Аднаўленне</string>
+    <string name="restore_confirm_message">Аднаўленне перазапіша ўсе бягучыя налады і даныя. Праграма будзе перазапушчана. Працягнуць?</string>
+    <string name="restoring">Аднаўленне...</string>
+    <string name="restore_complete_restarting">Аднаўленне завершана. Перазапуск...</string>
+    <string name="restore_error_template">Памылка аднаўлення: %s</string>
+
+    <!-- CenterFragment -->
+    <string name="unknown_artist">Невядомы выканаўца</string>
+    <string name="unknown_track">Невядомы трэк</string>
+    <string name="media_app_default">Медыя-праграма</string>
+    <string name="now_playing_in">Цяпер іграе ў %s</string>
+    <string name="now_playing">Цяпер іграе</string>
+    <string name="no_active_media">Няма актыўнага медыя</string>
+    <string name="start_music_video">Запусціце музыку або відэа</string>
+    <string name="no_events_today">Няма падзей на сёння</string>
+    <string name="press_and_hold_to_add_apps">Націсніце і ўтрымлівайце для дадання праграм</string>
+    <string name="no_permission">Няма дазволу</string>
+    <string name="sim_absent">адсутнічае</string>
+    <string name="no_access">Няма доступу</string>
+    <string name="change_name">Змяніць назву</string>
+    <string name="remove_from_favorites">Выдаліць з выбранага</string>
+    <string name="not_enough_items_move">Недастаткова элементаў для перамяшчэння</string>
+    <string name="app_moved">Праграма перамешчана</string>
+    <string name="no_icon_packs_installed">Няма усталяваных пакаў іконак</string>
+    <string name="assign_app_first">Спачатку прызначце праграму на лічыльнік</string>
+    <string name="counter_icon_changed_template">Іконка лічыльніка %d зменена</string>
+    <string name="icon_save_error">Памылка захавання іконкі</string>
+    <string name="name_changed">Назва зменена</string>
+    <string name="app_removed_from_favorites">Праграма выдалена з выбранага</string>
+    <string name="add_to_favorites">Дадаць у выбранае</string>
+    <string name="add_favorite_instruction">Каб дадаць праграму ў выбранае, адкрыйце Хуткія налады і выберыце \'Дадаць у выбранае\'</string>
+    <string name="icon_load_failed">Не атрымалася загрузіць іконку</string>
+    <string name="icon_load_error">Памылка загрузкі іконкі</string>
+    <string name="counter_icon_load_error">Памылка пры загрузцы іконкі лічыльніка</string>
+    <string name="move">Перамясціць</string>
+
+    <!-- DateTimeUpdater -->
+    <string name="default_time_format">HH:mm</string>
+    <string name="default_date_format">dd.MM.yyyy</string>
+    <string name="no_network">Няма сеткі</string>
+    <string name="sim_template">SIM%d</string>
+
+    <!-- ErrorReportActivity -->
+    <string name="no_stack_trace">Няма інфармацыі аб стэку выклікаў</string>
+    <string name="error_report_format">У лаўнчэры адбылася памылка\n\nКод памылкі: %s\n\nТэкст памылкі: %s\n\nСтек выклікаў:\n%s</string>
+    <string name="support_email">craftinglivegames@gmail.com</string>
+    <string name="error_report_subject">Памылка ў CLG Button Phone Launcher</string>
+    <string name="device_info_format">Версія Android: %s\nSDK: %d\nВытворца: %s\nМадэль: %s\nПрылада: %s</string>
+    <string name="email_body_format">Good day!\n\nError\'s text and code: %s\n\nStack trace:\n%s\n\nDevice information:\n%s\n\nPlease fix this error.</string>
+    <string name="send_error_report">Даслаць справаздачу аб памылцы</string>
+    <string name="restart_failed">Не атрымалася перазапусціць</string>
+    <string name="critical_error_message">Адбылася крытычная памылка. Праграма будзе перазапушчана.</string>
+    <string name="default_error_code">ERR-000</string>
+
+    <!-- Volume stream names -->
+    <string name="volume_stream_music">Музыка, відэа, гульні</string>
+    <string name="volume_stream_voice_call">Размова</string>
+    <string name="volume_stream_notification">Выклікі і паведамленні</string>
+    <string name="volume_stream_alarm">Будзільнік</string>
+
+    <!-- GestureEditFragment -->
+    <string name="edit_gesture">Змяніць жэст</string>
+    <string name="new_gesture">Новы жэст</string>
+    <string name="redraw_gesture">Перамаляваць жэст</string>
+    <string name="draw_gesture">Намаляваць жэст</string>
+    <string name="draw_first_gesture">Намаляваць першы жэст</string>
+    <string name="draw_second_gesture">Намаляваць другі жэст</string>
+    <string name="redraw_first_gesture">Перамаляваць першы жэст</string>
+    <string name="draw_first_gesture_first">Спачатку намалюйце першы жэст</string>
+    <string name="draw_second_gesture_first">Намалюйце другі жэст</string>
+    <string name="draw_gesture_first">Спачатку намалюйце жэст</string>
+    <string name="no_overlay_permission">Няма дазволу на паказ паверх іншых вокнаў</string>
+    <string name="app_not_found">Праграма не знойдзена</string>
+    <string name="enter_gesture_name">Увядзіце назву жэста</string>
+    <string name="gesture_updated">Жэст абноўлены</string>
+    <string name="gesture_added">Жэст дададзены</string>
+
+    <!-- GestureListFragment -->
+    <string name="gestures_title">Жэсты праграмы</string>
+    <string name="edit_delete">Змян./Выдал.</string>
+    <string name="delete_gesture_title">Выдаліць жэст?</string>
+    <string name="delete_gesture_message">Выдаліць "%s"?</string>
+    <string name="gesture_deleted">Жэст выдалены</string>
+
+    <!-- LeftFragment -->
+    <string name="default_action_title">Дзеянне %d</string>
+    <string name="default_notification_text">Паведамленне</string>
+    <string name="default_notification_title">Паведамленне</string>
+    <string name="select_action">Выберыце дзеянне</string>
+    <string name="select_action_for_notification">Выберыце дзеянне для паведамлення</string>
+    <string name="notification_options">Опцыі паведамлення</string>
+    <string name="remove_notification">Прыбраць паведамленне</string>
+    <string name="notification_app_settings">Налады паведамленняў праграмы</string>
+    <string name="notification_removed">Паведамленне выдалена</string>
+    <string name="cannot_open_app">Не атрымалася адкрыць праграму</string>
+    <string name="error_opening_app">Памылка пры адкрыцці праграмы</string>
+    <string name="reply_sent_template">Адказ адпраўлены: %s</string>
+    <string name="enter_reply_text">Увядзіце тэкст адказу</string>
+    <string name="all_notifications_cleared">Усе паведамленні выдалены</string>
+    <string name="just_now">толькі што</string>
+    <string name="minutes_ago">%d хвіл. таму</string>
+    <string name="hours_ago">%d г. таму</string>
+    <string name="days_ago">%d дн. таму</string>
+
+    <!-- MainActivity -->
+    <string name="app_error_title">Памылка праграмы</string>
+    <string name="app_error_message_template">Адбылася памылка:\n\n%s\n\nКод памылкі: ERR-%03d</string>
+    <string name="restart">Перазапусціць</string>
+    <string name="exit">Выйсці</string>
+    <string name="wallpaper_permission_title">Дазвол на доступ да шпалераў</string>
+    <string name="wallpaper_load_error">Памылка загрузкі</string>
+    <string name="wallpaper_error_toast">Шпалеры не загружаны: %s\nВыкарыстоўваюцца стандартныя шпалеры лаўнчэра.</string>
+    <string name="miui_permissions_title">Дадатковыя дазволы MIUI</string>
+    <string name="miui_permissions_message">Для карэктнай працы панэлі гучнасці і кіравання арыентацыяй на прыладах Xiaomi неабходна дадаткова ўключыць:\n\n• «Адлюстраванне ўсплывальных вокнаў у фоне»\n• «Паказ на экране блакіроўкі»\n\nГэтыя налады знаходзяцца ў раздзеле «Іншыя дазволы».</string>
+    <string name="developer_settings_title">Патрабуецца налада распрацоўшчыка</string>
+    <string name="developer_settings_message">На Android 12 і вышэй для адлюстравання панэлі гучнасці і кіравання арыентацыяй паверх сістэмных вокнаў (напрыклад, Налад) неабходна ўключыць опцыю:\n\n«Дазволіць адлюстраванне паверх іншых праграм для ўсіх праграм»\n(або «Allow display over other apps» → «Show system overlays»)\n\nЗараз адкрыюцца Налады распрацоўшчыка. Знайдзіце гэту опцыю і ўключыце яе.</string>
+    <string name="call_permission_granted">Дазвол на званкі атрыманы</string>
+    <string name="call_permission_denied">Немагчыма здзейсніць званок: дазвол не прадастаўлены</string>
+    <string name="default_launcher_warning">Усталюйце гэты лаўнчэр па змаўчанні ў налады</string>
+    <string name="clear_all_with_count">Прыбраць усё (%d)</string>
+    <string name="use_hardware_keys">Выкарыстоўвайце апаратныя кнопкі для выбару паведамлення</string>
+    <string name="ok_options_notifications">ОК/Опцыі паведамлення</string>
+    <string name="cannot_open_notification_settings">Не атрымалася адкрыць налады паведамленняў</string>
+    <string name="quick_settings_options">Опцыі хуткіх налад</string>
+    <string name="ok_quick_settings">OK хуткіх налад</string>
+    <string name="edit_shortcuts">Змяніць ярлыкі</string>
+    <string name="select_item">Выбраць элемент</string>
+    <string name="contacts_not_found">Праграма кантактаў не знойдзена</string>
+    <string name="speed_dial_not_assigned">Хуткі набор для лічбы %d не прызначаны</string>
+    <string name="accessibility_service_required_prefix">Для працы наступных функцый неабходна ўключыць службу даступнасці:\n\n</string>
+    <string name="feature_volume_panel">• Новая панэль гучнасці\n</string>
+    <string name="feature_assistant_key">• Клавіша ШІ Асістэнта\n</string>
+    <string name="feature_lock_screen_home">• Блакіроўка кнопкі HOME на экране блакіроўкі\n</string>
+    <string name="accessibility_service_required_suffix">Калі ласка, уключыце \'Global Key Interceptor\' у наладах даступнасці.</string>
+    <string name="notification_permission_title">Дазвол на паведамленні</string>
+    <string name="notification_permission_message">Для адлюстравання інфармацыі аб медыя неабходна прадаставіць доступ да паведамленняў.\n\n1. Адкрыйце Налады → Праграмы → Спецыяльны доступ\n2. Выберыце \'Доступ да паведамленняў\'\n3. Знайдзіце \'Button Phone Launcher\' і ўключыце пераключальнік\n\nБез гэтага медыя-віджэт не будзе працаваць.</string>
+
+    <!-- MediaControlActivity -->
+    <string name="mute_icon">🔇</string>
+    <string name="unmute_icon">🔈</string>
+    <string name="play_pause_icon">▶/⏸</string>
+    <string name="media_action_failed">Не атрымалася выканаць дзеянне</string>
+
+    <!-- NotificationListener -->
+    <string name="notification_channel_name">Служба паведамленняў</string>
+    <string name="notification_channel_description">Служба для адсочвання паведамленняў і медыя</string>
+    <string name="notification_service_title">CLG Button Phone Launcher</string>
+    <string name="notification_service_text">Служба паведамленняў актыўна</string>
+    <string name="action">Дзеянне</string>
+
+    <!-- Media app names -->
+    <string name="media_unknown">Медыя</string>
+    <string name="media_youtube">YouTube</string>
+    <string name="media_spotify">Spotify</string>
+    <string name="media_yandex_music">Яндекс.Музыка</string>
+    <string name="media_vk_music">VK Музыка</string>
+    <string name="media_youtube_music">YouTube Music</string>
+    <string name="media_music">Музыка</string>
+    <string name="media_mi_music">Mi Music</string>
+    <string name="media_netease">NetEase Music</string>
+    <string name="media_qq_music">QQ Music</string>
+    <string name="media_kugou">KuGou Music</string>
+    <string name="media_soundcloud">SoundCloud</string>
+    <string name="media_deezer">Deezer</string>
+    <string name="media_pandora">Pandora</string>
+    <string name="media_video_player">Відэаплэер</string>
+
+    <!-- OrientationControlService -->
+    <string name="orientation_control_disabled">Функцыя кіравання арыентацыяй выключана</string>
+    <string name="orientation_no_overlay_permission">Няма дазволу на адлюстраванне паверх вокнаў</string>
+    <string name="orientation_locked_landscape">Арыентацыя зафіксавана ў гарызантальным рэжыме</string>
+    <string name="orientation_locked_portrait">Арыентацыя зафіксавана ў партрэтным рэжыме</string>
+    <string name="orientation_overlay_failed">Не атрымалася стварыць блакавальнае акно</string>
+    <string name="orientation_channel_name">Кіраванне арыентацыяй</string>
+    <string name="orientation_channel_description">Служба кіравання арыентацыяй экрана</string>
+    <string name="orientation_notification_title">Кіраванне арыентацыяй актыўна</string>
+    <string name="orientation_notification_text">Націсніце для налады</string>
+
+    <!-- PackageListFragment -->
+    <string name="package_list_title">Праграмы</string>
+    <string name="service">Сервіс</string>
+    <string name="select">Выбраць</string>
+    <string name="cannot_change_service_state">Не атрымалася змяніць стан службы</string>
+
+    <!-- QuickSettingsDialog -->
+    <string name="qs_add_to_favorites">Дадаць у выбранае</string>
+    <string name="qs_reorder_favorites">Змяніць парадак выбраных</string>
+    <string name="qs_favorite_names">Назвы выбраных</string>
+    <string name="qs_show_favorite_names">Паказваць назвы ў выбраных праграм</string>
+    <string name="qs_favorite_names_on">Назвы ўключаны</string>
+    <string name="qs_favorite_names_off">Назвы схаваны</string>
+    <string name="qs_speed_dial">Хуткі набор</string>
+    <string name="qs_assign_right_key">Прызначыць на правую клавішу</string>
+    <string name="qs_rename_right_key">Змяніць назву правай клавішы</string>
+    <string name="qs_enter_name">Увядзіце назву</string>
+    <string name="qs_name_changed_to">Назва зменена на: %s</string>
+    <string name="qs_toggle_widgets">Схаваць/адлюстраваць віджэты</string>
+    <string name="qs_sim_settings">Налады адлюстравання SIM-карт</string>
+    <string name="qs_favorite_rows">Колькасць бачных радкоў у выбраных</string>
+    <string name="qs_media_filter">Фільтр для віджэта "Цяпер іграе"</string>
+    <string name="qs_counters">Лічыльнікі</string>
+    <string name="qs_counters_settings">Налада лічыльнікаў</string>
+    <string name="qs_configure_counters">Наладзіць лічыльнікі</string>
+    <string name="qs_choose_counter_icons">Выбраць іконкі</string>
+    <string name="qs_reset_all_counters">Скінуць усе лічыльнікі</string>
+    <string name="qs_select_counter_for_icon">Выберыце лічыльнік для змены іконкі</string>
+    <string name="qs_select_counter_to_configure">Выберыце лічыльнік для налады</string>
+    <string name="qs_counter_with_app">Лічыльнік %d: %s</string>
+    <string name="qs_counter_not_assigned">Лічыльнік %d: не прызначаны</string>
+    <string name="qs_cannot_access_desktop">Памылка: не атрымалася атрымаць доступ да працоўнага стала</string>
+    <string name="qs_counter_assigned">Праграма \'%s\' прызначана на лічыльнік %d</string>
+    <string name="qs_counters_reset">Усе лічыльнікі скінуты, віджэт схаваны</string>
+    <string name="qs_cannot_open_anr_logs">Не атрымалася адкрыць логі ANR</string>
+    <string name="qs_right_button_assigned">Праграма \'%s\' прызначана на правую клавішу</string>
+    <string name="qs_date_format">Фармат даты</string>
+    <string name="qs_time_format">Фармат часу</string>
+    <string name="qs_change_wallpaper">Змяніць шпалеры</string>
+    <string name="qs_new_volume_panel">Новая панэль гучнасці</string>
+    <string name="qs_new_lock_screen">Новы экран блакіроўкі</string>
+    <string name="qs_orientation_control">Кіраванне арыентацыяй экрана</string>
+    <string name="qs_assistant_key">Клавіша ШІ Асістэнта</string>
+    <string name="qs_wallpaper_check">Праверыць і наладзіць шпалеры</string>
+    <string name="qs_about_launcher">Аб абалонцы</string>
+    <string name="qs_anr_logs">Прагляд логаў ANR</string>
+    <string name="qs_phone_settings">Налады тэлефона</string>
+    <string name="qs_select_favorite_apps">Выберыце праграмы для выбранага</string>
+    <string name="qs_favorites_updated">Выбранае абноўлена</string>
+    <string name="qs_no_favorites">Няма выбраных праграм</string>
+    <string name="qs_favorites_reordered">Парадак выбраных зменены</string>
+    <string name="qs_undefined">Не вызначаны</string>
+    <string name="qs_clear_all">Ачысціць усё</string>
+    <string name="qs_speed_dial_all_cleared">Усе прызначэнні хуткага набору выдалены</string>
+    <string name="qs_assign_change_number">Прызначыць/Змяніць нумар</string>
+    <string name="qs_clear">Ачысціць</string>
+    <string name="qs_assign_number">Прызначыць нумар</string>
+    <string name="qs_digit_template">Лічба %d</string>
+    <string name="qs_context_not_activity">Памылка: кантэкст не з\'яўляецца Activity</string>
+    <string name="qs_speed_dial_cleared">Хуткі набор для лічбы %d ачышчаны</string>
+    <string name="qs_widget_calendar">Падзеі календара</string>
+    <string name="qs_widget_now_playing">Цяпер іграе</string>
+    <string name="qs_widget_status">Інфармацыя аб выкліках, SMS і SIM</string>
+    <string name="qs_widget_counters">Лічыльнікі праграм</string>
+    <string name="qs_widget_settings">Налада віджэтаў</string>
+    <string name="qs_widgets_saved">Налады віджэтаў захаваны</string>
+    <string name="qs_widgets_reset">Налады скінуты да значэнняў па змаўчанні</string>
+    <string name="qs_rows_1">1 радок</string>
+    <string name="qs_rows_2">2 радкі</string>
+    <string name="qs_rows_3">3 радкі</string>
+    <string name="qs_rows_4">4 радкі</string>
+    <string name="qs_rows_5">5 радкоў</string>
+    <string name="qs_rows_changed">Колькасць радкоў зменена на %d</string>
+    <string name="qs_wallpaper_info">Інфармацыя аб шпалерах:</string>
+    <string name="qs_android_version">Версія Android:</string>
+    <string name="qs_wallpaper_success">✅ Шпалеры паспяхова загружаны</string>
+    <string name="qs_wallpaper_display_info">Шпалеры будуць адлюстроўвацца на цэнтральным працоўным стале</string>
+    <string name="qs_wallpaper_fail">❌ Шпалеры не загружаны</string>
+    <string name="qs_wallpaper_reason">Прычына:</string>
+    <string name="qs_wallpaper_fallback">Выкарыстоўваюцца стандартныя шпалеры лаўнчэра</string>
+    <string name="qs_wallpaper_checked">Шпалеры правераны</string>
+    <string name="qs_wallpaper_settings">Налады дазволаў</string>
+    <string name="qs_choose_wallpaper">Выберыце шпалеры</string>
+    <string name="qs_wallpaper_error">Памылка пры выбары шпалераў</string>
+    <string name="qs_cannot_open_settings">Не атрымалася адкрыць налады</string>
+    <string name="qs_sim_both">Паказваць абедзве SIM</string>
+    <string name="qs_sim_only1">Толькі SIM 1</string>
+    <string name="qs_sim_only2">Толькі SIM 2</string>
+    <string name="qs_sim_mode_changed">Рэжым адлюстравання SIM зменены</string>
+    <string name="qs_date_changed">Фармат даты зменены</string>
+    <string name="qs_time_changed">Фармат часу зменены</string>
+
+    <!-- Date format examples -->
+    <string name="date_format_example1">Панядзелак, 1 студзеня 2024</string>
+    <string name="date_format_example2">1 студзеня 2024</string>
+    <string name="date_format_example3">01.01.2024</string>
+    <string name="date_format_example4">01/01/2024</string>
+    <string name="date_format_example5">2024-01-01</string>
+    <string name="date_format_example6">1 студз. 2024</string>
+    <string name="date_format_example7">1 Jan 2024</string>
+
+    <!-- Time format examples -->
+    <string name="time_format_example1">23:59 (24-гадзінны)</string>
+    <string name="time_format_example2">11:59 PM (12-гадзінны)</string>
+    <string name="time_format_example3">11:59 (12-гадзінны без AM/PM)</string>
+    <string name="time_format_example4">23:59:59 (24-гадзінны з секундамі)</string>
+    <string name="time_format_example5">11:59:59 PM (12-гадзінны з секундамі)</string>
+    <string name="time_format_example6">11:59:59 (12-гадзінны з секундамі без AM/PM)</string>
+
+    <string name="reset_default">Па змаўчанні</string>
+    <string name="close">Закрыць</string>
+    <string name="no_apps_available">Няма даступных праграм</string>
+
+    <!-- RightFragment -->
+    <string name="permissions_required">Патрабуюцца дазволы</string>
+    <string name="location_bluetooth_permissions_message">Для адлюстравання імя Wi-Fi сеткі і падключаных Bluetooth прылад неабходныя дазволы: доступ да месцазнаходжання (для Wi-Fi) і падключэнне да Bluetooth. Калі ласка, прадастаўце іх.</string>
+    <string name="cannot_open_bluetooth_settings">Не атрымалася адкрыць налады Bluetooth</string>
+    <string name="tile_activation_error_template">Памылка актывацыі: %s</string>
+    <string name="error_changing_setting">Памылка змены налады</string>
+    <string name="wifi_enabled">Wi-Fi уключаны</string>
+    <string name="wifi_disabled">Wi-Fi выключаны</string>
+    <string name="bluetooth_enabled">Bluetooth уключаны</string>
+    <string name="bluetooth_disabled">Bluetooth выключаны</string>
+    <string name="mobile_data_enabled">Мабільныя даныя ўключаны</string>
+    <string name="mobile_data_disabled">Мабільныя даныя выключаны</string>
+    <string name="cannot_open_wifi_settings">Не атрымалася адкрыць налады Wi-Fi</string>
+    <string name="display_settings_opened">Адкрыты налады дысплея</string>
+    <string name="flashlight_unavailable">Ліхтарык недаступны</string>
+    <string name="hotspot_settings_opened">Адкрыты налады кропкі доступу</string>
+    <string name="general_settings_opened">Адкрыты агульныя налады</string>
+    <string name="cannot_open_settings">Не атрымалася адкрыць налады</string>
+    <string name="on">Укл.</string>
+    <string name="off">Выкл.</string>
+    <string name="wifi_location_off">геалакацыя выкл</string>
+    <string name="wifi_no_connection">не падключана</string>
+    <string name="wifi_no_permission">няма доступу (дазвол)</string>
+    <string name="wifi_off">выключаны</string>
+    <string name="bluetooth_no_devices">няма прылад</string>
+    <string name="bluetooth_devices_count">%d прылады</string>
+    <string name="bluetooth_no_permission">няма доступу (дазвол)</string>
+    <string name="bluetooth_off">выключаны</string>
+    <string name="brightness_format">Яркасць: %d%%</string>
+    <string name="no_alarms">няма</string>
+
+    <string name="shizuku_not_installed">Shizuku не усталяваны</string>
+    <string name="shizuku_not_running">Shizuku не запушчаны</string>
+    <string name="shizuku_no_permission">Няма дазволу Shizuku</string>
+    <string name="tile_activated">Плітка актывавана</string>
+    <string name="error_shizuku_template">Памылка Shizuku: %s</string>
+    <string name="quick_settings">Хуткія налады</string>
+    <string name="qs_section_control_record">Кіраванне і запіс</string>
+    <string name="qs_media_control">Кіраванне медыя</string>
+    <string name="qs_screen_record">Запіс экрана</string>
+    <string name="alarm">Будзільнік</string>
+    <string name="qs_section_basic">Асноўныя</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="airplane_mode">Рэжым палёту</string>
+    <string name="mobile_data">Мабільныя даныя</string>
+    <string name="auto_rotate">Аўтапаварот</string>
+    <string name="flashlight">Ліхтарык</string>
+    <string name="silent_mode">Бязгучны рэжым</string>
+    <string name="location">Месцазнаходжанне</string>
+    <string name="battery_saver">Энергазберажэнне</string>
+    <string name="hotspot">Кропка доступу</string>
+    <string name="wifi_adb">Wi-Fi (adb)</string>
+    <string name="bluetooth_adb">Bluetooth (adb)</string>
+    <string name="mobile_data_adb">Маб. даныя (adb)</string>
+    <string name="volume">Гучнасць</string>
+    <string name="qs_section_app_settings">Налады праграм</string>
+    <string name="ok">OK</string>
+
+    <!-- ScreenRecordActivity -->
+    <string name="recording_instructions">🎮 Кіраванне запісам экрана:\n\n• Кнопка ОК: Пачаць/Спыніць запіс (на вылучанай кнопцы)\n• Кнопкі Улева/Управа: Пераключэнне паміж кнопкамі\n• Кнопкі Уверх/Уніз: Пракрутка інструкцыі\n\n🔧 Ніжняя панэль кіравання:\n• Левая софт-клавіша (Menu): Адкрыць тэчку з запісамі\n• Правая софт-клавіша (Назад):\n    - Вярнуцца на працоўны стол або, падчас запісу, згарнуць акно рэкордара\n\n\n🎥 Кіраванне падчас запісу:\n• Кнопка ОК: Спыніць запіс\n• Кнопка Menu (левая софт): Паставіць на паўзу/Аднавіць\n• Кнопка 0 (доўгае націсканне): Вярнуцца ў гэта меню\n\n💾 Відэа захоўваюцца ў тэчцы:\nDCIM/ScreenRecorder CLGBPL</string>
+    <string name="recording_started">Запіс пачаты</string>
+    <string name="recording_paused">Запіс на паўзе</string>
+    <string name="resume">Аднавіць</string>
+    <string name="recording_in_progress">Ідзе запіс...</string>
+    <string name="recording_saved_template">✅ Запіс захаваны: %s</string>
+    <string name="recording_file_invalid_template">⚠️ Файл не знойдзены ці занадта маленькі: %s</string>
+    <string name="recording_error_template">❌ Памылка запісу: %s</string>
+    <string name="unknown_error">Невядомая памылка</string>
+    <string name="folder">Тэчка</string>
+    <string name="cannot_create_recordings_folder">Не атрымалася стварыць тэчку для запісаў</string>
+    <string name="preparing_recording">Падрыхтоўка запісу...</string>
+    <string name="recording_start_error_template">Памылка запуску: %s</string>
+    <string name="screen_recording_permission_denied">Дазвол на запіс экрана не прадастаўлены</string>
+    <string name="overlay_permission_denied">Дазвол на адлюстраванне паверх вокнаў не прадастаўлены</string>
+    <string name="accessibility_service_enabled">Служба даступнасці ўключана</string>
+    <string name="recording_stop_error_template">Памылка прыпынку: %s</string>
+    <string name="pause">Паўза</string>
+    <string name="open_folder">Адкрыць тэчку</string>
+    <string name="cannot_open_folder">Не атрымалася адкрыць тэчку</string>
+    <string name="accessibility_dialog_message_for_recording">Для глабальнага перахопу кнопкі 0 неабходна ўключыць службу даступнасці.\n\n1. Націсніце \'Налады\'\n2. Знайдзіце \'Службы даступнасці\'\n3. Уключыце \'Global Key Interceptor\'</string>
+    <string name="settings">Налады</string>
+    <string name="later">Пазней</string>
+
+    <!-- SetupActivity -->
+    <string name="next">Далей</string>
+    <string name="setup_step_title">Сардэчна запрашаем!</string>
+    <string name="setup_step_description">Сардэчна запрашаем у лаўнчэр для кнопкавых тэлефонаў!\n\nГэты лаўнчэр распрацаваны спецыяльна для прылад з апаратнымі кнопкамі.</string>
+    <string name="setup_button_next">Пачаць наладу</string>
+    <string name="setup_permissions_title">Крок 1: Дазволы</string>
+    <string name="setup_permissions_description">Для карэктнай працы лаўнчэра неабходныя наступныя дазволы:</string>
+    <string name="setup_permissions_list">• Доступ да кантактаў і званкоў\n• Доступ да гісторыі выклікаў\n• Доступ да SMS паведамленняў\n• Доступ да календара\n• Доступ да стану тэлефона\n• Доступ да медыяфайлаў (фота, відэа, аўдыё)\n• Дазвол на адлюстраванне паверх іншых вокнаў</string>
+    <string name="setup_request_permissions">Запытаць дазволы</string>
+    <string name="setup_overlay_title">Крок 2: Дазвол паверх вокнаў</string>
+    <string name="setup_overlay_description">Лаўнчэру патрэбны дазвол на адлюстраванне паверх іншых праграм для працы сэрвісу і віджэтаў.</string>
+    <string name="setup_request_overlay">Запытаць дазвол</string>
+    <string name="skip">Прапусціць</string>
+    <string name="setup_navigation_title">Крок %d: Навігацыя</string>
+    <string name="setup_assign_up">Прызначце кнопку для навігацыі УВЕРХ\n\n%s</string>
+    <string name="setup_assign_down">Прызначце кнопку для навігацыі УНІЗ\n\n%s</string>
+    <string name="setup_assign_left">Прызначце кнопку для навігацыі УЛЕВА\n\n%s</string>
+    <string name="setup_assign_right">Прызначце кнопку для навігацыі УПРАВА\n\n%s</string>
+    <string name="setup_ok_title">Крок 7: Выбар</string>
+    <string name="setup_assign_ok">Прызначце кнопку ОК/ВЫБАР (цэнтральную кнопку D-Pad)\n\n%s</string>
+    <string name="setup_left_soft_title">Крок 8: Левая софт-клавіша</string>
+    <string name="setup_assign_left_soft">Прызначце левую софт-клавішу\n\n%s</string>
+    <string name="setup_right_soft_title">Крок 9: Правая софт-клавіша</string>
+    <string name="setup_assign_right_soft">Прызначце правую софт-клавішу\n\n%s</string>
+    <string name="assign">Прызначыць</string>
+    <string name="current_key">Бягучая клавіша: %s</string>
+    <string name="key_code_format">Код: %d</string>
+    <string name="finish">Завяршыць</string>
+    <string name="setup_complete_title">Налада завершана!</string>
+    <string name="setup_complete_description">Усе дазволы прадастаўлены і клавішы прызначаны.\n\nЛаўнчэр гатовы да выкарыстання!</string>
+    <string name="setup_hint_press_key">Націсніце любую фізічную кнопку на тэлефоне...</string>
+    <string name="setup_hint_back_key">(Звычайна выкарыстоўваецца кнопка НАЗАД)</string>
+    <string name="setup_press_key_toast">Націсніце любую кнопку для прызначэння.</string>
+    <string name="setup_key_assigned">Прызначана клавіша: %s</string>
+    <string name="setup_permissions_granted">Усе дазволы прадастаўлены!</string>
+    <string name="setup_permissions_not_granted">Некаторыя дазволы не прадастаўлены. Функцыі могуць працаваць няпоўнацэнна.</string>
+    <string name="setup_overlay_granted">Дазвол прадастаўлены!</string>
+    <string name="setup_overlay_not_granted">Дазвол не прадастаўлены. Некаторыя функцыі могуць не працаваць.</string>
+    <string name="setup_assignment_cancelled">Прызначэнне адменена</string>
+
+    <!-- WidgetsActivity -->
+    <string name="widgets_title">Віджэты праграм</string>
+    <string name="loading_widgets">Загрузка віджэтаў...</string>
+    <string name="widget_data_lost">Памылка: даныя віджэта страчаны</string>
+    <string name="widget_add_cancelled">Дадаванне віджэта адменена</string>
+    <string name="widget_info_error">Не атрымалася атрымаць інфармацыю аб віджэце</string>
+    <string name="widget_configure_unavailable">Канфігурацыя віджэта недаступная, віджэт дададзены без налады</string>
+    <string name="widget_id_mismatch">Памылка: ID віджэта не супадае</string>
+    <string name="widget_auto_update_disabled">Аўтаабнаўленне адключана</string>
+    <string name="widget_interval_changed">Інтэрвал абнаўлення зменены</string>
+    <string name="widget_already_exists">Віджэт ужо дададзены</string>
+    <string name="widget_added">Віджэт дададзены</string>
+    <string name="widget_add">Дадаць віджэт</string>
+    <string name="widget_auto_update_interval">Частата аўтаабнаўлення</string>
+    <string name="widget_automation">Аўтаматызацыя віджэтаў</string>
+    <string name="widget_revive_options">Опцыі аднаўлення віджэтаў</string>
+    <string name="widget_options_saved">Опцыі захаваны</string>
+    <string name="widget_automation_add">Дадаць дзеянне</string>
+    <string name="widget_no_widgets">Няма дададзеных віджэтаў</string>
+    <string name="widget_unknown">Віджэт %d</string>
+    <string name="widget_automation_select_widget">Выберыце віджэт</string>
+    <string name="widget_not_visible">Віджэт не бачны, паспрабуйце пазней</string>
+    <string name="widget_no_clickable_elements">У віджэце няма клікабельных элементаў</string>
+    <string name="widget_automation_select_action">Выберыце дзеянне</string>
+    <string name="widget_automation_configure_template">Налада аўтаматызацыі: %s</string>
+    <string name="widget_automation_added">Аўтаматызацыя дададзена</string>
+    <string name="widget_no_automations">Няма наладжаных аўтаматызацый</string>
+    <string name="widget_automation_item_template">Віджэт %d: %s%s%s</string>
+    <string name="widget_automation_on_start"> [пры старце]</string>
+    <string name="widget_automation_interval"> [кожныя %d мс]</string>
+    <string name="widget_automation_manage">Кіраванне аўтаматызацыямі</string>
+    <string name="widget_automation_edit_template">Рэдагаваць: %s</string>
+    <string name="widget_automation_updated">Зменена</string>
+    <string name="widget_automation_deleted">Выдалена</string>
+    <string name="widget_not_enough_for_reorder">Недастаткова віджэтаў для змены парадку</string>
+    <string name="widget_reorder">Змяніць парадак віджэтаў</string>
+    <string name="widget_reorder_success">Парадак віджэтаў зменены</string>
+    <string name="widget_auto_update_interval_dialog">Інтэрвал абнаўлення (мс)\n0 - адключыць\nБягучы: %d</string>
+    <string name="widget_interval_negative">Інтэрвал не можа быць адмоўным</string>
+    <string name="widget_invalid_number">Няправільны лік</string>
+    <string name="widget_delete">Выдаліць віджэт</string>
+    <string name="widget_settings">Налады віджэта</string>
+    <string name="widget_height">Вышыня віджэта</string>
+    <string name="widget_options">Опцыі віджэта</string>
+    <string name="widget_settings_unavailable">Налады віджэта недаступны</string>
+    <string name="widget_select_height">Выберыце вышыню віджэта</string>
+    <string name="widget_height_auto">Аўта</string>
+    <string name="widget_no_action">Няма віджэта для дзеяння</string>
+    <string name="widget_action_performed">Дзеянне выканана</string>
+    <string name="widget_error_info_missing">Памылка: інфармацыя аб віджэце адсутнічае\n(націсніце ОК для выдалення)</string>
+    <string name="widget_error_load_failed">Памылка: не атрымалася загрузіць віджэт\n(націсніце ОК для выдалення)</string>
+    <string name="widget_action_icon_button">🖼️ Кнопка (іконка)</string>
+    <string name="widget_action_button">🔘 Кнопка</string>
+    <string name="widget_action_text_button">📝 Тэкставая кнопка</string>
+    <string name="widget_action_container">🗂️ Кантэйнер (націсніце)</string>
+    <string name="widget_action_default_template">⚙️ %s (кнопка)</string>
+
+    <string name="delete">Выдаліць</string>
+    <string name="save">Захаваць</string>
+    <string name="apply">Прымяніць</string>
+    <string name="cancel">Адмена</string>
+    <string name="parameters">Параметры</string>
+    <string name="ok_options">ОК/Опцыі</string>
+    <string name="back">Назад</string>
+</resources>
