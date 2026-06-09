@@ -1,0 +1,1173 @@
+<resources>
+    <string name="app_name">按鈕手機啟動器</string>
+    <string name="app_version">版本 1.0</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_title">啟動器設定</string>
+    <string name="setup_description">啟動器需要以下權限：</string>
+    <string name="grant_permissions">授予權限</string>
+
+    <!-- ADB Permissions Activity -->
+    <string name="adb_permissions_title">ADB 權限設定</string>
+    <string name="check_again">再次檢查</string>
+    <string name="open_shizuku">打開 Shizuku</string>
+    <string name="skip_for_now">跳過（不建議）</string>
+    <string name="permission_required_message">某些功能需要系統權限</string>
+
+    <!-- Main Activity -->
+    <string name="menu_button">選單</string>
+    <string name="ok_options_button">確定/選項</string>
+    <string name="contacts_button">聯絡人</string>
+
+    <!-- Bottom bar -->
+    <string name="menu">選單</string>
+    <string name="dialer">撥號</string>
+    <string name="contacts">聯絡人</string>
+    <string name="messages">訊息</string>
+    <string name="browser">瀏覽器</string>
+    <string name="camera">相機</string>
+    <string name="gallery">圖庫</string>
+    <string name="music">音樂</string>
+    <string name="calculator">計算機</string>
+
+    <!-- Desktop pages -->
+    <string name="options">選項</string>
+    <string name="open">開啟</string>
+    <string name="remove_all">全部清除</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="wallpaper_settings">桌布</string>
+    <string name="theme_settings">主題</string>
+    <string name="appearance_settings">外觀</string>
+    <string name="behavior_settings">行為</string>
+    <string name="about">關於</string>
+
+    <!-- Quick Settings -->
+    <string name="rotation_lock">旋轉鎖定</string>
+
+    <!-- Dialog -->
+    <string name="select_app">選擇應用程式</string>
+    <string name="ok_dialog">確定</string>
+
+    <!-- Feature phone strings -->
+    <string name="soft_key_left">左軟鍵</string>
+    <string name="soft_key_right">右軟鍵</string>
+    <string name="dpad_up">上</string>
+    <string name="dpad_down">下</string>
+    <string name="dpad_left">左</string>
+    <string name="dpad_right">右</string>
+    <string name="dpad_center">確定/選擇</string>
+
+    <!-- Error Report Activity -->
+    <string name="error_report_title">啟動器錯誤</string>
+    <string name="report_error_button">回報錯誤</string>
+    <string name="restart_launcher_button">重新啟動啟動器</string>
+
+    <!-- Media Widget Filter -->
+    <string name="media_filter_title">「正在播放」小工具過濾</string>
+    <string name="media_filter_save">儲存</string>
+    <string name="media_filter_cancel">取消</string>
+    <string name="media_filter_select_all">全部</string>
+    <string name="media_filter_saved">過濾已儲存</string>
+    <string name="media_filter_all_allowed">允許所有應用程式</string>
+
+    <string name="content_description_counters">計數器</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">通知</string>
+    <string name="clear_all_notifications">全部清除</string>
+    <string name="clear_all_dialog_title">清除所有通知</string>
+    <string name="clear_all_dialog_message">清除（標記已讀）所有通知？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="reply_to_notification">回覆通知</string>
+    <string name="enter_reply_hint">輸入回覆...</string>
+    <string name="press_ok_to_send">按確定傳送</string>
+    <string name="send">傳送</string>
+    <string name="notification_parameters">參數</string>
+    <string name="notification_ok_options">確定/選項</string>
+
+    <string name="accessibility_service_description">用於在螢幕錄製期間全域攔截按鍵 0、攔截其他按鍵以控制方向、音量鍵、音量面板、手勢和螢幕游標，以及應用程式提供的其他功能的服務。</string>
+
+    <string name="restart_warning">若要套用設定，請手動重新啟動啟動器</string>
+    <string name="experimental_link">外殼實驗性功能</string>
+    <string name="search_hint">輸入名稱...</string>
+    <string name="loading_apps">載入應用程式清單...</string>
+
+    <string name="add_shortcut">新增捷徑</string>
+    <string name="choose_shortcut">選擇捷徑</string>
+
+    <string name="shizuku_diagnostic_title">Shizuku 診斷</string>
+    <string name="shizuku_installed_yes">Shizuku 已安裝：✅ 是</string>
+    <string name="shizuku_installed_no">Shizuku 已安裝：❌ 否</string>
+    <string name="shizuku_running_yes">Shizuku 活躍：✅ 是</string>
+    <string name="shizuku_running_no">Shizuku 活躍：❌ 否</string>
+    <string name="shizuku_permission_yes">啟動器權限：✅ 已授予</string>
+    <string name="shizuku_permission_no">啟動器權限：❌ 未授予</string>
+    <string name="shizuku_install_prompt">從應用程式商店安裝 Shizuku 並啟用它。</string>
+    <string name="shizuku_start_prompt">啟動 Shizuku 並執行啟用（ADB 或 root）。</string>
+    <string name="shizuku_grant_prompt">在 Shizuku 應用程式中授予啟動器權限。</string>
+
+    <string name="lock_screen_unlock_combo">解鎖按鍵組合：確定 + %s</string>
+    <string name="lock_screen_system_active">活躍</string>
+    <string name="lock_screen_system_inactive">不活躍</string>
+    <string name="lock_screen_system_hint">按確定進入標準鎖定螢幕設定並停用它以避免重複。</string>
+    <string name="key_gesture_service_description">用於將手勢分配給硬體按鍵的服務</string>
+    <string name="cursor_menu">螢幕游標</string>
+    <string name="accessibility_cursor_desc">用於導航的螢幕游標</string>
+    <string name="cursor_animation_show">游標出現動畫</string>
+    <string name="cursor_hover_elements">介面元素對游標有反應</string>
+    <string name="cursor_scroll_digits">用數字鍵滾動（2/8/4/6）</string>
+    <string name="cursor_scroll_acceleration">滾動加速</string>
+    <string name="cursor_sound_click">點擊聲音</string>
+    <string name="cursor_hide_keyboard">鍵盤開啟時隱藏</string>
+
+    <!-- About Launcher Activity -->
+    <string name="about_launcher_title">關於外殼</string>
+    <string name="about_launcher_version">版本：1.0</string>
+    <string name="about_launcher_beta">發行：測試版</string>
+    <string name="about_launcher_description">CLG 按鈕手機啟動器\n\n適用於 Android 功能型手機的啟動器\n專為帶硬體按鍵的裝置開發</string>
+
+    <string name="link_team">團隊：CraftingLiveGames</string>
+    <string name="link_publisher">發行商：CLG Publisher</string>
+    <string name="link_developer">開發者：Nikita Shustol</string>
+    <string name="link_consultant">顧問：Nikita Shakarun</string>
+    <string name="link_github">原始碼在 GitHub 上可用</string>
+    <string name="link_donate">在 DonationAlerts 上支持開發者</string>
+
+    <string name="experimental_features_link">外殼實驗性功能</string>
+    <string name="backup_restore_link">備份和還原</string>
+    <string name="policy_link">隱私權政策與使用者協議</string>
+
+    <!-- ANR Logs Activity -->
+    <string name="anr_logs_title">ANR 錯誤日誌</string>
+    <string name="clear_all_logs">清除所有日誌</string>
+    <string name="no_anr_logs">未找到 ANR 日誌</string>
+
+    <!-- Game stats templates -->
+    <string name="downloads_count_template">下載次數：%s</string>
+    <string name="rating_template">評分：%s</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_restore_title">備份和還原</string>
+    <string name="backup_local">本地備份（ZIP）</string>
+    <string name="restore_local">從本地 ZIP 還原</string>
+    <string name="backup_google_drive">備份到 Google Drive</string>
+    <string name="restore_google_drive">從 Google Drive 還原</string>
+    <string name="backup_yandex_disk">備份到 Yandex.Disk</string>
+    <string name="restore_yandex_disk">從 Yandex.Disk 還原</string>
+    <string name="backup_info_text">備份將包括：\n\n• 所有啟動器設定（SharedPreferences）\n• 選單資料（資料夾、應用程式、捷徑及其順序）\n• 自訂圖示和橫幅\n• 螢幕游標、手勢等設定\n\n還原將覆蓋目前資料並需要重新啟動應用程式。</string>
+
+    <!-- Cursor Activity -->
+    <string name="cursor_toggle">啟用 / 停用</string>
+    <string name="cursor_select_apps">選擇應用程式</string>
+    <string name="cursor_app_selector_title">選擇應用程式</string>
+    <string name="cursor_app_selector_hint">游標將自動出現在所選應用程式中，退出或最小化時隱藏。</string>
+    <string name="cursor_select_all">全選</string>
+
+    <string name="cursor_settings_title">游標設定</string>
+    <string name="cursor_speed_template">速度：%d px</string>
+    <string name="cursor_size_template">大小：%d dp</string>
+    <string name="cursor_timeout_template">逾時：%d 秒</string>
+    <string name="cursor_icon_label">圖示：%s</string>
+    <string name="cursor_select_icon">選擇圖示</string>
+    <string name="cursor_toggle_key_hint">分配的按鈕在任意應用程式中長按時切換/隱藏游標。</string>
+    <string name="cursor_toggle_key_label">手動開/關按鈕：%s</string>
+    <string name="cursor_assign_button">分配按鈕</string>
+
+    <!-- Experimental Features Activity -->
+    <string name="experimental_features_title">外殼實驗性功能</string>
+    <string name="experimental_features_description">這些功能可能在某些裝置上無法正常運作，但您可以嘗試，它們擴展了功能。其中一些需要完善或完全重新設計。此外，其中一些功能旨在收集使用者的額外資訊，以便在回報錯誤時向開發者提供更完整的報告。</string>
+
+    <string name="anr_handler_label">自訂 ANR 處理程式</string>
+    <string name="anr_handler_description">添加一個額外的「應用程式無回應」錯誤處理程式，用於擷取導致卡死的錯誤文字。</string>
+
+    <string name="wallpaper_check_label">桌布檢查</string>
+    <string name="wallpaper_check_description">添加一個桌布檢查項目，用於確定為何外殼無法在桌面上顯示您的桌布。</string>
+
+    <string name="joypad_swap_label">螢幕方向改變時交換 DPAD 按鈕</string>
+    <string name="joypad_swap_description">實驗性功能，在螢幕旋轉時交換上/下/左/右實體按鈕，以保持導航邏輯。</string>
+
+    <string name="global_icon_pack_label">全域圖示包</string>
+    <string name="global_icon_pack_description">嘗試從圖示包自動為應用程式選單選取圖示，但目前實作通常無法正確識別圖示，並且在「所有應用程式」資料夾中不起作用。</string>
+
+    <string name="edit_all_apps_label">在「所有應用程式」中編輯</string>
+    <string name="edit_all_apps_description">添加在「所有應用程式」資料夾中編輯應用程式名稱和圖示的功能，但運作不穩定。</string>
+
+    <string name="cursor_hover_elements_label">介面元素對螢幕游標有反應</string>
+    <string name="cursor_hover_elements_description">添加游標設定，用於高亮游標下的元素（例如瀏覽器中的連結），但在大多數裝置上不起作用。</string>
+
+    <string name="lock_screen_experimental_label">新鎖定螢幕（實驗性）</string>
+    <string name="lock_screen_experimental_description">草稿未完成的自訂鎖定螢幕，運作不穩定，並非所有功能都已完成。將來可能會完成。</string>
+
+    <string name="google_drive_backup_label">透過 Google Drive 備份（實驗性）</string>
+    <string name="google_drive_backup_description">雲端備份的初步實作，需要在 Google 用戶端方面進行額外工作，可能無法在您這裡運作。</string>
+
+    <string name="yandex_disk_backup_label">透過 Yandex.Disk 備份（實驗性）</string>
+    <string name="yandex_disk_backup_description">透過 Yandex.Disk 進行備份的實驗性實作。需要在 Yandex OAuth 上註冊應用程式並在程式碼中指定用戶端 ID。</string>
+
+    <!-- Key Gesture Activity -->
+    <string name="key_gesture_title">手勢分配</string>
+
+    <!-- Lock Screen Settings Activity -->
+    <string name="lock_screen_settings_title">新鎖定螢幕</string>
+    <string name="lock_screen_wallpaper">更換鎖定螢幕桌布</string>
+    <string name="lock_screen_enable">啟用新鎖定螢幕</string>
+    <string name="lock_screen_assign_second_key">分配第二個解鎖按鈕</string>
+    <string name="lock_screen_unlock_sound">解鎖聲音</string>
+    <string name="lock_screen_lock_sound">鎖定聲音（螢幕關閉時）</string>
+    <string name="lock_screen_left_key">左軟鍵</string>
+    <string name="lock_screen_left_action">選擇左軟鍵操作</string>
+    <string name="lock_screen_left_rename">重新命名左軟鍵</string>
+    <string name="lock_screen_right_key">右軟鍵</string>
+    <string name="lock_screen_right_action">選擇右軟鍵操作</string>
+    <string name="lock_screen_right_rename">重新命名右軟鍵</string>
+    <string name="lock_screen_bypass_left">即使啟用了額外保護也執行左軟鍵操作</string>
+    <string name="lock_screen_bypass_right">即使啟用了額外保護也執行右軟鍵操作</string>
+    <string name="lock_screen_protection">啟用額外保護</string>
+    <string name="lock_screen_use_pin">使用 PIN 碼</string>
+    <string name="lock_screen_use_pattern">使用圖形</string>
+    <string name="lock_screen_set_pin">設定 PIN 碼</string>
+    <string name="lock_screen_set_pattern">設定圖形</string>
+    <string name="lock_screen_power_fix">用電源鍵鎖定螢幕（實驗性）</string>
+    <string name="lock_screen_system_status">Android 標準鎖定螢幕狀態：%s</string>
+
+    <!-- Media Control Activity -->
+    <string name="media_control_title">媒體控制</string>
+    <string name="volume_template">音量：%d/%d</string>
+    <string name="volume_up">增大音量</string>
+    <string name="volume_down">減小音量</string>
+    <string name="play_pause">播放/暫停</string>
+    <string name="previous_track">上一曲</string>
+    <string name="next_track">下一曲</string>
+    <string name="mute">靜音</string>
+    <string name="stop">停止</string>
+    <string name="shortcut_1">1</string>
+    <string name="shortcut_2">2</string>
+
+    <!-- Notification Settings Activity -->
+    <string name="notification_settings_title">通知設定</string>
+    <string name="notification_settings_placeholder">啟動器的通知設定將顯示於此</string>
+
+    <!-- Screen Record Activity -->
+    <string name="screen_record_title">螢幕錄製</string>
+    <string name="recording_status_inactive">錄製未啟用</string>
+    <string name="recording_timer_placeholder">00:00:00</string>
+    <string name="start_recording">開始錄製</string>
+    <string name="recording">錄製</string>
+
+    <!-- Settings Activity -->
+    <string name="launcher_settings_title">啟動器設定</string>
+    <string name="settings_placeholder">設定將顯示於此</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_permissions_required">啟動器需要：</string>
+    <string name="setup_button_skip">跳過</string>
+    <string name="setup_hint_text">提示：按手機上的實體按鈕進行分配</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="circle_tracker">追蹤器</string>
+    <string name="cursor_description">游標</string>
+
+    <!-- ADB Instructions Dialog -->
+    <string name="copy_commands">複製指令</string>
+    <string name="execute_via_shizuku">透過 Shizuku 執行</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_error_message">AI 沒有回應。開發者的 API 金鑰可能不可用或暫時無法運作。您可以從 NVIDIA 或官方 API 獲取自己的免費 DeepSeek 金鑰並使用它。付費金鑰也可用。</string>
+    <string name="go_nvidia_site">前往 NVIDIA 網站</string>
+    <string name="go_deepseek_site">前往 DeepSeek 網站</string>
+    <string name="enter_nvidia_key">輸入 NVIDIA 金鑰</string>
+    <string name="enter_deepseek_key">輸入 DeepSeek 金鑰</string>
+    <string name="app_selector_content_description">待選擇的應用程式清單</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_not_assigned">分配 AI 助理鍵：未分配</string>
+    <string name="assistant_key_enable">長按 AI 助理鍵時啟用數位助理呼叫</string>
+    <string name="assistant_key_choose_assistant">選擇數位助理</string>
+
+    <!-- Automation Config Dialog -->
+    <string name="automation_on_start">打開小工具螢幕時執行</string>
+    <string name="automation_interval_label">間隔（毫秒）：</string>
+    <string name="automation_interval_hint">0 — 停用</string>
+    <string name="automation_interval_description">0 = 僅在啟動時執行（如果複選框已勾選）\n&gt;0 = 在活動開啟期間每 N 毫秒執行</string>
+
+    <!-- Banner Animations Dialog -->
+    <string name="banner_transition_animation">標題切換動畫</string>
+    <string name="background_animation">背景動畫</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness">亮度</string>
+
+    <!-- Edit Player Dialog -->
+    <string name="change_icon">更改圖示</string>
+    <string name="nickname_hint">暱稱</string>
+    <string name="generate_nick">產生暱稱</string>
+
+    <!-- Game Center Stats Dialog -->
+    <string name="show_downloads_rating">顯示下載次數和評分</string>
+    <string name="show_play_time">顯示遊戲時長</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_enabled">啟用遊戲模式（不會自動關閉；要關閉，請返回此視窗並取消勾選此框）</string>
+    <string name="game_mode_disable_notifications">停用通知</string>
+    <string name="game_mode_lower_brightness">降低螢幕亮度</string>
+    <string name="game_mode_enable_dnd">啟用勿擾模式</string>
+    <string name="game_mode_disable_battery_saver">自動停用省電模式</string>
+    <string name="game_mode_clear_background_apps">清除背景應用程式</string>
+    <string name="game_mode_disable_perf_limit">停用 Android 效能限制器（CPU 超頻，風險自擔）</string>
+    <string name="search_hint2">搜尋...</string>
+
+    <!-- New Volume Panel Dialog -->
+    <string name="volume_up_not_assigned">分配音量增大鍵：未分配</string>
+    <string name="volume_down_not_assigned">分配音量減小鍵：未分配</string>
+    <string name="volume_panel_enable">啟用/停用新音量面板</string>
+    <string name="number_picker_description">數字選擇器</string>
+
+    <!-- Orientation Control Dialog -->
+    <string name="orientation_key_not_assigned">分配方向更改按鈕：未分配</string>
+    <string name="orientation_enable">啟用方向控制</string>
+    <string name="orientation_rotate_joypad">旋轉搖桿（交換上/右和下/左）</string>
+
+    <!-- Player Stats Dialog -->
+    <string name="player_stats_title">玩家總統計</string>
+    <string name="player_default_nickname">玩家</string>
+    <string name="share">分享</string>
+    <string name="quick_settings_list_description">快速設定清單</string>
+
+    <!-- Common buttons -->
+    <string name="cancel2">取消</string>
+
+    <!-- Revive Options Dialog -->
+    <string name="revive_update_size">更新小工具大小（updateAppWidgetSize）</string>
+    <string name="revive_update_options">更新選項（updateAppWidgetOptions）</string>
+    <string name="revive_start_listening">重新啟動監聽（startListening）</string>
+    <string name="revive_broadcast">傳送廣播更新</string>
+    <string name="revive_visibility">呼叫 dispatchWindowVisibilityChanged</string>
+    <string name="revive_invalidate">呼叫 invalidate()</string>
+    <string name="revive_recommended">推薦：1 + 3 + 5</string>
+    <string name="search_hint3">輸入名稱...</string>
+
+    <!-- Volume Dialog -->
+    <string name="more">更多</string>
+    <string name="sound_mode_normal">一般模式</string>
+    <string name="sound_mode_vibrate">震動</string>
+    <string name="sound_mode_silent">靜音</string>
+    <string name="recording_icon_description">錄製圖示</string>
+
+    <!-- Center Fragment -->
+    <string name="calendar_events_title">日曆事件</string>
+    <string name="artist_placeholder">藝術家</string>
+    <string name="title_placeholder">曲目標題</string>
+    <string name="sim1_placeholder">SIM1</string>
+    <string name="sim2_placeholder">SIM2</string>
+
+    <!-- Gesture Edit Fragment -->
+    <string name="gesture_key_label">按鈕：</string>
+    <string name="gesture_action_label">事件：</string>
+    <string name="gesture_draw_label">繪製手勢：</string>
+    <string name="gesture_draw_button">繪製手勢</string>
+    <string name="gesture_name_label">名稱：</string>
+    <string name="gesture_description_label">描述：</string>
+    <string name="notifications_title2">通知</string>
+    <string name="reply_to_notification2">回覆通知</string>
+    <string name="enter_reply_hint2">輸入回覆...</string>
+    <string name="press_ok_to_send2">按確定傳送</string>
+    <string name="send2">傳送</string>
+    <string name="gesture_service">手勢服務</string>
+    <string name="anr_log_name">ANR 日誌</string>
+    <string name="share_log">分享日誌</string>
+    <string name="placeholder_app_name">名稱</string>
+    <string name="notification_actions_hint">按確定選擇操作</string>
+    <string name="gesture_count_loading">手勢：載入中...</string>
+    <string name="unlock">解鎖</string>
+    <string name="button_description">按鈕</string>
+
+    <!-- App Selector Activity -->
+    <string name="cursor_select_button">選取</string>
+    <string name="cursor_selection_title">選取</string>
+    <string name="cursor_clear_all">全部取消</string>
+    <string name="cursor_list_saved">清單已儲存</string>
+
+    <!-- Gesture Actions -->
+    <string name="gesture_action_down">按下</string>
+    <string name="gesture_action_up">鬆開</string>
+    <string name="gesture_action_two">同時按下</string>
+    <string name="gestures_count">手勢數：%d</string>
+
+    <!-- Cursor Settings Activity -->
+    <string name="cursor_press_button">按按鈕...</string>
+    <string name="cursor_speed_label">速度：%d px</string>
+    <string name="cursor_size_label">大小：%d dp</string>
+    <string name="cursor_timeout_label">逾時：%d 秒</string>
+    <string name="cursor_icon_prefix">圖示：%s</string>
+    <string name="cursor_icon_custom">圖示：自訂</string>
+    <string name="cursor_toggle_key_not_assigned">手動開/關按鈕：未分配</string>
+    <string name="cursor_toggle_key_prefix">按鈕：%s</string>
+    <string name="cursor_pick_icon_title">選擇游標圖示</string>
+    <string name="cursor_from_gallery">從圖庫</string>
+    <string name="cursor_key_saved">按鈕已儲存</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_key_error_title">API 金鑰錯誤</string>
+    <string name="nvidia_key_dialog_title">NVIDIA 金鑰</string>
+    <string name="deepseek_key_dialog_title">DeepSeek 金鑰</string>
+    <string name="key_saved_toast">金鑰已儲存</string>
+
+    <!-- App Options Dialog -->
+    <string name="app_option_change_name">更改名稱</string>
+    <string name="app_option_change_icon">更改圖示</string>
+    <string name="app_option_change_focused_icon">更改聚焦圖示</string>
+    <string name="app_option_update_description">更新描述</string>
+    <string name="app_option_edit_description">編輯描述</string>
+    <string name="app_option_change_banner">更改橫幅</string>
+    <string name="app_option_game_platform">遊戲類型/平台</string>
+    <string name="app_option_app_settings">應用程式設定</string>
+    <string name="app_option_remove_from_folder">從資料夾移除</string>
+    <string name="app_option_uninstall">解除安裝應用程式</string>
+    <string name="app_option_move">移動</string>
+    <string name="app_option_cancel">取消</string>
+
+    <string name="app_option_new_name_title">新名稱</string>
+    <string name="app_option_enter_description_title">輸入遊戲描述</string>
+    <string name="app_option_enter_platform_title">遊戲類型/平台</string>
+    <string name="app_option_default_platform">手機遊戲</string>
+
+    <string name="app_option_searching_description">正在搜尋描述...</string>
+    <string name="app_option_description_updated">描述已更新</string>
+    <string name="app_option_no_internet">無網路連線。請連線後重試。</string>
+    <string name="app_option_description_not_found">未找到描述。您可以手動添加。</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_dialog_title">分配 AI 助理鍵：未分配</string>
+    <string name="assistant_key_dialog_assigned">分配 AI 助理鍵：%s</string>
+    <string name="assistant_key_press_key_toast">按下所需的鍵...</string>
+    <string name="assistant_key_assigned_toast">分配的鍵：%s</string>
+    <string name="assistant_key_code_prefix">代碼：%d</string>
+    <string name="assistant_key_accessibility_title">啟用無障礙服務</string>
+    <string name="assistant_key_accessibility_message">要使用「AI 助理鍵」功能，您必須啟用無障礙服務。\n\n1. 按「設定」\n2. 找到「無障礙服務」\n3. 啟用「Global Key Interceptor」</string>
+    <string name="assistant_key_accessibility_settings">設定</string>
+    <string name="assistant_key_accessibility_cancel">取消</string>
+
+    <!-- Key names for assistant dialog -->
+    <string name="key_volume_up">音量 +</string>
+    <string name="key_volume_down">音量 -</string>
+    <string name="key_dpad_center">中心（確定）</string>
+    <string name="key_dpad_up">上</string>
+    <string name="key_dpad_down">下</string>
+    <string name="key_dpad_left">左</string>
+    <string name="key_dpad_right">右</string>
+    <string name="key_menu">選單</string>
+    <string name="key_back">返回</string>
+    <string name="key_call">呼叫</string>
+    <string name="key_endcall">掛斷</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_pound">#</string>
+    <string name="key_star">*</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness_dialog_title">修改系統設定的權限</string>
+    <string name="brightness_change_settings_message">要更改亮度，您必須允許應用程式修改系統設定。前往設定？</string>
+    <string name="brightness_go_to_settings">前往設定</string>
+    <string name="brightness_cancel">取消</string>
+
+    <!-- Folder Options Dialog -->
+    <string name="folder_option_delete">刪除資料夾</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_dialog_title">遊戲模式設定</string>
+    <string name="game_mode_save">儲存</string>
+    <string name="game_mode_cancel">取消</string>
+    <string name="game_mode_clear_background_warning">Android 會在記憶體不足時自動卸載背景應用程式，無需額外卸載</string>
+    <string name="game_mode_activated">遊戲模式已啟用</string>
+    <string name="game_mode_deactivated">遊戲模式已停用</string>
+
+    <!-- IconPackGridDialog -->
+    <string name="icon_pack_dialog_title">從 %s 選擇圖示</string>
+    <string name="icon_pack_no_icons_found">在包 %s 中未找到圖示\n請嘗試其他選擇方法</string>
+    <string name="loading_icons_title">正在載入圖示</string>
+    <string name="progress_step1">步驟 1/6：透過 R 類別反射搜尋...</string>
+    <string name="progress_step2">步驟 2/6：直接存取 R 類別...</string>
+    <string name="progress_step3">步驟 3/6：透過 AssetManager 搜尋...</string>
+    <string name="progress_step4">步驟 4/6：透過 appfilter.xml 搜尋...</string>
+    <string name="progress_step5">步驟 5/6：透過 getIdentifier 搜尋...</string>
+    <string name="progress_step6">步驟 6/6：最終搜尋...</string>
+
+    <!-- IconPickDialog -->
+    <string name="icon_pick_title">選擇圖示來源</string>
+    <string name="icon_pack">圖示包</string>
+    <string name="standard_icons">標準</string>
+
+    <!-- MultiUninstallDialog -->
+    <string name="multi_uninstall_title">批次解除安裝應用程式</string>
+    <string name="uninstall_selected">解除安裝所選</string>
+    <string name="uninstall_requests_sent">解除安裝請求已傳送</string>
+
+    <!-- NewVolumePanelSettingsDialog -->
+    <string name="press_key_to_assign">按下所需的鍵...</string>
+    <string name="key_assigned_toast">分配的鍵：%s</string>
+    <string name="key_code_format_with_name">代碼：%d（%s）</string>
+    <string name="assign_volume_up_key">分配音量增大鍵：%s</string>
+    <string name="assign_volume_down_key">分配音量減小鍵：%s</string>
+    <string name="accessibility_dialog_title">啟用無障礙服務</string>
+    <string name="accessibility_dialog_message">要使用新的音量面板，您必須啟用無障礙服務。\n\n1. 按「設定」\n2. 找到「無障礙服務」\n3. 啟用「Global Key Interceptor」</string>
+
+    <!-- OrientationControlSettingsDialog -->
+    <string name="orientation_key_assigned">分配方向更改按鈕：%s</string>
+    <string name="orientation_write_settings_message">要控制螢幕方向，您需要修改系統設定的權限。前往設定？</string>
+    <string name="go_to_settings">前往設定</string>
+
+    <!-- PlayerStatsDialog -->
+    <string name="generate_nick_failed">產生暱稱失敗</string>
+    <string name="generating">產生中...</string>
+    <string name="share_stats_chooser_title">分享統計</string>
+    <string name="error_occurred_template">錯誤：%s</string>
+
+    <!-- QuickSettingsEditDialog -->
+    <string name="qs_edit_title">編輯捷徑</string>
+    <string name="qs_add_tile">添加磁貼</string>
+    <string name="qs_no_tiles_available">沒有可用的磁貼</string>
+    <string name="qs_select_tile">選擇磁貼</string>
+
+    <!-- QuickSettingsOrderDialog -->
+    <string name="qs_tab_control">控制</string>
+    <string name="qs_tab_basic">基本</string>
+    <string name="qs_tab_apps">應用程式</string>
+
+    <!-- SelectAppsDialog -->
+    <string name="select_apps">選擇應用程式</string>
+    <string name="add">添加</string>
+
+    <!-- SelectFolderDialog -->
+    <string name="select_folder">選擇資料夾</string>
+
+    <!-- SelectPositionDialog -->
+    <string name="select_new_position">選擇新位置</string>
+    <string name="app_option_remove_shortcut">刪除捷徑</string>
+
+    <!-- TileActivationDialog -->
+    <string name="tile_activation_title">啟用磁貼</string>
+    <string name="tile_activation_instructions">透過 ADB 啟用磁貼的說明：\n\n1. 確保裝置已連接到電腦並啟用了 USB 偵錯。\n2. 在電腦上執行以下命令：\n\n   adb shell cmd statusbar add-tile %s\n   adb shell cmd statusbar click-tile %s\n   adb shell cmd statusbar remove-tile %s\n\n3. 成功執行後，磁貼將被啟用。\n\n如果您已安裝並啟用 Shizuku，可以按下面的按鈕直接在裝置上執行這些命令。</string>
+    <string name="commands_copied">命令已複製</string>
+    <string name="done">完成</string>
+    <string name="cancelled">已取消</string>
+    <string name="shizuku_permission_required_title">需要 Shizuku 權限</string>
+    <string name="shizuku_permission_required_message">要透過 Shizuku 執行命令，您需要授予權限。打開 Shizuku 並允許此應用程式存取。</string>
+
+    <!-- WidgetActionsDialog -->
+    <string name="widget_actions_title">小工具操作</string>
+    <string name="widget_actions_no_actions_message">沒有可用的操作</string>
+    <string name="widget_actions_loading_message">正在載入小工具元素...</string>
+    <string name="widget_actions_load_failed_message">無法載入元素</string>
+    <string name="action_name_icon_button">🖼️ 按鈕（圖示）</string>
+    <string name="action_name_button">🔘 按鈕</string>
+    <string name="action_name_text_button">📝 文字按鈕</string>
+    <string name="action_name_container">🗂️ 容器（按下）</string>
+    <string name="action_name_default_template">⚙️ %s（按鈕）</string>
+
+    <!-- AboutLauncherActivity -->
+    <string name="confirm_link_title">跳轉到連結</string>
+    <string name="confirm_link_message">您真的想前往此頁面嗎？\n\n您的瀏覽器或社交網路用戶端將透過以下連結開啟：\n%s</string>
+    <string name="go_to_link">前往連結</string>
+
+    <!-- AdbPermissionsActivity -->
+    <string name="adb_permissions_instructions">要獲得完整啟動器功能，需要系統權限：\n\n📱 方法 1：透過 ADB（推薦）\n1. 將手機連接到已安裝 ADB 的電腦\n2. 在設定中啟用「開發人員選項」\n3. 啟用「USB 偵錯」\n4. 執行命令：\n\nadb shell pm grant %s android.permission.PACKAGE_USAGE_STATS\nadb shell pm grant %s android.permission.SYSTEM_ALERT_WINDOW\n\n📲 方法 2：透過 Shizuku\n1. 從商店安裝 Shizuku\n2. 啟動並啟用它\n3. 返回到此應用程式\n\n這些權限用於：\n• 在其他應用程式之上顯示\n• 應用程式使用統計\n• 啟動器正確運作\n\n\n📲 對於媒體小工具（必需）：\n1. 打開設定 → 應用程式 → 特殊存取權限\n2. 選擇「通知存取」\n3. 找到「Button Phone Launcher」並啟用開關\n\n這是為了：\n• 偵測正在播放的音樂/影片\n• 在「正在播放」小工具中顯示</string>
+    <string name="permissions_still_missing">⚠ 權限仍未授予！</string>
+
+    <!-- AddShortcutActivity -->
+    <string name="shortcut_added">捷徑已新增</string>
+    <string name="shortcut_create_failed">無法建立捷徑</string>
+    <string name="shortcut_select_location_title">為捷徑選擇位置</string>
+    <string name="shortcut_error_general">發生錯誤，請再次嘗試新增捷徑</string>
+    <string name="root_menu_item">📁 選單根目錄</string>
+    <string name="game_center_item">🎮 遊戲中心</string>
+    <string name="create_new_folder_item">➕ 建立新資料夾</string>
+    <string name="new_folder_name_title">新資料夾名稱</string>
+    <string name="folder_create_failed">無法建立資料夾</string>
+    <string name="folder_name_empty">名稱不能為空</string>
+
+    <!-- AppMenuActivity -->
+    <string name="games_found_template">找到 %d 款遊戲</string>
+    <string name="not_enough_items">沒有足夠的項目來更改順序</string>
+    <string name="order_determined_by_sort">在此資料夾中，順序由排序決定</string>
+    <string name="order_changed">順序已更改</string>
+    <string name="no_items">沒有項目</string>
+    <string name="initial_focus_set_template">初始焦點已設定到位置 %d</string>
+
+    <string name="view_mode">檢視模式</string>
+    <string name="number_of_rows">行數</string>
+    <string name="number_of_columns">列數</string>
+    <string name="new_folder">新資料夾</string>
+    <string name="select_apps_for_folder">為資料夾選擇應用程式</string>
+    <string name="clear_folder">清空資料夾</string>
+    <string name="sorting">排序</string>
+    <string name="select_apps_for_menu">為選單選擇應用程式</string>
+    <string name="icon_mask">圖示遮罩</string>
+    <string name="icon_animation">圖示動畫</string>
+    <string name="icon_scale">圖示縮放</string>
+    <string name="multi_uninstall">批次解除安裝應用程式</string>
+    <string name="key_gesture_assignment">為按鈕分配手勢</string>
+
+    <string name="grid">網格</string>
+    <string name="list">清單</string>
+    <string name="large_icons">大圖示</string>
+    <string name="sort_alphabet">依字母順序</string>
+    <string name="sort_install_date">依安裝日期</string>
+    <string name="sort_usage_freq">依使用頻率</string>
+    <string name="no_icon_packs_found">未找到圖示包</string>
+    <string name="applying_icon_pack">正在套用圖示包</string>
+    <string name="starting">正在開始...</string>
+    <string name="icon_changed">圖示已更改</string>
+    <string name="focused_icon_changed">聚焦圖示已更改</string>
+    <string name="item_not_found">未找到項目</string>
+    <string name="downloads_loading">下載次數：載入中...</string>
+    <string name="rating_loading">評分：載入中...</string>
+    <string name="source_web">網路資源</string>
+    <string name="source_deepseek_pro">DeepSeek Pro</string>
+    <string name="source_deepseek_flash">DeepSeek Flash</string>
+    <string name="source_changed_template">來源已更改為 %s</string>
+    <string name="hours_played_loading">遊戲時長：載入中...</string>
+    <string name="hours_played_template">遊戲時長：%s</string>
+    <string name="no_description">沒有描述。</string>
+    <string name="ai_error_prefix">無法從 AI 獲取資料</string>
+
+    <string name="loading">載入中...</string>
+    <string name="reorder">重新排序</string>
+    <string name="focus_on_startup">啟動時聚焦項目</string>
+    <string name="game_center_params">遊戲中心參數</string>
+    <string name="game_mode_settings">遊戲模式設定</string>
+    <string name="show_player_stats">顯示玩家統計</string>
+    <string name="stats_display">統計顯示</string>
+    <string name="info_sources">資訊來源</string>
+    <string name="banner_animations">橫幅動畫</string>
+    <string name="update_stats">更新統計</string>
+    <string name="stats_updating">統計正在更新...</string>
+    <string name="anim_scale">縮放</string>
+    <string name="anim_parallax">視差</string>
+    <string name="anim_pulse">亮度脈衝</string>
+    <string name="mask_circle">圓形</string>
+    <string name="mask_square">方形</string>
+    <string name="mask_rounded">圓角矩形</string>
+    <string name="anim_none">無動畫</string>
+    <string name="anim_shake">抖動</string>
+    <string name="anim_rotate">旋轉</string>
+    <string name="anim_blink">閃爍</string>
+    <string name="no_shortcut_apps">沒有支援建立捷徑的應用程式</string>
+    <string name="choose_app_for_shortcut">為捷徑選擇應用程式</string>
+    <string name="new_folder_name">資料夾名稱</string>
+    <string name="clear_folder_confirm">從資料夾「%s」中刪除所有項目？</string>
+    <string name="clear">清除</string>
+    <string name="choose_default_icon_pack">選擇預設圖示包</string>
+    <string name="total_apps">應用程式總數</string>
+    <string name="matched_icons">在包中找到的圖示</string>
+    <string name="details">詳細資訊</string>
+    <string name="apply_complete">套用完成</string>
+    <string name="copy">複製</string>
+    <string name="report_copied">報告已複製</string>
+    <string name="choose_icon_pack">選擇圖示包</string>
+    <string name="banner_changed">橫幅已更改</string>
+    <string name="banner_save_failed">無法儲存橫幅</string>
+    <string name="banner_load_failed">無法載入圖像</string>
+    <string name="icon_save_failed">無法儲存圖示</string>
+    <string name="permission_required">需要權限</string>
+    <string name="usage_permission_message">要顯示遊戲時間，啟動器需要存取使用統計資訊。\n\n在開啟的清單中為此應用程式啟用權限。</string>
+    <string name="open_settings">開啟設定</string>
+    <string name="shortcut_launch_failed">無法啟動捷徑</string>
+    <string name="enter_number">輸入數字</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_cloud_disabled_warning">⚠️ 雲端備份功能已停用。要啟用它們，請前往「外殼實驗性功能」部分（關於 → 實驗性功能）。</string>
+    <string name="external_storage_unavailable">外部儲存不可用</string>
+    <string name="backup_creating">正在建立備份...</string>
+    <string name="backup_created">備份已建立</string>
+    <string name="error_template">錯誤：%s</string>
+    <string name="restore_title">還原</string>
+    <string name="restore_confirm_message">還原將覆蓋所有目前設定和資料。應用程式將重新啟動。繼續？</string>
+    <string name="restoring">正在還原...</string>
+    <string name="restore_complete_restarting">還原完成。正在重新啟動...</string>
+    <string name="restore_error_template">還原錯誤：%s</string>
+
+    <!-- CenterFragment -->
+    <string name="unknown_artist">未知藝術家</string>
+    <string name="unknown_track">未知曲目</string>
+    <string name="media_app_default">媒體應用程式</string>
+    <string name="now_playing_in">現在正在 %s 上播放</string>
+    <string name="now_playing">正在播放</string>
+    <string name="no_active_media">沒有活躍的媒體</string>
+    <string name="start_music_video">啟動音樂或影片</string>
+    <string name="no_events_today">今日無事件</string>
+    <string name="press_and_hold_to_add_apps">長按以添加應用程式</string>
+    <string name="no_permission">無權限</string>
+    <string name="sim_absent">缺失</string>
+    <string name="no_access">無存取權限</string>
+    <string name="change_name">更改名稱</string>
+    <string name="remove_from_favorites">從收藏中移除</string>
+    <string name="not_enough_items_move">沒有足夠的項目來移動</string>
+    <string name="app_moved">應用程式已移動</string>
+    <string name="no_icon_packs_installed">未安裝圖示包</string>
+    <string name="assign_app_first">首先將應用程式分配給計數器</string>
+    <string name="counter_icon_changed_template">計數器 %d 的圖示已更改</string>
+    <string name="icon_save_error">儲存圖示時出錯</string>
+    <string name="name_changed">名稱已更改</string>
+    <string name="app_removed_from_favorites">應用程式已從收藏中移除</string>
+    <string name="add_to_favorites">添加到收藏</string>
+    <string name="add_favorite_instruction">要將應用程式添加到收藏，請打開「快速設定」並選擇「添加到收藏」</string>
+    <string name="icon_load_failed">無法載入圖示</string>
+    <string name="icon_load_error">載入圖示時出錯</string>
+    <string name="counter_icon_load_error">載入計數器圖示時出錯</string>
+    <string name="move">移動</string>
+
+    <!-- DateTimeUpdater -->
+    <string name="default_time_format">HH:mm</string>
+    <string name="default_date_format">dd.MM.yyyy</string>
+    <string name="no_network">無網路</string>
+    <string name="sim_template">SIM%d</string>
+
+    <!-- ErrorReportActivity -->
+    <string name="no_stack_trace">沒有堆疊追蹤資訊</string>
+    <string name="error_report_format">啟動器中發生錯誤\n\n錯誤代碼：%s\n\n錯誤文字：%s\n\n堆疊追蹤：\n%s</string>
+    <string name="support_email">craftinglivegames@gmail.com</string>
+    <string name="error_report_subject">CLG Button Phone Launcher 中的錯誤</string>
+    <string name="device_info_format">Android 版本：%s\nSDK：%d\n製造商：%s\n型號：%s\n裝置：%s</string>
+    <string name="email_body_format">Good day!\n\nError\'s text and code: %s\n\nStack trace:\n%s\n\nDevice information:\n%s\n\nPlease fix this error.</string>
+    <string name="send_error_report">傳送錯誤報告</string>
+    <string name="restart_failed">重新啟動失敗</string>
+    <string name="critical_error_message">發生嚴重錯誤。應用程式將重新啟動。</string>
+    <string name="default_error_code">ERR-000</string>
+
+    <!-- Volume stream names -->
+    <string name="volume_stream_music">音樂、影片、遊戲</string>
+    <string name="volume_stream_voice_call">語音通話</string>
+    <string name="volume_stream_notification">通話和通知</string>
+    <string name="volume_stream_alarm">鬧鐘</string>
+
+    <!-- GestureEditFragment -->
+    <string name="edit_gesture">編輯手勢</string>
+    <string name="new_gesture">新手勢</string>
+    <string name="redraw_gesture">重新繪製手勢</string>
+    <string name="draw_gesture">繪製手勢</string>
+    <string name="draw_first_gesture">繪製第一個手勢</string>
+    <string name="draw_second_gesture">繪製第二個手勢</string>
+    <string name="redraw_first_gesture">重新繪製第一個手勢</string>
+    <string name="draw_first_gesture_first">請先繪製第一個手勢</string>
+    <string name="draw_second_gesture_first">繪製第二個手勢</string>
+    <string name="draw_gesture_first">請先繪製手勢</string>
+    <string name="no_overlay_permission">沒有在其他視窗之上顯示的權限</string>
+    <string name="app_not_found">未找到應用程式</string>
+    <string name="enter_gesture_name">輸入手勢名稱</string>
+    <string name="gesture_updated">手勢已更新</string>
+    <string name="gesture_added">手勢已新增</string>
+
+    <!-- GestureListFragment -->
+    <string name="gestures_title">應用程式手勢</string>
+    <string name="edit_delete">編輯/刪除</string>
+    <string name="delete_gesture_title">刪除手勢？</string>
+    <string name="delete_gesture_message">刪除「%s」？</string>
+    <string name="gesture_deleted">手勢已刪除</string>
+
+    <!-- LeftFragment -->
+    <string name="default_action_title">操作 %d</string>
+    <string name="default_notification_text">通知</string>
+    <string name="default_notification_title">通知</string>
+    <string name="select_action">選擇操作</string>
+    <string name="select_action_for_notification">為通知選擇操作</string>
+    <string name="notification_options">通知選項</string>
+    <string name="remove_notification">移除通知</string>
+    <string name="notification_app_settings">應用程式通知設定</string>
+    <string name="notification_removed">通知已移除</string>
+    <string name="cannot_open_app">無法開啟應用程式</string>
+    <string name="error_opening_app">開啟應用程式時出錯</string>
+    <string name="reply_sent_template">回覆已傳送：%s</string>
+    <string name="enter_reply_text">輸入回覆文字</string>
+    <string name="all_notifications_cleared">所有通知已清除</string>
+    <string name="just_now">剛剛</string>
+    <string name="minutes_ago">%d 分鐘前</string>
+    <string name="hours_ago">%d 小時前</string>
+    <string name="days_ago">%d 天前</string>
+
+    <!-- MainActivity -->
+    <string name="app_error_title">應用程式錯誤</string>
+    <string name="app_error_message_template">發生錯誤：\n\n%s\n\n錯誤代碼：ERR-%03d</string>
+    <string name="restart">重新啟動</string>
+    <string name="exit">退出</string>
+    <string name="wallpaper_permission_title">桌布存取權限</string>
+    <string name="wallpaper_load_error">載入錯誤</string>
+    <string name="wallpaper_error_toast">桌布未載入：%s\n使用啟動器預設桌布。</string>
+    <string name="miui_permissions_title">額外的 MIUI 權限</string>
+    <string name="miui_permissions_message">要使音量面板和方向控制在 Xiaomi 裝置上正常運作，您還需要啟用：\n\n•「在背景顯示彈出視窗」\n•「在鎖定螢幕上顯示」\n\n這些設定位於「其他權限」部分。</string>
+    <string name="developer_settings_title">需要開發人員設定</string>
+    <string name="developer_settings_message">在 Android 12 及更高版本上，要在系統視窗（例如設定）之上顯示音量面板和方向控制，您需要啟用該選項：\n\n「允許所有應用程式在其他應用程式之上顯示」\n（或「Allow display over other apps」 → 「Show system overlays」）\n\n開發人員設定將打開。找到此選項並啟用它。</string>
+    <string name="call_permission_granted">已授予通話權限</string>
+    <string name="call_permission_denied">無法撥打電話：未授予權限</string>
+    <string name="default_launcher_warning">在設定中將此啟動器設為預設</string>
+    <string name="clear_all_with_count">全部清除（%d）</string>
+    <string name="use_hardware_keys">使用硬體鍵選擇通知</string>
+    <string name="ok_options_notifications">確定/選項通知</string>
+    <string name="cannot_open_notification_settings">無法開啟通知設定</string>
+    <string name="quick_settings_options">快速設定選項</string>
+    <string name="ok_quick_settings">確定快速設定</string>
+    <string name="edit_shortcuts">編輯捷徑</string>
+    <string name="select_item">選擇項目</string>
+    <string name="contacts_not_found">未找到聯絡人應用程式</string>
+    <string name="speed_dial_not_assigned">數字 %d 的快速撥號未分配</string>
+    <string name="accessibility_service_required_prefix">以下功能需要啟用無障礙服務：\n\n</string>
+    <string name="feature_volume_panel">• 新音量面板\n</string>
+    <string name="feature_assistant_key">• AI 助理鍵\n</string>
+    <string name="feature_lock_screen_home">• 鎖定螢幕上的 HOME 鍵鎖定\n</string>
+    <string name="accessibility_service_required_suffix">請在無障礙設定中啟用「Global Key Interceptor」。</string>
+    <string name="notification_permission_title">通知權限</string>
+    <string name="notification_permission_message">要顯示媒體資訊，您需要授予通知存取權限。\n\n1. 打開設定 → 應用程式 → 特殊存取權限\n2. 選擇「通知存取」\n3. 找到「Button Phone Launcher」並啟用開關\n\n否則媒體小工具將無法運作。</string>
+
+    <!-- MediaControlActivity -->
+    <string name="mute_icon">🔇</string>
+    <string name="unmute_icon">🔈</string>
+    <string name="play_pause_icon">▶/⏸</string>
+    <string name="media_action_failed">無法執行操作</string>
+
+    <!-- NotificationListener -->
+    <string name="notification_channel_name">通知服務</string>
+    <string name="notification_channel_description">用於監視通知和媒體的服務</string>
+    <string name="notification_service_title">CLG Button Phone Launcher</string>
+    <string name="notification_service_text">通知服務已啟用</string>
+    <string name="action">操作</string>
+
+    <!-- Media app names -->
+    <string name="media_unknown">媒體</string>
+    <string name="media_youtube">YouTube</string>
+    <string name="media_spotify">Spotify</string>
+    <string name="media_yandex_music">Yandex.音樂</string>
+    <string name="media_vk_music">VK 音樂</string>
+    <string name="media_youtube_music">YouTube Music</string>
+    <string name="media_music">音樂</string>
+    <string name="media_mi_music">Mi Music</string>
+    <string name="media_netease">網易雲音樂</string>
+    <string name="media_qq_music">QQ音樂</string>
+    <string name="media_kugou">酷狗音樂</string>
+    <string name="media_soundcloud">SoundCloud</string>
+    <string name="media_deezer">Deezer</string>
+    <string name="media_pandora">Pandora</string>
+    <string name="media_video_player">影片播放器</string>
+
+    <!-- OrientationControlService -->
+    <string name="orientation_control_disabled">方向控制已停用</string>
+    <string name="orientation_no_overlay_permission">沒有在其他視窗之上顯示的權限</string>
+    <string name="orientation_locked_landscape">方向已鎖定為橫向模式</string>
+    <string name="orientation_locked_portrait">方向已鎖定為縱向模式</string>
+    <string name="orientation_overlay_failed">無法建立封鎖視窗</string>
+    <string name="orientation_channel_name">方向控制</string>
+    <string name="orientation_channel_description">螢幕方向控制服務</string>
+    <string name="orientation_notification_title">方向控制已啟用</string>
+    <string name="orientation_notification_text">點擊設定</string>
+
+    <!-- PackageListFragment -->
+    <string name="package_list_title">應用程式</string>
+    <string name="service">服務</string>
+    <string name="select">選取</string>
+    <string name="cannot_change_service_state">無法更改服務狀態</string>
+
+    <!-- QuickSettingsDialog -->
+    <string name="qs_add_to_favorites">添加到收藏</string>
+    <string name="qs_reorder_favorites">重新排序收藏</string>
+    <string name="qs_favorite_names">收藏名稱</string>
+    <string name="qs_show_favorite_names">顯示收藏應用程式的名稱</string>
+    <string name="qs_favorite_names_on">名稱已顯示</string>
+    <string name="qs_favorite_names_off">名稱已隱藏</string>
+    <string name="qs_speed_dial">快速撥號</string>
+    <string name="qs_assign_right_key">分配到右鍵</string>
+    <string name="qs_rename_right_key">重新命名右鍵</string>
+    <string name="qs_enter_name">輸入名稱</string>
+    <string name="qs_name_changed_to">名稱已更改為：%s</string>
+    <string name="qs_toggle_widgets">隱藏/顯示小工具</string>
+    <string name="qs_sim_settings">SIM 卡顯示設定</string>
+    <string name="qs_favorite_rows">收藏中可見行數</string>
+    <string name="qs_media_filter">「正在播放」小工具過濾</string>
+    <string name="qs_counters">計數器</string>
+    <string name="qs_counters_settings">計數器設定</string>
+    <string name="qs_configure_counters">設定計數器</string>
+    <string name="qs_choose_counter_icons">選擇圖示</string>
+    <string name="qs_reset_all_counters">重設所有計數器</string>
+    <string name="qs_select_counter_for_icon">選擇要更改圖示的計數器</string>
+    <string name="qs_select_counter_to_configure">選擇要設定的計數器</string>
+    <string name="qs_counter_with_app">計數器 %d：%s</string>
+    <string name="qs_counter_not_assigned">計數器 %d：未分配</string>
+    <string name="qs_cannot_access_desktop">錯誤：無法存取桌面</string>
+    <string name="qs_counter_assigned">應用程式「%s」已分配到計數器 %d</string>
+    <string name="qs_counters_reset">所有計數器已重設，小工具已隱藏</string>
+    <string name="qs_cannot_open_anr_logs">無法開啟 ANR 日誌</string>
+    <string name="qs_right_button_assigned">應用程式「%s」已分配到右鍵</string>
+    <string name="qs_date_format">日期格式</string>
+    <string name="qs_time_format">時間格式</string>
+    <string name="qs_change_wallpaper">更換桌布</string>
+    <string name="qs_new_volume_panel">新音量面板</string>
+    <string name="qs_new_lock_screen">新鎖定螢幕</string>
+    <string name="qs_orientation_control">螢幕方向控制</string>
+    <string name="qs_assistant_key">AI 助理鍵</string>
+    <string name="qs_wallpaper_check">檢查並設定桌布</string>
+    <string name="qs_about_launcher">關於</string>
+    <string name="qs_anr_logs">檢視 ANR 日誌</string>
+    <string name="qs_phone_settings">電話設定</string>
+    <string name="qs_select_favorite_apps">為收藏選擇應用程式</string>
+    <string name="qs_favorites_updated">收藏已更新</string>
+    <string name="qs_no_favorites">沒有收藏的應用程式</string>
+    <string name="qs_favorites_reordered">收藏順序已更改</string>
+    <string name="qs_undefined">未定義</string>
+    <string name="qs_clear_all">全部清除</string>
+    <string name="qs_speed_dial_all_cleared">所有快速撥號分配已清除</string>
+    <string name="qs_assign_change_number">分配/更改號碼</string>
+    <string name="qs_clear">清除</string>
+    <string name="qs_assign_number">分配號碼</string>
+    <string name="qs_digit_template">數字 %d</string>
+    <string name="qs_context_not_activity">錯誤：上下文不是 Activity</string>
+    <string name="qs_speed_dial_cleared">數字 %d 的快速撥號已清除</string>
+    <string name="qs_widget_calendar">日曆事件</string>
+    <string name="qs_widget_now_playing">正在播放</string>
+    <string name="qs_widget_status">通話、簡訊和 SIM 資訊</string>
+    <string name="qs_widget_counters">應用程式計數器</string>
+    <string name="qs_widget_settings">小工具設定</string>
+    <string name="qs_widgets_saved">小工具設定已儲存</string>
+    <string name="qs_widgets_reset">設定已重設為預設值</string>
+    <string name="qs_rows_1">1 行</string>
+    <string name="qs_rows_2">2 行</string>
+    <string name="qs_rows_3">3 行</string>
+    <string name="qs_rows_4">4 行</string>
+    <string name="qs_rows_5">5 行</string>
+    <string name="qs_rows_changed">行數已更改為 %d</string>
+    <string name="qs_wallpaper_info">桌布資訊：</string>
+    <string name="qs_android_version">Android 版本：</string>
+    <string name="qs_wallpaper_success">✅ 桌布已成功載入</string>
+    <string name="qs_wallpaper_display_info">桌布將顯示在中央桌面上</string>
+    <string name="qs_wallpaper_fail">❌ 桌布未載入</string>
+    <string name="qs_wallpaper_reason">原因：</string>
+    <string name="qs_wallpaper_fallback">使用啟動器預設桌布</string>
+    <string name="qs_wallpaper_checked">桌布已檢查</string>
+    <string name="qs_wallpaper_settings">權限設定</string>
+    <string name="qs_choose_wallpaper">選擇桌布</string>
+    <string name="qs_wallpaper_error">選擇桌布時出錯</string>
+    <string name="qs_cannot_open_settings">無法開啟設定</string>
+    <string name="qs_sim_both">顯示兩個 SIM</string>
+    <string name="qs_sim_only1">僅 SIM 1</string>
+    <string name="qs_sim_only2">僅 SIM 2</string>
+    <string name="qs_sim_mode_changed">SIM 顯示模式已更改</string>
+    <string name="qs_date_changed">日期格式已更改</string>
+    <string name="qs_time_changed">時間格式已更改</string>
+
+    <!-- Date format examples -->
+    <string name="date_format_example1">星期一，2024年1月1日</string>
+    <string name="date_format_example2">2024年1月1日</string>
+    <string name="date_format_example3">2024.01.01</string>
+    <string name="date_format_example4">01/01/2024</string>
+    <string name="date_format_example5">2024-01-01</string>
+    <string name="date_format_example6">2024年1月1日</string>
+    <string name="date_format_example7">1 Jan 2024</string>
+
+    <!-- Time format examples -->
+    <string name="time_format_example1">23:59（24小時制）</string>
+    <string name="time_format_example2">下午11:59（12小時制）</string>
+    <string name="time_format_example3">11:59（12小時制無AM/PM）</string>
+    <string name="time_format_example4">23:59:59（24小時制含秒）</string>
+    <string name="time_format_example5">下午11:59:59（12小時制含秒）</string>
+    <string name="time_format_example6">11:59:59（12小時制含秒無AM/PM）</string>
+
+    <string name="reset_default">恢復預設</string>
+    <string name="close">關閉</string>
+    <string name="no_apps_available">沒有可用的應用程式</string>
+
+    <!-- RightFragment -->
+    <string name="permissions_required">需要權限</string>
+    <string name="location_bluetooth_permissions_message">要顯示 Wi‑Fi 網路名稱和已連接的藍牙裝置，需要以下權限：位置存取（用於 Wi‑Fi）和藍牙連線。請授予它們。</string>
+    <string name="cannot_open_bluetooth_settings">無法開啟藍牙設定</string>
+    <string name="tile_activation_error_template">啟用錯誤：%s</string>
+    <string name="error_changing_setting">更改設定時出錯</string>
+    <string name="wifi_enabled">Wi‑Fi 已開啟</string>
+    <string name="wifi_disabled">Wi‑Fi 已關閉</string>
+    <string name="bluetooth_enabled">藍牙已開啟</string>
+    <string name="bluetooth_disabled">藍牙已關閉</string>
+    <string name="mobile_data_enabled">行動數據已開啟</string>
+    <string name="mobile_data_disabled">行動數據已關閉</string>
+    <string name="cannot_open_wifi_settings">無法開啟 Wi‑Fi 設定</string>
+    <string name="display_settings_opened">已開啟顯示設定</string>
+    <string name="flashlight_unavailable">手電筒不可用</string>
+    <string name="hotspot_settings_opened">已開啟熱點設定</string>
+    <string name="general_settings_opened">已開啟一般設定</string>
+    <string name="cannot_open_settings">無法開啟設定</string>
+    <string name="on">開啟</string>
+    <string name="off">關閉</string>
+    <string name="wifi_location_off">位置已關閉</string>
+    <string name="wifi_no_connection">未連線</string>
+    <string name="wifi_no_permission">無存取權限</string>
+    <string name="wifi_off">已關閉</string>
+    <string name="bluetooth_no_devices">無裝置</string>
+    <string name="bluetooth_devices_count">%d 個裝置</string>
+    <string name="bluetooth_no_permission">無存取權限</string>
+    <string name="bluetooth_off">已關閉</string>
+    <string name="brightness_format">亮度：%d%%</string>
+    <string name="no_alarms">無</string>
+
+    <string name="shizuku_not_installed">Shizuku 未安裝</string>
+    <string name="shizuku_not_running">Shizuku 未執行</string>
+    <string name="shizuku_no_permission">沒有 Shizuku 權限</string>
+    <string name="tile_activated">磁貼已啟用</string>
+    <string name="error_shizuku_template">Shizuku 錯誤：%s</string>
+    <string name="quick_settings">快速設定</string>
+    <string name="qs_section_control_record">控制和錄製</string>
+    <string name="qs_media_control">媒體控制</string>
+    <string name="qs_screen_record">螢幕錄製</string>
+    <string name="alarm">鬧鐘</string>
+    <string name="qs_section_basic">基本</string>
+    <string name="wifi">Wi‑Fi</string>
+    <string name="bluetooth">藍牙</string>
+    <string name="airplane_mode">飛航模式</string>
+    <string name="mobile_data">行動數據</string>
+    <string name="auto_rotate">自動旋轉</string>
+    <string name="flashlight">手電筒</string>
+    <string name="silent_mode">靜音模式</string>
+    <string name="location">位置</string>
+    <string name="battery_saver">省電模式</string>
+    <string name="hotspot">熱點</string>
+    <string name="wifi_adb">Wi‑Fi (adb)</string>
+    <string name="bluetooth_adb">藍牙 (adb)</string>
+    <string name="mobile_data_adb">行動數據 (adb)</string>
+    <string name="volume">音量</string>
+    <string name="qs_section_app_settings">應用程式設定</string>
+    <string name="ok">確定</string>
+
+    <!-- ScreenRecordActivity -->
+    <string name="recording_instructions">🎮 螢幕錄製控制：\n\n• 確定鍵：開始/停止錄製（在突出顯示的按鈕上）\n• 左/右鍵：在按鈕之間切換\n• 上/下鍵：滾動說明\n\n🔧 底部控制面板：\n• 左軟鍵（選單）：打開錄製資料夾\n• 右軟鍵（返回）：\n    - 返回主畫面或在錄製期間最小化錄製器視窗\n\n\n🎥 錄製期間的控制：\n• 確定鍵：停止錄製\n• 選單鍵（左軟）：暫停/恢復\n• 鍵 0（長按）：返回此選單\n\n💾 影片儲存在資料夾中：\nDCIM/ScreenRecorder CLGBPL</string>
+    <string name="recording_started">錄製已開始</string>
+    <string name="recording_paused">錄製已暫停</string>
+    <string name="resume">恢復</string>
+    <string name="recording_in_progress">正在錄製...</string>
+    <string name="recording_saved_template">✅ 錄製已儲存：%s</string>
+    <string name="recording_file_invalid_template">⚠️ 檔案未找到或太小：%s</string>
+    <string name="recording_error_template">❌ 錄製錯誤：%s</string>
+    <string name="unknown_error">未知錯誤</string>
+    <string name="folder">資料夾</string>
+    <string name="cannot_create_recordings_folder">無法建立錄製資料夾</string>
+    <string name="preparing_recording">正在準備錄製...</string>
+    <string name="recording_start_error_template">啟動錯誤：%s</string>
+    <string name="screen_recording_permission_denied">未授予螢幕錄製權限</string>
+    <string name="overlay_permission_denied">未授予懸浮窗權限</string>
+    <string name="accessibility_service_enabled">無障礙服務已啟用</string>
+    <string name="recording_stop_error_template">停止錯誤：%s</string>
+    <string name="pause">暫停</string>
+    <string name="open_folder">開啟資料夾</string>
+    <string name="cannot_open_folder">無法開啟資料夾</string>
+    <string name="accessibility_dialog_message_for_recording">要全域攔截按鍵 0，您需要啟用無障礙服務。\n\n1. 按「設定」\n2. 找到「無障礙服務」\n3. 啟用「Global Key Interceptor」</string>
+    <string name="settings">設定</string>
+    <string name="later">稍後</string>
+
+    <!-- SetupActivity -->
+    <string name="next">下一步</string>
+    <string name="setup_step_title">歡迎！</string>
+    <string name="setup_step_description">歡迎使用功能型手機啟動器！\n\n此啟動器專為帶硬體按鍵的裝置設計。</string>
+    <string name="setup_button_next">開始設定</string>
+    <string name="setup_permissions_title">步驟 1：權限</string>
+    <string name="setup_permissions_description">要使啟動器正常運作，需要以下權限：</string>
+    <string name="setup_permissions_list">• 存取聯絡人和通話\n• 存取通話記錄\n• 存取簡訊\n• 存取日曆\n• 存取電話狀態\n• 存取媒體檔案（照片、影片、音訊）\n• 在其他視窗之上顯示的權限</string>
+    <string name="setup_request_permissions">請求權限</string>
+    <string name="setup_overlay_title">步驟 2：懸浮窗權限</string>
+    <string name="setup_overlay_description">啟動器需要在其他應用程式之上顯示的權限，以便服務和小工具運作。</string>
+    <string name="setup_request_overlay">請求權限</string>
+    <string name="skip">跳過</string>
+    <string name="setup_navigation_title">步驟 %d：導航</string>
+    <string name="setup_assign_up">分配向上導航按鈕\n\n%s</string>
+    <string name="setup_assign_down">分配向下導航按鈕\n\n%s</string>
+    <string name="setup_assign_left">分配向左導航按鈕\n\n%s</string>
+    <string name="setup_assign_right">分配向右導航按鈕\n\n%s</string>
+    <string name="setup_ok_title">步驟 7：選擇</string>
+    <string name="setup_assign_ok">分配確定/選擇按鈕（方向鍵中心）\n\n%s</string>
+    <string name="setup_left_soft_title">步驟 8：左軟鍵</string>
+    <string name="setup_assign_left_soft">分配左軟鍵\n\n%s</string>
+    <string name="setup_right_soft_title">步驟 9：右軟鍵</string>
+    <string name="setup_assign_right_soft">分配右軟鍵\n\n%s</string>
+    <string name="assign">分配</string>
+    <string name="current_key">目前鍵：%s</string>
+    <string name="key_code_format">代碼：%d</string>
+    <string name="finish">完成</string>
+    <string name="setup_complete_title">設定完成！</string>
+    <string name="setup_complete_description">所有權限已授予，按鍵已分配。\n\n啟動器已準備就緒！</string>
+    <string name="setup_hint_press_key">按下手機上的任何實體按鈕...</string>
+    <string name="setup_hint_back_key">（通常是返回鍵）</string>
+    <string name="setup_press_key_toast">按下任何按鈕進行分配。</string>
+    <string name="setup_key_assigned">已分配的鍵：%s</string>
+    <string name="setup_permissions_granted">所有權限均已授予！</string>
+    <string name="setup_permissions_not_granted">部分權限未授予。某些功能可能無法完全運作。</string>
+    <string name="setup_overlay_granted">權限已授予！</string>
+    <string name="setup_overlay_not_granted">權限未授予。某些功能可能無法運作。</string>
+    <string name="setup_assignment_cancelled">分配已取消</string>
+
+    <!-- WidgetsActivity -->
+    <string name="widgets_title">應用程式小工具</string>
+    <string name="loading_widgets">正在載入小工具...</string>
+    <string name="widget_data_lost">錯誤：小工具資料遺失</string>
+    <string name="widget_add_cancelled">小工具新增已取消</string>
+    <string name="widget_info_error">無法取得小工具資訊</string>
+    <string name="widget_configure_unavailable">小工具設定不可用，小工具已新增但未設定</string>
+    <string name="widget_id_mismatch">錯誤：小工具 ID 不匹配</string>
+    <string name="widget_auto_update_disabled">自動更新已停用</string>
+    <string name="widget_interval_changed">更新間隔已更改</string>
+    <string name="widget_already_exists">小工具已存在</string>
+    <string name="widget_added">小工具已新增</string>
+    <string name="widget_add">新增小工具</string>
+    <string name="widget_auto_update_interval">自動更新頻率</string>
+    <string name="widget_automation">小工具自動化</string>
+    <string name="widget_revive_options">小工具恢復選項</string>
+    <string name="widget_options_saved">選項已儲存</string>
+    <string name="widget_automation_add">新增操作</string>
+    <string name="widget_no_widgets">沒有新增的小工具</string>
+    <string name="widget_unknown">小工具 %d</string>
+    <string name="widget_automation_select_widget">選擇小工具</string>
+    <string name="widget_not_visible">小工具不可見，請稍後再試</string>
+    <string name="widget_no_clickable_elements">小工具沒有可點擊的元素</string>
+    <string name="widget_automation_select_action">選擇操作</string>
+    <string name="widget_automation_configure_template">設定自動化：%s</string>
+    <string name="widget_automation_added">自動化已新增</string>
+    <string name="widget_no_automations">沒有設定的自動化</string>
+    <string name="widget_automation_item_template">小工具 %d：%s%s%s</string>
+    <string name="widget_automation_on_start"> [啟動時]</string>
+    <string name="widget_automation_interval"> [每 %d 毫秒]</string>
+    <string name="widget_automation_manage">管理自動化</string>
+    <string name="widget_automation_edit_template">編輯：%s</string>
+    <string name="widget_automation_updated">已更改</string>
+    <string name="widget_automation_deleted">已刪除</string>
+    <string name="widget_not_enough_for_reorder">沒有足夠的小工具來更改順序</string>
+    <string name="widget_reorder">重新排序小工具</string>
+    <string name="widget_reorder_success">小工具順序已更改</string>
+    <string name="widget_auto_update_interval_dialog">更新間隔（毫秒）\n0 - 停用\n目前：%d</string>
+    <string name="widget_interval_negative">間隔不能為負數</string>
+    <string name="widget_invalid_number">無效的數字</string>
+    <string name="widget_delete">刪除小工具</string>
+    <string name="widget_settings">小工具設定</string>
+    <string name="widget_height">小工具高度</string>
+    <string name="widget_options">小工具選項</string>
+    <string name="widget_settings_unavailable">小工具設定不可用</string>
+    <string name="widget_select_height">選擇小工具高度</string>
+    <string name="widget_height_auto">自動</string>
+    <string name="widget_no_action">沒有可操作的小工具</string>
+    <string name="widget_action_performed">操作已執行</string>
+    <string name="widget_error_info_missing">錯誤：小工具資訊缺失\n（按確定刪除）</string>
+    <string name="widget_error_load_failed">錯誤：無法載入小工具\n（按確定刪除）</string>
+    <string name="widget_action_icon_button">🖼️ 按鈕（圖示）</string>
+    <string name="widget_action_button">🔘 按鈕</string>
+    <string name="widget_action_text_button">📝 文字按鈕</string>
+    <string name="widget_action_container">🗂️ 容器（按下）</string>
+    <string name="widget_action_default_template">⚙️ %s（按鈕）</string>
+
+    <string name="delete">刪除</string>
+    <string name="save">儲存</string>
+    <string name="apply">套用</string>
+    <string name="cancel">取消</string>
+    <string name="parameters">參數</string>
+    <string name="ok_options">確定/選項</string>
+    <string name="back">返回</string>
+</resources>
