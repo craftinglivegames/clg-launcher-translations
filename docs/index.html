@@ -194,6 +194,7 @@
             <input type="text" id="translationVersion" placeholder="1, 2, ..." value="1">
         </div>
         <button id="loadTranslationBtn" class="btn-secondary">📥 Load existing translation</button>
+        <button id="createEmptyBtn" class="btn-secondary">✨ Create new from template</button>
         <button id="downloadXmlBtn" disabled>💾 Download XML (save as &lt;lang&gt;.xml)</button>
         <div id="statusMsg" class="status">⚡ Ready</div>
     </div>
@@ -212,7 +213,7 @@
         </table>
     </div>
     <div class="footer">
-        ⚡ After downloading the XML file, please go to <strong>GitHub repository</strong> → <code>languages/</code> folder and upload the file (e.g. <code>es.xml</code>)<br>
+        ⚡ After downloading the XML file, please go to <strong>GitHub repository</strong> → <code>languages/</code> folder and upload the file (e.g. <code>uk.xml</code>)<br>
         Then open a <strong>Pull Request</strong> so the translation can be reviewed and included in the launcher.
     </div>
 </div>
@@ -223,23 +224,21 @@
     const REPO = "clg-launcher-translations";
     const TEMPLATE_PATH = "strings_template.xml";
     const LANGUAGES_FOLDER = "languages";
-    
-    // Detect branch (main or master) - try both, but default main
-    let BRANCH = "main";
-    // We'll test raw access later, but for now assume main
-    
-    const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/`;
+    const BRANCH = "main";
+    const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/`;
     const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
     
     // Global state
-    let stringEntries = [];
+    let stringEntries = [];      // array of { name, original }
     let currentLanguageCode = "";
-    let currentTranslationData = {};
+    let currentTranslationData = {}; // name -> translated text
     
+    // DOM elements
     const languageSelect = document.getElementById('languageSelect');
     const authorNameInput = document.getElementById('authorName');
     const versionInput = document.getElementById('translationVersion');
     const loadBtn = document.getElementById('loadTranslationBtn');
+    const createEmptyBtn = document.getElementById('createEmptyBtn');
     const downloadBtn = document.getElementById('downloadXmlBtn');
     const statusDiv = document.getElementById('statusMsg');
     const tableBody = document.getElementById('tableBody');
@@ -264,6 +263,7 @@
         });
     }
     
+    // Load template and populate table
     async function loadTemplate() {
         setStatus("Loading template strings...", false, true);
         try {
@@ -293,23 +293,27 @@
         } catch (err) {
             console.error(err);
             setStatus(`❌ Failed to load template: ${err.message}`, true);
-            tableBody.innerHTML = `<table><td colspan="3" style="text-align:center">Error loading template. Check repository settings.</td></tr>`;
+            tableBody.innerHTML = `<tr><td colspan="3" style="text-align:center">Error loading template. Check repository settings.</td></tr>`;
             downloadBtn.disabled = true;
         }
     }
     
+    // Render table with current translation data
     function renderTable() {
         if (!tableBody) return;
         tableBody.innerHTML = "";
         for (let entry of stringEntries) {
             const row = document.createElement("tr");
+            // Key cell
             const keyCell = document.createElement("td");
             keyCell.innerHTML = `<span class="key-name">${escapeXml(entry.name)}</span>`;
             row.appendChild(keyCell);
+            // Original text cell
             const originalCell = document.createElement("td");
             originalCell.className = "original-cell";
             originalCell.textContent = entry.original;
             row.appendChild(originalCell);
+            // Translation input cell
             const transCell = document.createElement("td");
             transCell.className = "translation-cell";
             const input = document.createElement("input");
@@ -327,6 +331,7 @@
         }
     }
     
+    // Load existing translation from languages folder
     async function loadTranslation(langCode) {
         if (!langCode) {
             setStatus("Please select a language first", true);
@@ -340,6 +345,7 @@
             if (!response.ok) {
                 if (response.status === 404) {
                     setStatus(`No existing translation for "${langCode}". You can create a new one.`, false);
+                    // Clear current translation data
                     currentTranslationData = {};
                     renderTable();
                     return false;
@@ -363,7 +369,7 @@
                 const text = node.textContent || "";
                 if (name) loadedData[name] = text;
             }
-            // Merge
+            // Merge with template entries
             for (let entry of stringEntries) {
                 currentTranslationData[entry.name] = loadedData[entry.name] || "";
             }
@@ -377,6 +383,20 @@
         }
     }
     
+    // Create empty translation from template (all fields empty)
+    function createEmptyTranslation() {
+        if (stringEntries.length === 0) {
+            setStatus("Template not loaded yet. Please wait.", true);
+            return;
+        }
+        for (let entry of stringEntries) {
+            currentTranslationData[entry.name] = "";
+        }
+        renderTable();
+        setStatus(`✨ Empty translation created. Fill in the fields and download.`, false);
+    }
+    
+    // Generate final XML content with metadata comment
     function generateXmlContent(langCode) {
         let xml = `<?xml version="1.0" encoding="utf-8"?>\n`;
         const author = authorNameInput.value.trim() || "anonymous";
@@ -397,6 +417,7 @@
         return xml;
     }
     
+    // Trigger download of XML file
     function downloadTranslation(langCode) {
         if (!langCode) {
             setStatus("Please select a language first", true);
@@ -419,6 +440,7 @@
         setStatus(`✅ File ${langCode}.xml generated. Upload to GitHub /languages/ folder.`, false);
     }
     
+    // Populate language dropdown from GitHub API (list of existing files in languages folder)
     async function populateLanguageDropdown() {
         setStatus("Fetching available languages...", false, true);
         try {
@@ -437,10 +459,8 @@
                 for (let file of files) {
                     if (file.name && file.name.endsWith(".xml")) {
                         let code = file.name.replace(/\.xml$/, '');
-                        // Удаляем префикс strings_ если есть (на случай старых файлов)
-                        if (code.startsWith("strings_")) {
-                            code = code.substring(8);
-                        }
+                        // Remove prefix strings_ if present (for backward compatibility)
+                        if (code.startsWith("strings_")) code = code.substring(8);
                         languageCodes.push(code);
                         console.log("Found language:", code);
                     }
@@ -513,6 +533,7 @@
         ];
     }
     
+    // Event handlers
     loadBtn.addEventListener("click", async () => {
         const lang = languageSelect.value;
         if (!lang) {
@@ -521,6 +542,16 @@
         }
         currentLanguageCode = lang;
         await loadTranslation(lang);
+    });
+    
+    createEmptyBtn.addEventListener("click", () => {
+        const lang = languageSelect.value;
+        if (!lang) {
+            setStatus("Please select a language first", true);
+            return;
+        }
+        currentLanguageCode = lang;
+        createEmptyTranslation();
     });
     
     downloadBtn.addEventListener("click", () => {
@@ -532,7 +563,7 @@
         downloadTranslation(lang);
     });
     
-    // Start
+    // Initial load
     loadTemplate().then(() => {
         populateLanguageDropdown();
     });
