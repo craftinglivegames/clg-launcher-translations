@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <title>CLG Launcher Translation Center</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
         body {
             font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
             background: #f5f7fb;
@@ -20,7 +18,7 @@
             margin: 0 auto;
             background: white;
             border-radius: 24px;
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.02);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05);
             overflow: hidden;
         }
         .header {
@@ -28,15 +26,8 @@
             color: white;
             padding: 24px 32px;
         }
-        .header h1 {
-            margin: 0 0 8px 0;
-            font-weight: 600;
-            font-size: 1.8rem;
-        }
-        .header p {
-            margin: 0;
-            opacity: 0.8;
-        }
+        .header h1 { margin: 0 0 8px 0; font-weight: 600; font-size: 1.8rem; }
+        .header p { margin: 0; opacity: 0.8; }
         .toolbar {
             padding: 20px 32px;
             background: #f8fafc;
@@ -87,20 +78,14 @@
             opacity: 0.5;
             cursor: not-allowed;
         }
-        .btn-secondary {
-            background: #475569;
-        }
-        .btn-secondary:hover:not(:disabled) {
-            background: #334155;
-        }
+        .btn-secondary { background: #475569; }
+        .btn-secondary:hover:not(:disabled) { background: #334155; }
         .btn-outline {
             background: white;
             color: #0f172a;
             border: 1px solid #cbd5e1;
         }
-        .btn-outline:hover:not(:disabled) {
-            background: #f1f5f9;
-        }
+        .btn-outline:hover:not(:disabled) { background: #f1f5f9; }
         .status {
             margin-left: auto;
             font-size: 0.85rem;
@@ -234,22 +219,23 @@
 
 <script>
     // ======================= CONFIGURATION =======================
-    // Change these to match your GitHub repo
     const OWNER = "craftinglivegames";
     const REPO = "clg-launcher-translations";
-    const TEMPLATE_PATH = "strings_template.xml";   // path inside repo (root)
-    const LANGUAGES_FOLDER = "languages";           // folder where translations live
+    const TEMPLATE_PATH = "strings_template.xml";
+    const LANGUAGES_FOLDER = "languages";
     
-    // Base URLs for raw content
+    // Detect branch (main or master) - try both, but default main
+    let BRANCH = "main";
+    // We'll test raw access later, but for now assume main
+    
     const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/`;
     const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
     
     // Global state
-    let stringEntries = [];      // array of { name, original }
+    let stringEntries = [];
     let currentLanguageCode = "";
-    let currentTranslationData = {}; // name -> translated text
+    let currentTranslationData = {};
     
-    // DOM elements
     const languageSelect = document.getElementById('languageSelect');
     const authorNameInput = document.getElementById('authorName');
     const versionInput = document.getElementById('translationVersion');
@@ -258,14 +244,12 @@
     const statusDiv = document.getElementById('statusMsg');
     const tableBody = document.getElementById('tableBody');
     
-    // Helper: show status
     function setStatus(text, isError = false, showSpinner = false) {
         statusDiv.innerHTML = showSpinner ? `<span class="spinner"></span> ${text}` : text;
         statusDiv.style.background = isError ? "#fee2e2" : "#e2e8f0";
         statusDiv.style.color = isError ? "#b91c1c" : "#1e293b";
     }
     
-    // Helper: escape XML special chars
     function escapeXml(unsafe) {
         if (!unsafe) return "";
         return unsafe.replace(/[<>&'"]/g, function (c) {
@@ -280,11 +264,11 @@
         });
     }
     
-    // Load template strings.xml from repo
     async function loadTemplate() {
         setStatus("Loading template strings...", false, true);
         try {
             const url = RAW_BASE + TEMPLATE_PATH;
+            console.log("Fetching template from:", url);
             const response = await fetch(url);
             if (!response.ok) throw new Error(`HTTP ${response.status}`);
             const xmlText = await response.text();
@@ -309,27 +293,23 @@
         } catch (err) {
             console.error(err);
             setStatus(`❌ Failed to load template: ${err.message}`, true);
-            tableBody.innerHTML = `<tr><td colspan="3" style="text-align:center">Error loading template. Check repository settings.</td></tr>`;
+            tableBody.innerHTML = `<table><td colspan="3" style="text-align:center">Error loading template. Check repository settings.</td></tr>`;
             downloadBtn.disabled = true;
         }
     }
     
-    // Render table with current translation data
     function renderTable() {
         if (!tableBody) return;
         tableBody.innerHTML = "";
         for (let entry of stringEntries) {
             const row = document.createElement("tr");
-            // Key cell
             const keyCell = document.createElement("td");
             keyCell.innerHTML = `<span class="key-name">${escapeXml(entry.name)}</span>`;
             row.appendChild(keyCell);
-            // Original text cell
             const originalCell = document.createElement("td");
             originalCell.className = "original-cell";
             originalCell.textContent = entry.original;
             row.appendChild(originalCell);
-            // Translation input cell
             const transCell = document.createElement("td");
             transCell.className = "translation-cell";
             const input = document.createElement("input");
@@ -347,7 +327,6 @@
         }
     }
     
-    // Load existing translation from languages folder
     async function loadTranslation(langCode) {
         if (!langCode) {
             setStatus("Please select a language first", true);
@@ -356,11 +335,11 @@
         setStatus(`Loading ${langCode} translation...`, false, true);
         try {
             const fileUrl = RAW_BASE + LANGUAGES_FOLDER + "/" + langCode + ".xml";
+            console.log("Fetching translation from:", fileUrl);
             const response = await fetch(fileUrl);
             if (!response.ok) {
                 if (response.status === 404) {
                     setStatus(`No existing translation for "${langCode}". You can create a new one.`, false);
-                    // Clear current translation data
                     currentTranslationData = {};
                     renderTable();
                     return false;
@@ -368,10 +347,14 @@
                 throw new Error(`HTTP ${response.status}`);
             }
             const xmlText = await response.text();
+            console.log("XML content length:", xmlText.length);
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(xmlText, "text/xml");
             const parseError = xmlDoc.querySelector("parsererror");
-            if (parseError) throw new Error("Invalid XML in translation file");
+            if (parseError) {
+                console.error("XML parse error:", parseError.textContent);
+                throw new Error("Invalid XML in translation file");
+            }
             const stringNodes = xmlDoc.getElementsByTagName("string");
             const loadedData = {};
             for (let i = 0; i < stringNodes.length; i++) {
@@ -380,13 +363,9 @@
                 const text = node.textContent || "";
                 if (name) loadedData[name] = text;
             }
-            // Merge with existing entries (keep all keys)
+            // Merge
             for (let entry of stringEntries) {
-                if (loadedData[entry.name] !== undefined) {
-                    currentTranslationData[entry.name] = loadedData[entry.name];
-                } else {
-                    currentTranslationData[entry.name] = "";
-                }
+                currentTranslationData[entry.name] = loadedData[entry.name] || "";
             }
             renderTable();
             setStatus(`✅ Loaded existing translation for "${langCode}". Edit and save.`, false);
@@ -398,10 +377,8 @@
         }
     }
     
-    // Generate final XML content with metadata comment
     function generateXmlContent(langCode) {
         let xml = `<?xml version="1.0" encoding="utf-8"?>\n`;
-        // Metadata comment
         const author = authorNameInput.value.trim() || "anonymous";
         const version = versionInput.value.trim() || "1";
         const now = new Date().toISOString();
@@ -420,7 +397,6 @@
         return xml;
     }
     
-    // Trigger download of XML file
     function downloadTranslation(langCode) {
         if (!langCode) {
             setStatus("Please select a language first", true);
@@ -443,17 +419,16 @@
         setStatus(`✅ File ${langCode}.xml generated. Upload to GitHub /languages/ folder.`, false);
     }
     
-    // Populate language dropdown from GitHub API (list of existing files in languages folder)
     async function populateLanguageDropdown() {
         setStatus("Fetching available languages...", false, true);
         try {
             const apiUrl = API_BASE + LANGUAGES_FOLDER;
+            console.log("Fetching languages from API:", apiUrl);
             const response = await fetch(apiUrl);
             if (!response.ok) {
-                // maybe folder doesn't exist yet, just populate a generic list
-                console.warn("Languages folder not found, using static language list");
+                console.warn(`API returned ${response.status}`);
                 populateStaticLanguages();
-                setStatus("Ready. You can create new translations.", false);
+                setStatus("Could not fetch language list from GitHub, using static list.", true);
                 return;
             }
             const files = await response.json();
@@ -462,11 +437,15 @@
                 for (let file of files) {
                     if (file.name && file.name.endsWith(".xml")) {
                         let code = file.name.replace(/\.xml$/, '');
+                        // Удаляем префикс strings_ если есть (на случай старых файлов)
+                        if (code.startsWith("strings_")) {
+                            code = code.substring(8);
+                        }
                         languageCodes.push(code);
+                        console.log("Found language:", code);
                     }
                 }
             }
-            // Add a generic list of all possible languages (including those not yet translated)
             populateFullLanguageList(languageCodes);
             setStatus("Ready. Select language and load existing translation or create new.", false);
         } catch (err) {
@@ -476,7 +455,6 @@
         }
     }
     
-    // Populate with built‑in language list (ISO codes)
     function populateStaticLanguages() {
         const allLanguages = getCommonLanguagesList();
         languageSelect.innerHTML = '<option value="">-- Select language --</option>';
@@ -535,7 +513,6 @@
         ];
     }
     
-    // Event handlers
     loadBtn.addEventListener("click", async () => {
         const lang = languageSelect.value;
         if (!lang) {
@@ -555,7 +532,7 @@
         downloadTranslation(lang);
     });
     
-    // Initial load
+    // Start
     loadTemplate().then(() => {
         populateLanguageDropdown();
     });
