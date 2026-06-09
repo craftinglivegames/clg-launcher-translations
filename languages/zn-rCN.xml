@@ -1,0 +1,1173 @@
+<resources>
+    <string name="app_name">按钮手机启动器</string>
+    <string name="app_version">版本 1.0</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_title">启动器设置</string>
+    <string name="setup_description">启动器需要以下权限：</string>
+    <string name="grant_permissions">授予权限</string>
+
+    <!-- ADB Permissions Activity -->
+    <string name="adb_permissions_title">ADB权限设置</string>
+    <string name="check_again">再次检查</string>
+    <string name="open_shizuku">打开 Shizuku</string>
+    <string name="skip_for_now">跳过（不推荐）</string>
+    <string name="permission_required_message">某些功能需要系统权限</string>
+
+    <!-- Main Activity -->
+    <string name="menu_button">菜单</string>
+    <string name="ok_options_button">确定/选项</string>
+    <string name="contacts_button">联系人</string>
+
+    <!-- Bottom bar -->
+    <string name="menu">菜单</string>
+    <string name="dialer">拨号</string>
+    <string name="contacts">联系人</string>
+    <string name="messages">信息</string>
+    <string name="browser">浏览器</string>
+    <string name="camera">相机</string>
+    <string name="gallery">图库</string>
+    <string name="music">音乐</string>
+    <string name="calculator">计算器</string>
+
+    <!-- Desktop pages -->
+    <string name="options">选项</string>
+    <string name="open">打开</string>
+    <string name="remove_all">全部清除</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="wallpaper_settings">壁纸</string>
+    <string name="theme_settings">主题</string>
+    <string name="appearance_settings">外观</string>
+    <string name="behavior_settings">行为</string>
+    <string name="about">关于</string>
+
+    <!-- Quick Settings -->
+    <string name="rotation_lock">旋转锁定</string>
+
+    <!-- Dialog -->
+    <string name="select_app">选择应用</string>
+    <string name="ok_dialog">确定</string>
+
+    <!-- Feature phone strings -->
+    <string name="soft_key_left">左软键</string>
+    <string name="soft_key_right">右软键</string>
+    <string name="dpad_up">上</string>
+    <string name="dpad_down">下</string>
+    <string name="dpad_left">左</string>
+    <string name="dpad_right">右</string>
+    <string name="dpad_center">确定/选择</string>
+
+    <!-- Error Report Activity -->
+    <string name="error_report_title">启动器错误</string>
+    <string name="report_error_button">报告错误</string>
+    <string name="restart_launcher_button">重启启动器</string>
+
+    <!-- Media Widget Filter -->
+    <string name="media_filter_title">“正在播放”小部件过滤</string>
+    <string name="media_filter_save">保存</string>
+    <string name="media_filter_cancel">取消</string>
+    <string name="media_filter_select_all">全部</string>
+    <string name="media_filter_saved">过滤已保存</string>
+    <string name="media_filter_all_allowed">允许所有应用</string>
+
+    <string name="content_description_counters">计数器</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">通知</string>
+    <string name="clear_all_notifications">全部清除</string>
+    <string name="clear_all_dialog_title">清除所有通知</string>
+    <string name="clear_all_dialog_message">清除（标记已读）所有通知？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="reply_to_notification">回复通知</string>
+    <string name="enter_reply_hint">输入回复...</string>
+    <string name="press_ok_to_send">按确定发送</string>
+    <string name="send">发送</string>
+    <string name="notification_parameters">参数</string>
+    <string name="notification_ok_options">确定/选项</string>
+
+    <string name="accessibility_service_description">用于在屏幕录制期间全局拦截按键0、拦截其他按键以控制方向、音量键、音量面板、手势和屏幕光标，以及应用提供的其他功能的服务。</string>
+
+    <string name="restart_warning">要应用设置，请手动重启启动器</string>
+    <string name="experimental_link">外壳实验性功能</string>
+    <string name="search_hint">输入名称...</string>
+    <string name="loading_apps">加载应用列表...</string>
+
+    <string name="add_shortcut">添加快捷方式</string>
+    <string name="choose_shortcut">选择快捷方式</string>
+
+    <string name="shizuku_diagnostic_title">Shizuku 诊断</string>
+    <string name="shizuku_installed_yes">Shizuku 已安装：✅ 是</string>
+    <string name="shizuku_installed_no">Shizuku 已安装：❌ 否</string>
+    <string name="shizuku_running_yes">Shizuku 活跃：✅ 是</string>
+    <string name="shizuku_running_no">Shizuku 活跃：❌ 否</string>
+    <string name="shizuku_permission_yes">启动器权限：✅ 已授予</string>
+    <string name="shizuku_permission_no">启动器权限：❌ 未授予</string>
+    <string name="shizuku_install_prompt">从应用商店安装 Shizuku 并激活它。</string>
+    <string name="shizuku_start_prompt">启动 Shizuku 并执行激活（ADB 或 root）。</string>
+    <string name="shizuku_grant_prompt">在 Shizuku 应用中授予启动器权限。</string>
+
+    <string name="lock_screen_unlock_combo">解锁按键组合：确定 + %s</string>
+    <string name="lock_screen_system_active">活跃</string>
+    <string name="lock_screen_system_inactive">不活跃</string>
+    <string name="lock_screen_system_hint">按确定进入标准锁屏设置并禁用它以避免重复。</string>
+    <string name="key_gesture_service_description">用于将手势分配给硬件按钮的服务</string>
+    <string name="cursor_menu">屏幕光标</string>
+    <string name="accessibility_cursor_desc">用于导航的屏幕光标</string>
+    <string name="cursor_animation_show">光标出现动画</string>
+    <string name="cursor_hover_elements">界面元素对光标有反应</string>
+    <string name="cursor_scroll_digits">用数字键滚动（2/8/4/6）</string>
+    <string name="cursor_scroll_acceleration">滚动加速</string>
+    <string name="cursor_sound_click">点击声音</string>
+    <string name="cursor_hide_keyboard">键盘打开时隐藏</string>
+
+    <!-- About Launcher Activity -->
+    <string name="about_launcher_title">关于外壳</string>
+    <string name="about_launcher_version">版本：1.0</string>
+    <string name="about_launcher_beta">发布：测试版</string>
+    <string name="about_launcher_description">CLG 按钮手机启动器\n\n面向 Android 功能手机的启动器\n专为带硬件按键的设备开发</string>
+
+    <string name="link_team">团队：CraftingLiveGames</string>
+    <string name="link_publisher">发行商：CLG Publisher</string>
+    <string name="link_developer">开发者：Nikita Shustol</string>
+    <string name="link_consultant">顾问：Nikita Shakarun</string>
+    <string name="link_github">源代码在 GitHub 上可用</string>
+    <string name="link_donate">在 DonationAlerts 上支持开发者</string>
+
+    <string name="experimental_features_link">外壳实验性功能</string>
+    <string name="backup_restore_link">备份和恢复</string>
+    <string name="policy_link">隐私政策与用户协议</string>
+
+    <!-- ANR Logs Activity -->
+    <string name="anr_logs_title">ANR 错误日志</string>
+    <string name="clear_all_logs">清除所有日志</string>
+    <string name="no_anr_logs">未找到 ANR 日志</string>
+
+    <!-- Game stats templates -->
+    <string name="downloads_count_template">下载次数：%s</string>
+    <string name="rating_template">评分：%s</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_restore_title">备份和恢复</string>
+    <string name="backup_local">本地备份（ZIP）</string>
+    <string name="restore_local">从本地 ZIP 恢复</string>
+    <string name="backup_google_drive">备份到 Google Drive</string>
+    <string name="restore_google_drive">从 Google Drive 恢复</string>
+    <string name="backup_yandex_disk">备份到 Yandex.Disk</string>
+    <string name="restore_yandex_disk">从 Yandex.Disk 恢复</string>
+    <string name="backup_info_text">备份将包括：\n\n• 所有启动器设置（SharedPreferences）\n• 菜单数据（文件夹、应用、快捷方式及其顺序）\n• 自定义图标和横幅\n• 屏幕光标、手势等设置\n\n恢复将覆盖当前数据并需要重启应用。</string>
+
+    <!-- Cursor Activity -->
+    <string name="cursor_toggle">启用 / 禁用</string>
+    <string name="cursor_select_apps">选择应用</string>
+    <string name="cursor_app_selector_title">选择应用</string>
+    <string name="cursor_app_selector_hint">光标将自动出现在所选应用中，退出或最小化时隐藏。</string>
+    <string name="cursor_select_all">全选</string>
+
+    <string name="cursor_settings_title">光标设置</string>
+    <string name="cursor_speed_template">速度：%d px</string>
+    <string name="cursor_size_template">大小：%d dp</string>
+    <string name="cursor_timeout_template">超时：%d 秒</string>
+    <string name="cursor_icon_label">图标：%s</string>
+    <string name="cursor_select_icon">选择图标</string>
+    <string name="cursor_toggle_key_hint">分配的按钮在任意应用中长按时切换/隐藏光标。</string>
+    <string name="cursor_toggle_key_label">手动开/关按钮：%s</string>
+    <string name="cursor_assign_button">分配按钮</string>
+
+    <!-- Experimental Features Activity -->
+    <string name="experimental_features_title">外壳实验性功能</string>
+    <string name="experimental_features_description">这些功能可能在某些设备上无法正常工作，但您可以尝试，它们扩展了功能。其中一些需要完善或完全重新设计。此外，其中一些功能旨在收集用户的额外信息，以便在报告错误时向开发者提供更完整的报告。</string>
+
+    <string name="anr_handler_label">自定义 ANR 处理程序</string>
+    <string name="anr_handler_description">添加一个额外的“应用无响应”错误处理程序，用于捕获导致卡死的错误文本。</string>
+
+    <string name="wallpaper_check_label">壁纸检查</string>
+    <string name="wallpaper_check_description">添加一个壁纸检查项，用于确定为何外壳无法在桌面上显示您的壁纸。</string>
+
+    <string name="joypad_swap_label">屏幕方向改变时交换 DPAD 按钮</string>
+    <string name="joypad_swap_description">实验性功能，在屏幕旋转时交换上/下/左/右物理按钮，以保持导航逻辑。</string>
+
+    <string name="global_icon_pack_label">全局图标包</string>
+    <string name="global_icon_pack_description">尝试从图标包自动为应用菜单选取图标，但当前实现通常无法正确识别图标，并且在“所有应用”文件夹中不起作用。</string>
+
+    <string name="edit_all_apps_label">在“所有应用”中编辑</string>
+    <string name="edit_all_apps_description">添加在“所有应用”文件夹中编辑应用名称和图标的功能，但运行不稳定。</string>
+
+    <string name="cursor_hover_elements_label">界面元素对屏幕光标有反应</string>
+    <string name="cursor_hover_elements_description">添加光标设置，用于高亮光标下的元素（例如浏览器中的链接），但在大多数设备上不起作用。</string>
+
+    <string name="lock_screen_experimental_label">新锁屏（实验性）</string>
+    <string name="lock_screen_experimental_description">草稿未完成的自定义锁屏，运行不稳定，并非所有功能都已完成。将来可能会完成。</string>
+
+    <string name="google_drive_backup_label">通过 Google Drive 备份（实验性）</string>
+    <string name="google_drive_backup_description">云备份的初步实现，需要在 Google 客户端方面进行额外工作，可能无法在您这里运行。</string>
+
+    <string name="yandex_disk_backup_label">通过 Yandex.Disk 备份（实验性）</string>
+    <string name="yandex_disk_backup_description">通过 Yandex.Disk 进行备份的实验性实现。需要在 Yandex OAuth 上注册应用并在代码中指定客户端 ID。</string>
+
+    <!-- Key Gesture Activity -->
+    <string name="key_gesture_title">手势分配</string>
+
+    <!-- Lock Screen Settings Activity -->
+    <string name="lock_screen_settings_title">新锁屏</string>
+    <string name="lock_screen_wallpaper">更换锁屏壁纸</string>
+    <string name="lock_screen_enable">激活新锁屏</string>
+    <string name="lock_screen_assign_second_key">分配第二个解锁按钮</string>
+    <string name="lock_screen_unlock_sound">解锁声音</string>
+    <string name="lock_screen_lock_sound">锁屏声音（屏幕关闭时）</string>
+    <string name="lock_screen_left_key">左软键</string>
+    <string name="lock_screen_left_action">选择左软键操作</string>
+    <string name="lock_screen_left_rename">重命名左软键</string>
+    <string name="lock_screen_right_key">右软键</string>
+    <string name="lock_screen_right_action">选择右软键操作</string>
+    <string name="lock_screen_right_rename">重命名右软键</string>
+    <string name="lock_screen_bypass_left">即使启用了额外保护也执行左软键操作</string>
+    <string name="lock_screen_bypass_right">即使启用了额外保护也执行右软键操作</string>
+    <string name="lock_screen_protection">激活额外保护</string>
+    <string name="lock_screen_use_pin">使用 PIN 码</string>
+    <string name="lock_screen_use_pattern">使用图案</string>
+    <string name="lock_screen_set_pin">设置 PIN 码</string>
+    <string name="lock_screen_set_pattern">设置图案</string>
+    <string name="lock_screen_power_fix">用电源键锁定屏幕（实验性）</string>
+    <string name="lock_screen_system_status">Android 标准锁屏状态：%s</string>
+
+    <!-- Media Control Activity -->
+    <string name="media_control_title">媒体控制</string>
+    <string name="volume_template">音量：%d/%d</string>
+    <string name="volume_up">增大音量</string>
+    <string name="volume_down">减小音量</string>
+    <string name="play_pause">播放/暂停</string>
+    <string name="previous_track">上一曲</string>
+    <string name="next_track">下一曲</string>
+    <string name="mute">静音</string>
+    <string name="stop">停止</string>
+    <string name="shortcut_1">1</string>
+    <string name="shortcut_2">2</string>
+
+    <!-- Notification Settings Activity -->
+    <string name="notification_settings_title">通知设置</string>
+    <string name="notification_settings_placeholder">启动器的通知设置将显示在此处</string>
+
+    <!-- Screen Record Activity -->
+    <string name="screen_record_title">屏幕录制</string>
+    <string name="recording_status_inactive">录制未激活</string>
+    <string name="recording_timer_placeholder">00:00:00</string>
+    <string name="start_recording">开始录制</string>
+    <string name="recording">录制</string>
+
+    <!-- Settings Activity -->
+    <string name="launcher_settings_title">启动器设置</string>
+    <string name="settings_placeholder">设置将显示在此处</string>
+
+    <!-- Setup Activity -->
+    <string name="setup_permissions_required">启动器需要：</string>
+    <string name="setup_button_skip">跳过</string>
+    <string name="setup_hint_text">提示：按手机上的物理按钮进行分配</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="circle_tracker">追踪器</string>
+    <string name="cursor_description">光标</string>
+
+    <!-- ADB Instructions Dialog -->
+    <string name="copy_commands">复制命令</string>
+    <string name="execute_via_shizuku">通过 Shizuku 执行</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_error_message">AI 没有响应。开发者的 API 密钥可能不可用或暂时无法工作。您可以从 NVIDIA 或官方 API 获取自己的免费 DeepSeek 密钥并使用它。付费密钥也可用。</string>
+    <string name="go_nvidia_site">前往 NVIDIA 网站</string>
+    <string name="go_deepseek_site">前往 DeepSeek 网站</string>
+    <string name="enter_nvidia_key">输入 NVIDIA 密钥</string>
+    <string name="enter_deepseek_key">输入 DeepSeek 密钥</string>
+    <string name="app_selector_content_description">待选择的应用列表</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_not_assigned">分配 AI 助手键：未分配</string>
+    <string name="assistant_key_enable">长按 AI 助手键时激活数字助手调用</string>
+    <string name="assistant_key_choose_assistant">选择数字助手</string>
+
+    <!-- Automation Config Dialog -->
+    <string name="automation_on_start">打开小部件屏幕时执行</string>
+    <string name="automation_interval_label">间隔（毫秒）：</string>
+    <string name="automation_interval_hint">0 — 禁用</string>
+    <string name="automation_interval_description">0 = 仅在启动时执行（如果复选框已勾选）\n&gt;0 = 在活动打开期间每 N 毫秒执行</string>
+
+    <!-- Banner Animations Dialog -->
+    <string name="banner_transition_animation">标题切换动画</string>
+    <string name="background_animation">背景动画</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness">亮度</string>
+
+    <!-- Edit Player Dialog -->
+    <string name="change_icon">更改图标</string>
+    <string name="nickname_hint">昵称</string>
+    <string name="generate_nick">生成昵称</string>
+
+    <!-- Game Center Stats Dialog -->
+    <string name="show_downloads_rating">显示下载次数和评分</string>
+    <string name="show_play_time">显示游戏时长</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_enabled">激活游戏模式（不会自动关闭；要关闭，请返回此窗口并取消勾选此框）</string>
+    <string name="game_mode_disable_notifications">禁用通知</string>
+    <string name="game_mode_lower_brightness">降低屏幕亮度</string>
+    <string name="game_mode_enable_dnd">激活勿扰模式</string>
+    <string name="game_mode_disable_battery_saver">自动禁用省电模式</string>
+    <string name="game_mode_clear_background_apps">清除后台应用</string>
+    <string name="game_mode_disable_perf_limit">禁用 Android 性能限制器（CPU 超频，风险自担）</string>
+    <string name="search_hint2">搜索...</string>
+
+    <!-- New Volume Panel Dialog -->
+    <string name="volume_up_not_assigned">分配音量增大键：未分配</string>
+    <string name="volume_down_not_assigned">分配音量减小键：未分配</string>
+    <string name="volume_panel_enable">启用/禁用新音量面板</string>
+    <string name="number_picker_description">数字选择器</string>
+
+    <!-- Orientation Control Dialog -->
+    <string name="orientation_key_not_assigned">分配方向更改按钮：未分配</string>
+    <string name="orientation_enable">启用方向控制</string>
+    <string name="orientation_rotate_joypad">旋转摇杆（交换上/右和下/左）</string>
+
+    <!-- Player Stats Dialog -->
+    <string name="player_stats_title">玩家总统计</string>
+    <string name="player_default_nickname">玩家</string>
+    <string name="share">分享</string>
+    <string name="quick_settings_list_description">快速设置列表</string>
+
+    <!-- Common buttons -->
+    <string name="cancel2">取消</string>
+
+    <!-- Revive Options Dialog -->
+    <string name="revive_update_size">更新小部件大小（updateAppWidgetSize）</string>
+    <string name="revive_update_options">更新选项（updateAppWidgetOptions）</string>
+    <string name="revive_start_listening">重新启动监听（startListening）</string>
+    <string name="revive_broadcast">发送广播更新</string>
+    <string name="revive_visibility">调用 dispatchWindowVisibilityChanged</string>
+    <string name="revive_invalidate">调用 invalidate()</string>
+    <string name="revive_recommended">推荐：1 + 3 + 5</string>
+    <string name="search_hint3">输入名称...</string>
+
+    <!-- Volume Dialog -->
+    <string name="more">更多</string>
+    <string name="sound_mode_normal">普通模式</string>
+    <string name="sound_mode_vibrate">振动</string>
+    <string name="sound_mode_silent">静音</string>
+    <string name="recording_icon_description">录制图标</string>
+
+    <!-- Center Fragment -->
+    <string name="calendar_events_title">日历事件</string>
+    <string name="artist_placeholder">艺术家</string>
+    <string name="title_placeholder">曲目标题</string>
+    <string name="sim1_placeholder">SIM1</string>
+    <string name="sim2_placeholder">SIM2</string>
+
+    <!-- Gesture Edit Fragment -->
+    <string name="gesture_key_label">按钮：</string>
+    <string name="gesture_action_label">事件：</string>
+    <string name="gesture_draw_label">绘制手势：</string>
+    <string name="gesture_draw_button">绘制手势</string>
+    <string name="gesture_name_label">名称：</string>
+    <string name="gesture_description_label">描述：</string>
+    <string name="notifications_title2">通知</string>
+    <string name="reply_to_notification2">回复通知</string>
+    <string name="enter_reply_hint2">输入回复...</string>
+    <string name="press_ok_to_send2">按确定发送</string>
+    <string name="send2">发送</string>
+    <string name="gesture_service">手势服务</string>
+    <string name="anr_log_name">ANR 日志</string>
+    <string name="share_log">分享日志</string>
+    <string name="placeholder_app_name">名称</string>
+    <string name="notification_actions_hint">按确定选择操作</string>
+    <string name="gesture_count_loading">手势：加载中...</string>
+    <string name="unlock">解锁</string>
+    <string name="button_description">按钮</string>
+
+    <!-- App Selector Activity -->
+    <string name="cursor_select_button">选择</string>
+    <string name="cursor_selection_title">选择</string>
+    <string name="cursor_clear_all">全部取消</string>
+    <string name="cursor_list_saved">列表已保存</string>
+
+    <!-- Gesture Actions -->
+    <string name="gesture_action_down">按下</string>
+    <string name="gesture_action_up">松开</string>
+    <string name="gesture_action_two">同时按下</string>
+    <string name="gestures_count">手势数：%d</string>
+
+    <!-- Cursor Settings Activity -->
+    <string name="cursor_press_button">按按钮...</string>
+    <string name="cursor_speed_label">速度：%d px</string>
+    <string name="cursor_size_label">大小：%d dp</string>
+    <string name="cursor_timeout_label">超时：%d 秒</string>
+    <string name="cursor_icon_prefix">图标：%s</string>
+    <string name="cursor_icon_custom">图标：自定义</string>
+    <string name="cursor_toggle_key_not_assigned">手动开/关按钮：未分配</string>
+    <string name="cursor_toggle_key_prefix">按钮：%s</string>
+    <string name="cursor_pick_icon_title">选择光标图标</string>
+    <string name="cursor_from_gallery">从图库</string>
+    <string name="cursor_key_saved">按钮已保存</string>
+
+    <!-- API Key Error Dialog -->
+    <string name="api_key_error_title">API 密钥错误</string>
+    <string name="nvidia_key_dialog_title">NVIDIA 密钥</string>
+    <string name="deepseek_key_dialog_title">DeepSeek 密钥</string>
+    <string name="key_saved_toast">密钥已保存</string>
+
+    <!-- App Options Dialog -->
+    <string name="app_option_change_name">更改名称</string>
+    <string name="app_option_change_icon">更改图标</string>
+    <string name="app_option_change_focused_icon">更改聚焦图标</string>
+    <string name="app_option_update_description">更新描述</string>
+    <string name="app_option_edit_description">编辑描述</string>
+    <string name="app_option_change_banner">更改横幅</string>
+    <string name="app_option_game_platform">游戏类型/平台</string>
+    <string name="app_option_app_settings">应用设置</string>
+    <string name="app_option_remove_from_folder">从文件夹移除</string>
+    <string name="app_option_uninstall">卸载应用</string>
+    <string name="app_option_move">移动</string>
+    <string name="app_option_cancel">取消</string>
+
+    <string name="app_option_new_name_title">新名称</string>
+    <string name="app_option_enter_description_title">输入游戏描述</string>
+    <string name="app_option_enter_platform_title">游戏类型/平台</string>
+    <string name="app_option_default_platform">手机游戏</string>
+
+    <string name="app_option_searching_description">正在搜索描述...</string>
+    <string name="app_option_description_updated">描述已更新</string>
+    <string name="app_option_no_internet">无网络连接。请连接网络后重试。</string>
+    <string name="app_option_description_not_found">未找到描述。您可以手动添加。</string>
+
+    <!-- Assistant Key Dialog -->
+    <string name="assistant_key_dialog_title">分配 AI 助手键：未分配</string>
+    <string name="assistant_key_dialog_assigned">分配 AI 助手键：%s</string>
+    <string name="assistant_key_press_key_toast">按下所需的键...</string>
+    <string name="assistant_key_assigned_toast">分配的键：%s</string>
+    <string name="assistant_key_code_prefix">代码：%d</string>
+    <string name="assistant_key_accessibility_title">启用无障碍服务</string>
+    <string name="assistant_key_accessibility_message">要使用“AI 助手键”功能，您必须启用无障碍服务。\n\n1. 按“设置”\n2. 找到“无障碍服务”\n3. 启用“Global Key Interceptor”</string>
+    <string name="assistant_key_accessibility_settings">设置</string>
+    <string name="assistant_key_accessibility_cancel">取消</string>
+
+    <!-- Key names for assistant dialog -->
+    <string name="key_volume_up">音量 +</string>
+    <string name="key_volume_down">音量 -</string>
+    <string name="key_dpad_center">中心（确定）</string>
+    <string name="key_dpad_up">上</string>
+    <string name="key_dpad_down">下</string>
+    <string name="key_dpad_left">左</string>
+    <string name="key_dpad_right">右</string>
+    <string name="key_menu">菜单</string>
+    <string name="key_back">返回</string>
+    <string name="key_call">呼叫</string>
+    <string name="key_endcall">挂断</string>
+    <string name="key_0">0</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_pound">#</string>
+    <string name="key_star">*</string>
+
+    <!-- Brightness Dialog -->
+    <string name="brightness_dialog_title">修改系统设置的权限</string>
+    <string name="brightness_change_settings_message">要更改亮度，您必须允许应用修改系统设置。前往设置？</string>
+    <string name="brightness_go_to_settings">前往设置</string>
+    <string name="brightness_cancel">取消</string>
+
+    <!-- Folder Options Dialog -->
+    <string name="folder_option_delete">删除文件夹</string>
+
+    <!-- Game Mode Dialog -->
+    <string name="game_mode_dialog_title">游戏模式设置</string>
+    <string name="game_mode_save">保存</string>
+    <string name="game_mode_cancel">取消</string>
+    <string name="game_mode_clear_background_warning">Android 会在内存不足时自动卸载后台应用，无需额外卸载</string>
+    <string name="game_mode_activated">游戏模式已激活</string>
+    <string name="game_mode_deactivated">游戏模式已停用</string>
+
+    <!-- IconPackGridDialog -->
+    <string name="icon_pack_dialog_title">从 %s 选择图标</string>
+    <string name="icon_pack_no_icons_found">在包 %s 中未找到图标\n请尝试其他选择方法</string>
+    <string name="loading_icons_title">正在加载图标</string>
+    <string name="progress_step1">步骤 1/6：通过 R 类反射搜索...</string>
+    <string name="progress_step2">步骤 2/6：直接访问 R 类...</string>
+    <string name="progress_step3">步骤 3/6：通过 AssetManager 搜索...</string>
+    <string name="progress_step4">步骤 4/6：通过 appfilter.xml 搜索...</string>
+    <string name="progress_step5">步骤 5/6：通过 getIdentifier 搜索...</string>
+    <string name="progress_step6">步骤 6/6：最终搜索...</string>
+
+    <!-- IconPickDialog -->
+    <string name="icon_pick_title">选择图标来源</string>
+    <string name="icon_pack">图标包</string>
+    <string name="standard_icons">标准</string>
+
+    <!-- MultiUninstallDialog -->
+    <string name="multi_uninstall_title">批量卸载应用</string>
+    <string name="uninstall_selected">卸载所选</string>
+    <string name="uninstall_requests_sent">卸载请求已发送</string>
+
+    <!-- NewVolumePanelSettingsDialog -->
+    <string name="press_key_to_assign">按下所需的键...</string>
+    <string name="key_assigned_toast">分配的键：%s</string>
+    <string name="key_code_format_with_name">代码：%d（%s）</string>
+    <string name="assign_volume_up_key">分配音量增大键：%s</string>
+    <string name="assign_volume_down_key">分配音量减小键：%s</string>
+    <string name="accessibility_dialog_title">启用无障碍服务</string>
+    <string name="accessibility_dialog_message">要使用新的音量面板，您必须启用无障碍服务。\n\n1. 按“设置”\n2. 找到“无障碍服务”\n3. 启用“Global Key Interceptor”</string>
+
+    <!-- OrientationControlSettingsDialog -->
+    <string name="orientation_key_assigned">分配方向更改按钮：%s</string>
+    <string name="orientation_write_settings_message">要控制屏幕方向，您需要修改系统设置的权限。前往设置？</string>
+    <string name="go_to_settings">前往设置</string>
+
+    <!-- PlayerStatsDialog -->
+    <string name="generate_nick_failed">生成昵称失败</string>
+    <string name="generating">生成中...</string>
+    <string name="share_stats_chooser_title">分享统计</string>
+    <string name="error_occurred_template">错误：%s</string>
+
+    <!-- QuickSettingsEditDialog -->
+    <string name="qs_edit_title">编辑快捷方式</string>
+    <string name="qs_add_tile">添加磁贴</string>
+    <string name="qs_no_tiles_available">没有可用的磁贴</string>
+    <string name="qs_select_tile">选择磁贴</string>
+
+    <!-- QuickSettingsOrderDialog -->
+    <string name="qs_tab_control">控制</string>
+    <string name="qs_tab_basic">基本</string>
+    <string name="qs_tab_apps">应用</string>
+
+    <!-- SelectAppsDialog -->
+    <string name="select_apps">选择应用</string>
+    <string name="add">添加</string>
+
+    <!-- SelectFolderDialog -->
+    <string name="select_folder">选择文件夹</string>
+
+    <!-- SelectPositionDialog -->
+    <string name="select_new_position">选择新位置</string>
+    <string name="app_option_remove_shortcut">删除快捷方式</string>
+
+    <!-- TileActivationDialog -->
+    <string name="tile_activation_title">激活磁贴</string>
+    <string name="tile_activation_instructions">通过 ADB 激活磁贴的说明：\n\n1. 确保设备已连接到计算机并启用了 USB 调试。\n2. 在计算机上运行以下命令：\n\n   adb shell cmd statusbar add-tile %s\n   adb shell cmd statusbar click-tile %s\n   adb shell cmd statusbar remove-tile %s\n\n3. 成功执行后，磁贴将被激活。\n\n如果您已安装并激活 Shizuku，可以按下面的按钮直接在设备上执行这些命令。</string>
+    <string name="commands_copied">命令已复制</string>
+    <string name="done">完成</string>
+    <string name="cancelled">已取消</string>
+    <string name="shizuku_permission_required_title">需要 Shizuku 权限</string>
+    <string name="shizuku_permission_required_message">要通过 Shizuku 执行命令，您需要授予权限。打开 Shizuku 并允许此应用访问。</string>
+
+    <!-- WidgetActionsDialog -->
+    <string name="widget_actions_title">小部件操作</string>
+    <string name="widget_actions_no_actions_message">没有可用的操作</string>
+    <string name="widget_actions_loading_message">正在加载小部件元素...</string>
+    <string name="widget_actions_load_failed_message">无法加载元素</string>
+    <string name="action_name_icon_button">🖼️ 按钮（图标）</string>
+    <string name="action_name_button">🔘 按钮</string>
+    <string name="action_name_text_button">📝 文本按钮</string>
+    <string name="action_name_container">🗂️ 容器（按下）</string>
+    <string name="action_name_default_template">⚙️ %s（按钮）</string>
+
+    <!-- AboutLauncherActivity -->
+    <string name="confirm_link_title">跳转到链接</string>
+    <string name="confirm_link_message">您真的想转到此页面吗？\n\n您的浏览器或社交网络客户端将通过以下链接打开：\n%s</string>
+    <string name="go_to_link">转到链接</string>
+
+    <!-- AdbPermissionsActivity -->
+    <string name="adb_permissions_instructions">要获得完整启动器功能，需要系统权限：\n\n📱 方法 1：通过 ADB（推荐）\n1. 将手机连接到已安装 ADB 的计算机\n2. 在设置中启用“开发者选项”\n3. 启用“USB 调试”\n4. 执行命令：\n\nadb shell pm grant %s android.permission.PACKAGE_USAGE_STATS\nadb shell pm grant %s android.permission.SYSTEM_ALERT_WINDOW\n\n📲 方法 2：通过 Shizuku\n1. 从商店安装 Shizuku\n2. 启动并激活它\n3. 返回到此应用\n\n这些权限用于：\n• 在其他应用之上显示\n• 应用使用统计\n• 启动器正确运行\n\n\n📲 对于媒体小部件（必需）：\n1. 打开设置 → 应用 → 特殊访问权限\n2. 选择“通知访问”\n3. 找到“Button Phone Launcher”并启用开关\n\n这是为了：\n• 检测正在播放的音乐/视频\n• 在“正在播放”小部件中显示</string>
+    <string name="permissions_still_missing">⚠ 权限仍未授予！</string>
+
+    <!-- AddShortcutActivity -->
+    <string name="shortcut_added">快捷方式已添加</string>
+    <string name="shortcut_create_failed">无法创建快捷方式</string>
+    <string name="shortcut_select_location_title">为快捷方式选择位置</string>
+    <string name="shortcut_error_general">发生错误，请再次尝试添加快捷方式</string>
+    <string name="root_menu_item">📁 菜单根目录</string>
+    <string name="game_center_item">🎮 游戏中心</string>
+    <string name="create_new_folder_item">➕ 创建新文件夹</string>
+    <string name="new_folder_name_title">新文件夹名称</string>
+    <string name="folder_create_failed">无法创建文件夹</string>
+    <string name="folder_name_empty">名称不能为空</string>
+
+    <!-- AppMenuActivity -->
+    <string name="games_found_template">找到 %d 款游戏</string>
+    <string name="not_enough_items">没有足够的项目来更改顺序</string>
+    <string name="order_determined_by_sort">在此文件夹中，顺序由排序决定</string>
+    <string name="order_changed">顺序已更改</string>
+    <string name="no_items">没有项目</string>
+    <string name="initial_focus_set_template">初始焦点已设置到位置 %d</string>
+
+    <string name="view_mode">视图模式</string>
+    <string name="number_of_rows">行数</string>
+    <string name="number_of_columns">列数</string>
+    <string name="new_folder">新建文件夹</string>
+    <string name="select_apps_for_folder">为文件夹选择应用</string>
+    <string name="clear_folder">清空文件夹</string>
+    <string name="sorting">排序</string>
+    <string name="select_apps_for_menu">为菜单选择应用</string>
+    <string name="icon_mask">图标蒙版</string>
+    <string name="icon_animation">图标动画</string>
+    <string name="icon_scale">图标缩放</string>
+    <string name="multi_uninstall">批量卸载应用</string>
+    <string name="key_gesture_assignment">为按钮分配手势</string>
+
+    <string name="grid">网格</string>
+    <string name="list">列表</string>
+    <string name="large_icons">大图标</string>
+    <string name="sort_alphabet">按字母顺序</string>
+    <string name="sort_install_date">按安装日期</string>
+    <string name="sort_usage_freq">按使用频率</string>
+    <string name="no_icon_packs_found">未找到图标包</string>
+    <string name="applying_icon_pack">正在应用图标包</string>
+    <string name="starting">正在开始...</string>
+    <string name="icon_changed">图标已更改</string>
+    <string name="focused_icon_changed">聚焦图标已更改</string>
+    <string name="item_not_found">未找到项目</string>
+    <string name="downloads_loading">下载次数：加载中...</string>
+    <string name="rating_loading">评分：加载中...</string>
+    <string name="source_web">网络资源</string>
+    <string name="source_deepseek_pro">DeepSeek Pro</string>
+    <string name="source_deepseek_flash">DeepSeek Flash</string>
+    <string name="source_changed_template">来源已更改为 %s</string>
+    <string name="hours_played_loading">游戏时长：加载中...</string>
+    <string name="hours_played_template">游戏时长：%s</string>
+    <string name="no_description">没有描述。</string>
+    <string name="ai_error_prefix">无法从 AI 获取数据</string>
+
+    <string name="loading">加载中...</string>
+    <string name="reorder">重新排序</string>
+    <string name="focus_on_startup">启动时聚焦项目</string>
+    <string name="game_center_params">游戏中心参数</string>
+    <string name="game_mode_settings">游戏模式设置</string>
+    <string name="show_player_stats">显示玩家统计</string>
+    <string name="stats_display">统计显示</string>
+    <string name="info_sources">信息来源</string>
+    <string name="banner_animations">横幅动画</string>
+    <string name="update_stats">更新统计</string>
+    <string name="stats_updating">统计正在更新...</string>
+    <string name="anim_scale">缩放</string>
+    <string name="anim_parallax">视差</string>
+    <string name="anim_pulse">亮度脉冲</string>
+    <string name="mask_circle">圆形</string>
+    <string name="mask_square">方形</string>
+    <string name="mask_rounded">圆角矩形</string>
+    <string name="anim_none">无动画</string>
+    <string name="anim_shake">抖动</string>
+    <string name="anim_rotate">旋转</string>
+    <string name="anim_blink">闪烁</string>
+    <string name="no_shortcut_apps">没有支持创建快捷方式的应用</string>
+    <string name="choose_app_for_shortcut">为快捷方式选择应用</string>
+    <string name="new_folder_name">文件夹名称</string>
+    <string name="clear_folder_confirm">从文件夹“%s”中删除所有项目？</string>
+    <string name="clear">清除</string>
+    <string name="choose_default_icon_pack">选择默认图标包</string>
+    <string name="total_apps">应用总数</string>
+    <string name="matched_icons">在包中找到的图标</string>
+    <string name="details">详细信息</string>
+    <string name="apply_complete">应用完成</string>
+    <string name="copy">复制</string>
+    <string name="report_copied">报告已复制</string>
+    <string name="choose_icon_pack">选择图标包</string>
+    <string name="banner_changed">横幅已更改</string>
+    <string name="banner_save_failed">无法保存横幅</string>
+    <string name="banner_load_failed">无法加载图像</string>
+    <string name="icon_save_failed">无法保存图标</string>
+    <string name="permission_required">需要权限</string>
+    <string name="usage_permission_message">要显示游戏时间，启动器需要访问使用统计信息。\n\n在打开的列表中为此应用启用权限。</string>
+    <string name="open_settings">打开设置</string>
+    <string name="shortcut_launch_failed">无法启动快捷方式</string>
+    <string name="enter_number">输入数字</string>
+
+    <!-- BackupRestoreActivity -->
+    <string name="backup_cloud_disabled_warning">⚠️ 云备份功能已禁用。要启用它们，请转到“外壳实验性功能”部分（关于 → 实验性功能）。</string>
+    <string name="external_storage_unavailable">外部存储不可用</string>
+    <string name="backup_creating">正在创建备份...</string>
+    <string name="backup_created">备份已创建</string>
+    <string name="error_template">错误：%s</string>
+    <string name="restore_title">恢复</string>
+    <string name="restore_confirm_message">恢复将覆盖所有当前设置和数据。应用将重新启动。继续？</string>
+    <string name="restoring">正在恢复...</string>
+    <string name="restore_complete_restarting">恢复完成。正在重启...</string>
+    <string name="restore_error_template">恢复错误：%s</string>
+
+    <!-- CenterFragment -->
+    <string name="unknown_artist">未知艺术家</string>
+    <string name="unknown_track">未知曲目</string>
+    <string name="media_app_default">媒体应用</string>
+    <string name="now_playing_in">现在正在 %s 上播放</string>
+    <string name="now_playing">正在播放</string>
+    <string name="no_active_media">没有活跃的媒体</string>
+    <string name="start_music_video">启动音乐或视频</string>
+    <string name="no_events_today">今日无事件</string>
+    <string name="press_and_hold_to_add_apps">长按以添加应用</string>
+    <string name="no_permission">无权限</string>
+    <string name="sim_absent">缺失</string>
+    <string name="no_access">无访问权限</string>
+    <string name="change_name">更改名称</string>
+    <string name="remove_from_favorites">从收藏中移除</string>
+    <string name="not_enough_items_move">没有足够的项目来移动</string>
+    <string name="app_moved">应用已移动</string>
+    <string name="no_icon_packs_installed">未安装图标包</string>
+    <string name="assign_app_first">首先将应用分配给计数器</string>
+    <string name="counter_icon_changed_template">计数器 %d 的图标已更改</string>
+    <string name="icon_save_error">保存图标时出错</string>
+    <string name="name_changed">名称已更改</string>
+    <string name="app_removed_from_favorites">应用已从收藏中移除</string>
+    <string name="add_to_favorites">添加到收藏</string>
+    <string name="add_favorite_instruction">要将应用添加到收藏，请打开“快速设置”并选择“添加到收藏”</string>
+    <string name="icon_load_failed">无法加载图标</string>
+    <string name="icon_load_error">加载图标出错</string>
+    <string name="counter_icon_load_error">加载计数器图标时出错</string>
+    <string name="move">移动</string>
+
+    <!-- DateTimeUpdater -->
+    <string name="default_time_format">HH:mm</string>
+    <string name="default_date_format">dd.MM.yyyy</string>
+    <string name="no_network">无网络</string>
+    <string name="sim_template">SIM%d</string>
+
+    <!-- ErrorReportActivity -->
+    <string name="no_stack_trace">没有堆栈跟踪信息</string>
+    <string name="error_report_format">启动器中发生错误\n\n错误代码：%s\n\n错误文本：%s\n\n堆栈跟踪：\n%s</string>
+    <string name="support_email">craftinglivegames@gmail.com</string>
+    <string name="error_report_subject">CLG Button Phone Launcher 中的错误</string>
+    <string name="device_info_format">Android 版本：%s\nSDK：%d\n制造商：%s\n型号：%s\n设备：%s</string>
+    <string name="email_body_format">Good day!\n\nError\'s text and code: %s\n\nStack trace:\n%s\n\nDevice information:\n%s\n\nPlease fix this error.</string>
+    <string name="send_error_report">发送错误报告</string>
+    <string name="restart_failed">重启失败</string>
+    <string name="critical_error_message">发生严重错误。应用将重启。</string>
+    <string name="default_error_code">ERR-000</string>
+
+    <!-- Volume stream names -->
+    <string name="volume_stream_music">音乐、视频、游戏</string>
+    <string name="volume_stream_voice_call">语音通话</string>
+    <string name="volume_stream_notification">通话和通知</string>
+    <string name="volume_stream_alarm">闹钟</string>
+
+    <!-- GestureEditFragment -->
+    <string name="edit_gesture">编辑手势</string>
+    <string name="new_gesture">新手势</string>
+    <string name="redraw_gesture">重新绘制手势</string>
+    <string name="draw_gesture">绘制手势</string>
+    <string name="draw_first_gesture">绘制第一个手势</string>
+    <string name="draw_second_gesture">绘制第二个手势</string>
+    <string name="redraw_first_gesture">重新绘制第一个手势</string>
+    <string name="draw_first_gesture_first">请先绘制第一个手势</string>
+    <string name="draw_second_gesture_first">绘制第二个手势</string>
+    <string name="draw_gesture_first">请先绘制手势</string>
+    <string name="no_overlay_permission">没有在其他窗口之上显示的权限</string>
+    <string name="app_not_found">未找到应用</string>
+    <string name="enter_gesture_name">输入手势名称</string>
+    <string name="gesture_updated">手势已更新</string>
+    <string name="gesture_added">手势已添加</string>
+
+    <!-- GestureListFragment -->
+    <string name="gestures_title">应用手势</string>
+    <string name="edit_delete">编辑/删除</string>
+    <string name="delete_gesture_title">删除手势？</string>
+    <string name="delete_gesture_message">删除“%s”？</string>
+    <string name="gesture_deleted">手势已删除</string>
+
+    <!-- LeftFragment -->
+    <string name="default_action_title">操作 %d</string>
+    <string name="default_notification_text">通知</string>
+    <string name="default_notification_title">通知</string>
+    <string name="select_action">选择操作</string>
+    <string name="select_action_for_notification">为通知选择操作</string>
+    <string name="notification_options">通知选项</string>
+    <string name="remove_notification">移除通知</string>
+    <string name="notification_app_settings">应用通知设置</string>
+    <string name="notification_removed">通知已移除</string>
+    <string name="cannot_open_app">无法打开应用</string>
+    <string name="error_opening_app">打开应用时出错</string>
+    <string name="reply_sent_template">回复已发送：%s</string>
+    <string name="enter_reply_text">输入回复文本</string>
+    <string name="all_notifications_cleared">所有通知已清除</string>
+    <string name="just_now">刚刚</string>
+    <string name="minutes_ago">%d 分钟前</string>
+    <string name="hours_ago">%d 小时前</string>
+    <string name="days_ago">%d 天前</string>
+
+    <!-- MainActivity -->
+    <string name="app_error_title">应用错误</string>
+    <string name="app_error_message_template">发生错误：\n\n%s\n\n错误代码：ERR-%03d</string>
+    <string name="restart">重启</string>
+    <string name="exit">退出</string>
+    <string name="wallpaper_permission_title">壁纸访问权限</string>
+    <string name="wallpaper_load_error">加载错误</string>
+    <string name="wallpaper_error_toast">壁纸未加载：%s\n使用启动器默认壁纸。</string>
+    <string name="miui_permissions_title">额外的 MIUI 权限</string>
+    <string name="miui_permissions_message">要使音量面板和方向控制在 Xiaomi 设备上正常工作，您还需要启用：\n\n•“在后台显示弹出窗口”\n•“在锁屏上显示”\n\n这些设置位于“其他权限”部分。</string>
+    <string name="developer_settings_title">需要开发者设置</string>
+    <string name="developer_settings_message">在 Android 12 及更高版本上，要在系统窗口（例如设置）之上显示音量面板和方向控制，您需要启用该选项：\n\n“允许所有应用在其他应用之上显示”\n（或“Allow display over other apps” → “Show system overlays”）\n\n开发人员设置将打开。找到此选项并启用它。</string>
+    <string name="call_permission_granted">已授予通话权限</string>
+    <string name="call_permission_denied">无法拨打电话：未授予权限</string>
+    <string name="default_launcher_warning">在设置中将此启动器设为默认</string>
+    <string name="clear_all_with_count">全部清除（%d）</string>
+    <string name="use_hardware_keys">使用硬件键选择通知</string>
+    <string name="ok_options_notifications">确定/选项通知</string>
+    <string name="cannot_open_notification_settings">无法打开通知设置</string>
+    <string name="quick_settings_options">快速设置选项</string>
+    <string name="ok_quick_settings">确定快速设置</string>
+    <string name="edit_shortcuts">编辑快捷方式</string>
+    <string name="select_item">选择项目</string>
+    <string name="contacts_not_found">未找到联系人应用</string>
+    <string name="speed_dial_not_assigned">数字 %d 的快速拨号未分配</string>
+    <string name="accessibility_service_required_prefix">以下功能需要启用无障碍服务：\n\n</string>
+    <string name="feature_volume_panel">• 新音量面板\n</string>
+    <string name="feature_assistant_key">• AI 助手键\n</string>
+    <string name="feature_lock_screen_home">• 锁屏上的 HOME 键锁定\n</string>
+    <string name="accessibility_service_required_suffix">请在无障碍设置中启用“Global Key Interceptor”。</string>
+    <string name="notification_permission_title">通知权限</string>
+    <string name="notification_permission_message">要显示媒体信息，您需要授予通知访问权限。\n\n1. 打开设置 → 应用 → 特殊访问权限\n2. 选择“通知访问”\n3. 找到“Button Phone Launcher”并启用开关\n\n否则媒体小部件将无法工作。</string>
+
+    <!-- MediaControlActivity -->
+    <string name="mute_icon">🔇</string>
+    <string name="unmute_icon">🔈</string>
+    <string name="play_pause_icon">▶/⏸</string>
+    <string name="media_action_failed">无法执行操作</string>
+
+    <!-- NotificationListener -->
+    <string name="notification_channel_name">通知服务</string>
+    <string name="notification_channel_description">用于监视通知和媒体的服务</string>
+    <string name="notification_service_title">CLG Button Phone Launcher</string>
+    <string name="notification_service_text">通知服务已激活</string>
+    <string name="action">操作</string>
+
+    <!-- Media app names -->
+    <string name="media_unknown">媒体</string>
+    <string name="media_youtube">YouTube</string>
+    <string name="media_spotify">Spotify</string>
+    <string name="media_yandex_music">Yandex.音乐</string>
+    <string name="media_vk_music">VK 音乐</string>
+    <string name="media_youtube_music">YouTube Music</string>
+    <string name="media_music">音乐</string>
+    <string name="media_mi_music">Mi Music</string>
+    <string name="media_netease">网易云音乐</string>
+    <string name="media_qq_music">QQ音乐</string>
+    <string name="media_kugou">酷狗音乐</string>
+    <string name="media_soundcloud">SoundCloud</string>
+    <string name="media_deezer">Deezer</string>
+    <string name="media_pandora">Pandora</string>
+    <string name="media_video_player">视频播放器</string>
+
+    <!-- OrientationControlService -->
+    <string name="orientation_control_disabled">方向控制已禁用</string>
+    <string name="orientation_no_overlay_permission">没有在其他窗口之上显示的权限</string>
+    <string name="orientation_locked_landscape">方向已锁定为横屏模式</string>
+    <string name="orientation_locked_portrait">方向已锁定为竖屏模式</string>
+    <string name="orientation_overlay_failed">无法创建阻塞窗口</string>
+    <string name="orientation_channel_name">方向控制</string>
+    <string name="orientation_channel_description">屏幕方向控制服务</string>
+    <string name="orientation_notification_title">方向控制已激活</string>
+    <string name="orientation_notification_text">点击配置</string>
+
+    <!-- PackageListFragment -->
+    <string name="package_list_title">应用程序</string>
+    <string name="service">服务</string>
+    <string name="select">选择</string>
+    <string name="cannot_change_service_state">无法更改服务状态</string>
+
+    <!-- QuickSettingsDialog -->
+    <string name="qs_add_to_favorites">添加到收藏</string>
+    <string name="qs_reorder_favorites">重新排序收藏</string>
+    <string name="qs_favorite_names">收藏名称</string>
+    <string name="qs_show_favorite_names">显示收藏应用的名称</string>
+    <string name="qs_favorite_names_on">名称已显示</string>
+    <string name="qs_favorite_names_off">名称已隐藏</string>
+    <string name="qs_speed_dial">快速拨号</string>
+    <string name="qs_assign_right_key">分配到右键</string>
+    <string name="qs_rename_right_key">重命名右键</string>
+    <string name="qs_enter_name">输入名称</string>
+    <string name="qs_name_changed_to">名称已更改为：%s</string>
+    <string name="qs_toggle_widgets">隐藏/显示小部件</string>
+    <string name="qs_sim_settings">SIM 卡显示设置</string>
+    <string name="qs_favorite_rows">收藏中可见行数</string>
+    <string name="qs_media_filter">“正在播放”小部件过滤</string>
+    <string name="qs_counters">计数器</string>
+    <string name="qs_counters_settings">计数器设置</string>
+    <string name="qs_configure_counters">配置计数器</string>
+    <string name="qs_choose_counter_icons">选择图标</string>
+    <string name="qs_reset_all_counters">重置所有计数器</string>
+    <string name="qs_select_counter_for_icon">选择要更改图标的计数器</string>
+    <string name="qs_select_counter_to_configure">选择要配置的计数器</string>
+    <string name="qs_counter_with_app">计数器 %d：%s</string>
+    <string name="qs_counter_not_assigned">计数器 %d：未分配</string>
+    <string name="qs_cannot_access_desktop">错误：无法访问桌面</string>
+    <string name="qs_counter_assigned">应用“%s”已分配到计数器 %d</string>
+    <string name="qs_counters_reset">所有计数器已重置，小部件已隐藏</string>
+    <string name="qs_cannot_open_anr_logs">无法打开 ANR 日志</string>
+    <string name="qs_right_button_assigned">应用“%s”已分配到右键</string>
+    <string name="qs_date_format">日期格式</string>
+    <string name="qs_time_format">时间格式</string>
+    <string name="qs_change_wallpaper">更换壁纸</string>
+    <string name="qs_new_volume_panel">新音量面板</string>
+    <string name="qs_new_lock_screen">新锁屏</string>
+    <string name="qs_orientation_control">屏幕方向控制</string>
+    <string name="qs_assistant_key">AI 助手键</string>
+    <string name="qs_wallpaper_check">检查并配置壁纸</string>
+    <string name="qs_about_launcher">关于</string>
+    <string name="qs_anr_logs">查看 ANR 日志</string>
+    <string name="qs_phone_settings">电话设置</string>
+    <string name="qs_select_favorite_apps">为收藏选择应用</string>
+    <string name="qs_favorites_updated">收藏已更新</string>
+    <string name="qs_no_favorites">没有收藏的应用</string>
+    <string name="qs_favorites_reordered">收藏顺序已更改</string>
+    <string name="qs_undefined">未定义</string>
+    <string name="qs_clear_all">全部清除</string>
+    <string name="qs_speed_dial_all_cleared">所有快速拨号分配已清除</string>
+    <string name="qs_assign_change_number">分配/更改号码</string>
+    <string name="qs_clear">清除</string>
+    <string name="qs_assign_number">分配号码</string>
+    <string name="qs_digit_template">数字 %d</string>
+    <string name="qs_context_not_activity">错误：上下文不是 Activity</string>
+    <string name="qs_speed_dial_cleared">数字 %d 的快速拨号已清除</string>
+    <string name="qs_widget_calendar">日历事件</string>
+    <string name="qs_widget_now_playing">正在播放</string>
+    <string name="qs_widget_status">通话、短信和 SIM 信息</string>
+    <string name="qs_widget_counters">应用计数器</string>
+    <string name="qs_widget_settings">小部件设置</string>
+    <string name="qs_widgets_saved">小部件设置已保存</string>
+    <string name="qs_widgets_reset">设置已重置为默认值</string>
+    <string name="qs_rows_1">1 行</string>
+    <string name="qs_rows_2">2 行</string>
+    <string name="qs_rows_3">3 行</string>
+    <string name="qs_rows_4">4 行</string>
+    <string name="qs_rows_5">5 行</string>
+    <string name="qs_rows_changed">行数已更改为 %d</string>
+    <string name="qs_wallpaper_info">壁纸信息：</string>
+    <string name="qs_android_version">Android 版本：</string>
+    <string name="qs_wallpaper_success">✅ 壁纸已成功加载</string>
+    <string name="qs_wallpaper_display_info">壁纸将显示在中央桌面上</string>
+    <string name="qs_wallpaper_fail">❌ 壁纸未加载</string>
+    <string name="qs_wallpaper_reason">原因：</string>
+    <string name="qs_wallpaper_fallback">使用启动器默认壁纸</string>
+    <string name="qs_wallpaper_checked">壁纸已检查</string>
+    <string name="qs_wallpaper_settings">权限设置</string>
+    <string name="qs_choose_wallpaper">选择壁纸</string>
+    <string name="qs_wallpaper_error">选择壁纸时出错</string>
+    <string name="qs_cannot_open_settings">无法打开设置</string>
+    <string name="qs_sim_both">显示两个 SIM</string>
+    <string name="qs_sim_only1">仅 SIM 1</string>
+    <string name="qs_sim_only2">仅 SIM 2</string>
+    <string name="qs_sim_mode_changed">SIM 显示模式已更改</string>
+    <string name="qs_date_changed">日期格式已更改</string>
+    <string name="qs_time_changed">时间格式已更改</string>
+
+    <!-- Date format examples -->
+    <string name="date_format_example1">星期一，2024年1月1日</string>
+    <string name="date_format_example2">2024年1月1日</string>
+    <string name="date_format_example3">2024.01.01</string>
+    <string name="date_format_example4">01/01/2024</string>
+    <string name="date_format_example5">2024-01-01</string>
+    <string name="date_format_example6">2024年1月1日</string>
+    <string name="date_format_example7">1 Jan 2024</string>
+
+    <!-- Time format examples -->
+    <string name="time_format_example1">23:59（24小时制）</string>
+    <string name="time_format_example2">下午11:59（12小时制）</string>
+    <string name="time_format_example3">11:59（12小时制无AM/PM）</string>
+    <string name="time_format_example4">23:59:59（24小时制带秒）</string>
+    <string name="time_format_example5">下午11:59:59（12小时制带秒）</string>
+    <string name="time_format_example6">11:59:59（12小时制带秒无AM/PM）</string>
+
+    <string name="reset_default">恢复默认</string>
+    <string name="close">关闭</string>
+    <string name="no_apps_available">没有可用的应用</string>
+
+    <!-- RightFragment -->
+    <string name="permissions_required">需要权限</string>
+    <string name="location_bluetooth_permissions_message">要显示 Wi‑Fi 网络名称和已连接的蓝牙设备，需要以下权限：位置访问（用于 Wi‑Fi）和蓝牙连接。请授予它们。</string>
+    <string name="cannot_open_bluetooth_settings">无法打开蓝牙设置</string>
+    <string name="tile_activation_error_template">激活错误：%s</string>
+    <string name="error_changing_setting">更改设置时出错</string>
+    <string name="wifi_enabled">Wi‑Fi 已开启</string>
+    <string name="wifi_disabled">Wi‑Fi 已关闭</string>
+    <string name="bluetooth_enabled">蓝牙已开启</string>
+    <string name="bluetooth_disabled">蓝牙已关闭</string>
+    <string name="mobile_data_enabled">移动数据已开启</string>
+    <string name="mobile_data_disabled">移动数据已关闭</string>
+    <string name="cannot_open_wifi_settings">无法打开 Wi‑Fi 设置</string>
+    <string name="display_settings_opened">已打开显示设置</string>
+    <string name="flashlight_unavailable">手电筒不可用</string>
+    <string name="hotspot_settings_opened">已打开热点设置</string>
+    <string name="general_settings_opened">已打开常规设置</string>
+    <string name="cannot_open_settings">无法打开设置</string>
+    <string name="on">开启</string>
+    <string name="off">关闭</string>
+    <string name="wifi_location_off">位置已关闭</string>
+    <string name="wifi_no_connection">未连接</string>
+    <string name="wifi_no_permission">无访问权限</string>
+    <string name="wifi_off">已关闭</string>
+    <string name="bluetooth_no_devices">无设备</string>
+    <string name="bluetooth_devices_count">%d 个设备</string>
+    <string name="bluetooth_no_permission">无访问权限</string>
+    <string name="bluetooth_off">已关闭</string>
+    <string name="brightness_format">亮度：%d%%</string>
+    <string name="no_alarms">无</string>
+
+    <string name="shizuku_not_installed">Shizuku 未安装</string>
+    <string name="shizuku_not_running">Shizuku 未运行</string>
+    <string name="shizuku_no_permission">没有 Shizuku 权限</string>
+    <string name="tile_activated">磁贴已激活</string>
+    <string name="error_shizuku_template">Shizuku 错误：%s</string>
+    <string name="quick_settings">快速设置</string>
+    <string name="qs_section_control_record">控制和录制</string>
+    <string name="qs_media_control">媒体控制</string>
+    <string name="qs_screen_record">屏幕录制</string>
+    <string name="alarm">闹钟</string>
+    <string name="qs_section_basic">基本</string>
+    <string name="wifi">Wi‑Fi</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="airplane_mode">飞行模式</string>
+    <string name="mobile_data">移动数据</string>
+    <string name="auto_rotate">自动旋转</string>
+    <string name="flashlight">手电筒</string>
+    <string name="silent_mode">静音模式</string>
+    <string name="location">位置</string>
+    <string name="battery_saver">省电模式</string>
+    <string name="hotspot">热点</string>
+    <string name="wifi_adb">Wi‑Fi (adb)</string>
+    <string name="bluetooth_adb">蓝牙 (adb)</string>
+    <string name="mobile_data_adb">移动数据 (adb)</string>
+    <string name="volume">音量</string>
+    <string name="qs_section_app_settings">应用设置</string>
+    <string name="ok">确定</string>
+
+    <!-- ScreenRecordActivity -->
+    <string name="recording_instructions">🎮 屏幕录制控制：\n\n• 确定键：开始/停止录制（在突出显示的按钮上）\n• 左/右键：在按钮之间切换\n• 上/下键：滚动说明\n\n🔧 底部控制面板：\n• 左软键（菜单）：打开录制文件夹\n• 右软键（返回）：\n    - 返回主屏幕或在录制期间最小化录制器窗口\n\n\n🎥 录制期间的控制：\n• 确定键：停止录制\n• 菜单键（左软）：暂停/恢复\n• 键 0（长按）：返回此菜单\n\n💾 视频保存在文件夹中：\nDCIM/ScreenRecorder CLGBPL</string>
+    <string name="recording_started">录制已开始</string>
+    <string name="recording_paused">录制已暂停</string>
+    <string name="resume">恢复</string>
+    <string name="recording_in_progress">正在录制...</string>
+    <string name="recording_saved_template">✅ 录制已保存：%s</string>
+    <string name="recording_file_invalid_template">⚠️ 文件未找到或太小：%s</string>
+    <string name="recording_error_template">❌ 录制错误：%s</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="folder">文件夹</string>
+    <string name="cannot_create_recordings_folder">无法创建录制文件夹</string>
+    <string name="preparing_recording">正在准备录制...</string>
+    <string name="recording_start_error_template">启动错误：%s</string>
+    <string name="screen_recording_permission_denied">未授予屏幕录制权限</string>
+    <string name="overlay_permission_denied">未授予悬浮窗权限</string>
+    <string name="accessibility_service_enabled">无障碍服务已启用</string>
+    <string name="recording_stop_error_template">停止错误：%s</string>
+    <string name="pause">暂停</string>
+    <string name="open_folder">打开文件夹</string>
+    <string name="cannot_open_folder">无法打开文件夹</string>
+    <string name="accessibility_dialog_message_for_recording">要全局拦截按键 0，您需要启用无障碍服务。\n\n1. 按“设置”\n2. 找到“无障碍服务”\n3. 启用“Global Key Interceptor”</string>
+    <string name="settings">设置</string>
+    <string name="later">稍后</string>
+
+    <!-- SetupActivity -->
+    <string name="next">下一步</string>
+    <string name="setup_step_title">欢迎！</string>
+    <string name="setup_step_description">欢迎使用功能手机启动器！\n\n此启动器专为带有硬件按键的设备设计。</string>
+    <string name="setup_button_next">开始设置</string>
+    <string name="setup_permissions_title">步骤 1：权限</string>
+    <string name="setup_permissions_description">要使启动器正常工作，需要以下权限：</string>
+    <string name="setup_permissions_list">• 访问联系人和通话\n• 访问通话记录\n• 访问短信\n• 访问日历\n• 访问电话状态\n• 访问媒体文件（照片、视频、音频）\n• 在其他窗口之上显示的权限</string>
+    <string name="setup_request_permissions">请求权限</string>
+    <string name="setup_overlay_title">步骤 2：悬浮窗权限</string>
+    <string name="setup_overlay_description">启动器需要在其他应用之上显示的权限，以便服务和部件工作。</string>
+    <string name="setup_request_overlay">请求权限</string>
+    <string name="skip">跳过</string>
+    <string name="setup_navigation_title">步骤 %d：导航</string>
+    <string name="setup_assign_up">分配向上导航按钮\n\n%s</string>
+    <string name="setup_assign_down">分配向下导航按钮\n\n%s</string>
+    <string name="setup_assign_left">分配向左导航按钮\n\n%s</string>
+    <string name="setup_assign_right">分配向右导航按钮\n\n%s</string>
+    <string name="setup_ok_title">步骤 7：选择</string>
+    <string name="setup_assign_ok">分配确定/选择按钮（方向键中心）\n\n%s</string>
+    <string name="setup_left_soft_title">步骤 8：左软键</string>
+    <string name="setup_assign_left_soft">分配左软键\n\n%s</string>
+    <string name="setup_right_soft_title">步骤 9：右软键</string>
+    <string name="setup_assign_right_soft">分配右软键\n\n%s</string>
+    <string name="assign">分配</string>
+    <string name="current_key">当前键：%s</string>
+    <string name="key_code_format">代码：%d</string>
+    <string name="finish">完成</string>
+    <string name="setup_complete_title">设置完成！</string>
+    <string name="setup_complete_description">所有权限已授予，按键已分配。\n\n启动器已准备就绪！</string>
+    <string name="setup_hint_press_key">按下手机上的任何物理按钮...</string>
+    <string name="setup_hint_back_key">（通常是返回键）</string>
+    <string name="setup_press_key_toast">按下任何按钮进行分配。</string>
+    <string name="setup_key_assigned">已分配的键：%s</string>
+    <string name="setup_permissions_granted">所有权限均已授予！</string>
+    <string name="setup_permissions_not_granted">部分权限未授予。某些功能可能无法完全工作。</string>
+    <string name="setup_overlay_granted">权限已授予！</string>
+    <string name="setup_overlay_not_granted">权限未授予。某些功能可能无法工作。</string>
+    <string name="setup_assignment_cancelled">分配已取消</string>
+
+    <!-- WidgetsActivity -->
+    <string name="widgets_title">应用小部件</string>
+    <string name="loading_widgets">正在加载小部件...</string>
+    <string name="widget_data_lost">错误：小部件数据丢失</string>
+    <string name="widget_add_cancelled">小部件添加已取消</string>
+    <string name="widget_info_error">无法获取小部件信息</string>
+    <string name="widget_configure_unavailable">小部件配置不可用，小部件已添加但未设置</string>
+    <string name="widget_id_mismatch">错误：小部件 ID 不匹配</string>
+    <string name="widget_auto_update_disabled">自动更新已禁用</string>
+    <string name="widget_interval_changed">更新间隔已更改</string>
+    <string name="widget_already_exists">小部件已存在</string>
+    <string name="widget_added">小部件已添加</string>
+    <string name="widget_add">添加小部件</string>
+    <string name="widget_auto_update_interval">自动更新频率</string>
+    <string name="widget_automation">小部件自动化</string>
+    <string name="widget_revive_options">小部件恢复选项</string>
+    <string name="widget_options_saved">选项已保存</string>
+    <string name="widget_automation_add">添加操作</string>
+    <string name="widget_no_widgets">没有添加的小部件</string>
+    <string name="widget_unknown">小部件 %d</string>
+    <string name="widget_automation_select_widget">选择小部件</string>
+    <string name="widget_not_visible">小部件不可见，请稍后再试</string>
+    <string name="widget_no_clickable_elements">小部件没有可点击的元素</string>
+    <string name="widget_automation_select_action">选择操作</string>
+    <string name="widget_automation_configure_template">配置自动化：%s</string>
+    <string name="widget_automation_added">自动化已添加</string>
+    <string name="widget_no_automations">没有配置自动化</string>
+    <string name="widget_automation_item_template">小部件 %d：%s%s%s</string>
+    <string name="widget_automation_on_start"> [启动时]</string>
+    <string name="widget_automation_interval"> [每 %d 毫秒]</string>
+    <string name="widget_automation_manage">管理自动化</string>
+    <string name="widget_automation_edit_template">编辑：%s</string>
+    <string name="widget_automation_updated">已更改</string>
+    <string name="widget_automation_deleted">已删除</string>
+    <string name="widget_not_enough_for_reorder">没有足够的小部件来更改顺序</string>
+    <string name="widget_reorder">重新排序小部件</string>
+    <string name="widget_reorder_success">小部件顺序已更改</string>
+    <string name="widget_auto_update_interval_dialog">更新间隔（毫秒）\n0 - 禁用\n当前：%d</string>
+    <string name="widget_interval_negative">间隔不能为负数</string>
+    <string name="widget_invalid_number">无效的数字</string>
+    <string name="widget_delete">删除小部件</string>
+    <string name="widget_settings">小部件设置</string>
+    <string name="widget_height">小部件高度</string>
+    <string name="widget_options">小部件选项</string>
+    <string name="widget_settings_unavailable">小部件设置不可用</string>
+    <string name="widget_select_height">选择小部件高度</string>
+    <string name="widget_height_auto">自动</string>
+    <string name="widget_no_action">没有可操作的小部件</string>
+    <string name="widget_action_performed">操作已执行</string>
+    <string name="widget_error_info_missing">错误：小部件信息缺失\n（按确定删除）</string>
+    <string name="widget_error_load_failed">错误：无法加载小部件\n（按确定删除）</string>
+    <string name="widget_action_icon_button">🖼️ 按钮（图标）</string>
+    <string name="widget_action_button">🔘 按钮</string>
+    <string name="widget_action_text_button">📝 文本按钮</string>
+    <string name="widget_action_container">🗂️ 容器（按下）</string>
+    <string name="widget_action_default_template">⚙️ %s（按钮）</string>
+
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="apply">应用</string>
+    <string name="cancel">取消</string>
+    <string name="parameters">参数</string>
+    <string name="ok_options">确定/选项</string>
+    <string name="back">返回</string>
+</resources>
