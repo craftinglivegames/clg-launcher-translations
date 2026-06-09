@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>CLG Launcher Translation Center</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f7fb;
+            margin: 0;
+            padding: 20px;
+            color: #1e293b;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.02);
+            overflow: hidden;
+        }
+        .header {
+            background: #0f172a;
+            color: white;
+            padding: 24px 32px;
+        }
+        .header h1 {
+            margin: 0 0 8px 0;
+            font-weight: 600;
+            font-size: 1.8rem;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.8;
+        }
+        .toolbar {
+            padding: 20px 32px;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            align-items: flex-end;
+        }
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            min-width: 180px;
+        }
+        .field-group label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #475569;
+        }
+        select, input, button {
+            padding: 10px 14px;
+            border-radius: 12px;
+            border: 1px solid #cbd5e1;
+            background: white;
+            font-size: 0.9rem;
+            font-family: inherit;
+        }
+        button {
+            background: #0f172a;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.2s;
+            border: none;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        button:hover:not(:disabled) {
+            background: #1e293b;
+            transform: translateY(-1px);
+        }
+        button:active {
+            transform: translateY(1px);
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .btn-secondary {
+            background: #475569;
+        }
+        .btn-secondary:hover:not(:disabled) {
+            background: #334155;
+        }
+        .btn-outline {
+            background: white;
+            color: #0f172a;
+            border: 1px solid #cbd5e1;
+        }
+        .btn-outline:hover:not(:disabled) {
+            background: #f1f5f9;
+        }
+        .status {
+            margin-left: auto;
+            font-size: 0.85rem;
+            background: #e2e8f0;
+            padding: 8px 16px;
+            border-radius: 40px;
+            color: #1e293b;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 0 32px 32px 32px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th {
+            text-align: left;
+            padding: 14px 12px;
+            background: #f1f5f9;
+            position: sticky;
+            top: 0;
+            font-weight: 600;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+        .original-cell {
+            background-color: #fef9e3;
+            font-family: 'Courier New', monospace;
+            word-break: break-word;
+            white-space: pre-wrap;
+        }
+        .translation-cell input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 12px;
+            font-family: inherit;
+        }
+        .key-name {
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: #2563eb;
+            background: #eef2ff;
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 20px;
+        }
+        .footer {
+            padding: 16px 32px;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #475569;
+        }
+        .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #e2e8f0;
+            border-top-color: #0f172a;
+            border-radius: 50%;
+            animation: spin 0.6s linear infinite;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        @media (max-width: 700px) {
+            .toolbar {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .status {
+                margin-left: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🌍 CLG Button Phone Launcher</h1>
+        <p>Community Translation Hub — create or improve translations for your language</p>
+    </div>
+
+    <div class="toolbar">
+        <div class="field-group">
+            <label>🎯 Target language</label>
+            <select id="languageSelect">
+                <option value="">-- Select language --</option>
+            </select>
+        </div>
+        <div class="field-group">
+            <label>👤 Your name (nickname)</label>
+            <input type="text" id="authorName" placeholder="e.g. translator_nick" value="">
+        </div>
+        <div class="field-group">
+            <label>📌 Translation version (optional)</label>
+            <input type="text" id="translationVersion" placeholder="1, 2, ..." value="1">
+        </div>
+        <button id="loadTranslationBtn" class="btn-secondary">📥 Load existing translation</button>
+        <button id="downloadXmlBtn" disabled>💾 Download XML (save as &lt;lang&gt;.xml)</button>
+        <div id="statusMsg" class="status">⚡ Ready</div>
+    </div>
+
+    <div class="table-wrapper">
+        <table id="translationsTable">
+            <thead>
+                <tr><th style="width: 30%">🔑 String key</th>
+                    <th style="width: 35%">📝 Original text (English / Russian)</th>
+                    <th style="width: 35%">✏️ Your translation</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr><td colspan="3" style="text-align:center">Loading template...</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer">
+        ⚡ After downloading the XML file, please go to <strong>GitHub repository</strong> → <code>languages/</code> folder and upload the file (e.g. <code>es.xml</code>)<br>
+        Then open a <strong>Pull Request</strong> so the translation can be reviewed and included in the launcher.
+    </div>
+</div>
+
+<script>
+    // ======================= CONFIGURATION =======================
+    // Change these to match your GitHub repo
+    const OWNER = "craftinglivegames";
+    const REPO = "clg-launcher-translations";
+    const TEMPLATE_PATH = "strings_template.xml";   // path inside repo (root)
+    const LANGUAGES_FOLDER = "languages";           // folder where translations live
+    
+    // Base URLs for raw content
+    const RAW_BASE = `https://raw.githubusercontent.com/${OWNER}/${REPO}/main/`;
+    const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}/contents/`;
+    
+    // Global state
+    let stringEntries = [];      // array of { name, original }
+    let currentLanguageCode = "";
+    let currentTranslationData = {}; // name -> translated text
+    
+    // DOM elements
+    const languageSelect = document.getElementById('languageSelect');
+    const authorNameInput = document.getElementById('authorName');
+    const versionInput = document.getElementById('translationVersion');
+    const loadBtn = document.getElementById('loadTranslationBtn');
+    const downloadBtn = document.getElementById('downloadXmlBtn');
+    const statusDiv = document.getElementById('statusMsg');
+    const tableBody = document.getElementById('tableBody');
+    
+    // Helper: show status
+    function setStatus(text, isError = false, showSpinner = false) {
+        statusDiv.innerHTML = showSpinner ? `<span class="spinner"></span> ${text}` : text;
+        statusDiv.style.background = isError ? "#fee2e2" : "#e2e8f0";
+        statusDiv.style.color = isError ? "#b91c1c" : "#1e293b";
+    }
+    
+    // Helper: escape XML special chars
+    function escapeXml(unsafe) {
+        if (!unsafe) return "";
+        return unsafe.replace(/[<>&'"]/g, function (c) {
+            switch (c) {
+                case '<': return '&lt;';
+                case '>': return '&gt;';
+                case '&': return '&amp;';
+                case '\'': return '&apos;';
+                case '"': return '&quot;';
+                default: return c;
+            }
+        });
+    }
+    
+    // Load template strings.xml from repo
+    async function loadTemplate() {
+        setStatus("Loading template strings...", false, true);
+        try {
+            const url = RAW_BASE + TEMPLATE_PATH;
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+            const parseError = xmlDoc.querySelector("parsererror");
+            if (parseError) throw new Error("Invalid XML in template");
+            const stringNodes = xmlDoc.getElementsByTagName("string");
+            stringEntries = [];
+            for (let i = 0; i < stringNodes.length; i++) {
+                const node = stringNodes[i];
+                const name = node.getAttribute("name");
+                const original = node.textContent || "";
+                if (name) {
+                    stringEntries.push({ name, original });
+                }
+            }
+            if (stringEntries.length === 0) throw new Error("No <string> elements found");
+            renderTable();
+            setStatus(`✅ Loaded ${stringEntries.length} strings from template`, false);
+            downloadBtn.disabled = false;
+        } catch (err) {
+            console.error(err);
+            setStatus(`❌ Failed to load template: ${err.message}`, true);
+            tableBody.innerHTML = `<tr><td colspan="3" style="text-align:center">Error loading template. Check repository settings.</td></tr>`;
+            downloadBtn.disabled = true;
+        }
+    }
+    
+    // Render table with current translation data
+    function renderTable() {
+        if (!tableBody) return;
+        tableBody.innerHTML = "";
+        for (let entry of stringEntries) {
+            const row = document.createElement("tr");
+            // Key cell
+            const keyCell = document.createElement("td");
+            keyCell.innerHTML = `<span class="key-name">${escapeXml(entry.name)}</span>`;
+            row.appendChild(keyCell);
+            // Original text cell
+            const originalCell = document.createElement("td");
+            originalCell.className = "original-cell";
+            originalCell.textContent = entry.original;
+            row.appendChild(originalCell);
+            // Translation input cell
+            const transCell = document.createElement("td");
+            transCell.className = "translation-cell";
+            const input = document.createElement("input");
+            input.type = "text";
+            input.placeholder = "Enter translation...";
+            input.value = currentTranslationData[entry.name] || "";
+            input.addEventListener("input", (function(name) {
+                return function(ev) {
+                    currentTranslationData[name] = ev.target.value;
+                };
+            })(entry.name));
+            transCell.appendChild(input);
+            row.appendChild(transCell);
+            tableBody.appendChild(row);
+        }
+    }
+    
+    // Load existing translation from languages folder
+    async function loadTranslation(langCode) {
+        if (!langCode) {
+            setStatus("Please select a language first", true);
+            return false;
+        }
+        setStatus(`Loading ${langCode} translation...`, false, true);
+        try {
+            const fileUrl = RAW_BASE + LANGUAGES_FOLDER + "/" + langCode + ".xml";
+            const response = await fetch(fileUrl);
+            if (!response.ok) {
+                if (response.status === 404) {
+                    setStatus(`No existing translation for "${langCode}". You can create a new one.`, false);
+                    // Clear current translation data
+                    currentTranslationData = {};
+                    renderTable();
+                    return false;
+                }
+                throw new Error(`HTTP ${response.status}`);
+            }
+            const xmlText = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+            const parseError = xmlDoc.querySelector("parsererror");
+            if (parseError) throw new Error("Invalid XML in translation file");
+            const stringNodes = xmlDoc.getElementsByTagName("string");
+            const loadedData = {};
+            for (let i = 0; i < stringNodes.length; i++) {
+                const node = stringNodes[i];
+                const name = node.getAttribute("name");
+                const text = node.textContent || "";
+                if (name) loadedData[name] = text;
+            }
+            // Merge with existing entries (keep all keys)
+            for (let entry of stringEntries) {
+                if (loadedData[entry.name] !== undefined) {
+                    currentTranslationData[entry.name] = loadedData[entry.name];
+                } else {
+                    currentTranslationData[entry.name] = "";
+                }
+            }
+            renderTable();
+            setStatus(`✅ Loaded existing translation for "${langCode}". Edit and save.`, false);
+            return true;
+        } catch (err) {
+            console.error(err);
+            setStatus(`Error loading translation: ${err.message}`, true);
+            return false;
+        }
+    }
+    
+    // Generate final XML content with metadata comment
+    function generateXmlContent(langCode) {
+        let xml = `<?xml version="1.0" encoding="utf-8"?>\n`;
+        // Metadata comment
+        const author = authorNameInput.value.trim() || "anonymous";
+        const version = versionInput.value.trim() || "1";
+        const now = new Date().toISOString();
+        xml += `<!--\n  Translation metadata:\n`;
+        xml += `  Language: ${langCode}\n`;
+        xml += `  Author: ${author}\n`;
+        xml += `  Version: ${version}\n`;
+        xml += `  Last Updated: ${now}\n`;
+        xml += `-->\n`;
+        xml += `<resources>\n`;
+        for (let entry of stringEntries) {
+            const translated = currentTranslationData[entry.name] || "";
+            xml += `    <string name="${escapeXml(entry.name)}">${escapeXml(translated)}</string>\n`;
+        }
+        xml += `</resources>\n`;
+        return xml;
+    }
+    
+    // Trigger download of XML file
+    function downloadTranslation(langCode) {
+        if (!langCode) {
+            setStatus("Please select a language first", true);
+            return;
+        }
+        if (stringEntries.length === 0) {
+            setStatus("No strings loaded, reload template", true);
+            return;
+        }
+        const xmlContent = generateXmlContent(langCode);
+        const blob = new Blob([xmlContent], { type: "application/xml" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${langCode}.xml`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        setStatus(`✅ File ${langCode}.xml generated. Upload to GitHub /languages/ folder.`, false);
+    }
+    
+    // Populate language dropdown from GitHub API (list of existing files in languages folder)
+    async function populateLanguageDropdown() {
+        setStatus("Fetching available languages...", false, true);
+        try {
+            const apiUrl = API_BASE + LANGUAGES_FOLDER;
+            const response = await fetch(apiUrl);
+            if (!response.ok) {
+                // maybe folder doesn't exist yet, just populate a generic list
+                console.warn("Languages folder not found, using static language list");
+                populateStaticLanguages();
+                setStatus("Ready. You can create new translations.", false);
+                return;
+            }
+            const files = await response.json();
+            const languageCodes = [];
+            if (Array.isArray(files)) {
+                for (let file of files) {
+                    if (file.name && file.name.endsWith(".xml")) {
+                        let code = file.name.replace(/\.xml$/, '');
+                        languageCodes.push(code);
+                    }
+                }
+            }
+            // Add a generic list of all possible languages (including those not yet translated)
+            populateFullLanguageList(languageCodes);
+            setStatus("Ready. Select language and load existing translation or create new.", false);
+        } catch (err) {
+            console.error(err);
+            populateStaticLanguages();
+            setStatus("Could not fetch language list from GitHub, but you can still translate.", true);
+        }
+    }
+    
+    // Populate with built‑in language list (ISO codes)
+    function populateStaticLanguages() {
+        const allLanguages = getCommonLanguagesList();
+        languageSelect.innerHTML = '<option value="">-- Select language --</option>';
+        for (let lang of allLanguages) {
+            const option = document.createElement("option");
+            option.value = lang.code;
+            option.textContent = `${lang.name} (${lang.code})`;
+            languageSelect.appendChild(option);
+        }
+    }
+    
+    function populateFullLanguageList(existingCodes) {
+        const allLanguages = getCommonLanguagesList();
+        languageSelect.innerHTML = '<option value="">-- Select language --</option>';
+        for (let lang of allLanguages) {
+            const option = document.createElement("option");
+            option.value = lang.code;
+            let text = `${lang.name} (${lang.code})`;
+            if (existingCodes.includes(lang.code)) text += " ✓ [existing]";
+            option.textContent = text;
+            languageSelect.appendChild(option);
+        }
+    }
+    
+    function getCommonLanguagesList() {
+        return [
+            { code: "en", name: "English" },
+            { code: "ru", name: "Russian" },
+            { code: "de", name: "German" },
+            { code: "fr", name: "French" },
+            { code: "es", name: "Spanish" },
+            { code: "it", name: "Italian" },
+            { code: "pt", name: "Portuguese" },
+            { code: "nl", name: "Dutch" },
+            { code: "pl", name: "Polish" },
+            { code: "uk", name: "Ukrainian" },
+            { code: "be", name: "Belarusian" },
+            { code: "zh-CN", name: "Chinese (Simplified)" },
+            { code: "zh-TW", name: "Chinese (Traditional)" },
+            { code: "ja", name: "Japanese" },
+            { code: "ko", name: "Korean" },
+            { code: "tr", name: "Turkish" },
+            { code: "ar", name: "Arabic" },
+            { code: "hi", name: "Hindi" },
+            { code: "sv", name: "Swedish" },
+            { code: "da", name: "Danish" },
+            { code: "fi", name: "Finnish" },
+            { code: "no", name: "Norwegian" },
+            { code: "cs", name: "Czech" },
+            { code: "hu", name: "Hungarian" },
+            { code: "ro", name: "Romanian" },
+            { code: "el", name: "Greek" },
+            { code: "he", name: "Hebrew" },
+            { code: "th", name: "Thai" },
+            { code: "vi", name: "Vietnamese" }
+        ];
+    }
+    
+    // Event handlers
+    loadBtn.addEventListener("click", async () => {
+        const lang = languageSelect.value;
+        if (!lang) {
+            setStatus("Please select a language first", true);
+            return;
+        }
+        currentLanguageCode = lang;
+        await loadTranslation(lang);
+    });
+    
+    downloadBtn.addEventListener("click", () => {
+        const lang = languageSelect.value;
+        if (!lang) {
+            setStatus("Select language before downloading", true);
+            return;
+        }
+        downloadTranslation(lang);
+    });
+    
+    // Initial load
+    loadTemplate().then(() => {
+        populateLanguageDropdown();
+    });
+</script>
+</body>
+</html>
